@@ -50,25 +50,36 @@
         "id": "S1",
         "name": "Mexican / Spanish",
         "spices": "1.5 tsp cumin + 1.5 tsp smoked paprika",
-        "cuisines": ["mexican", "spanish"]
+        "cuisines": [
+          "mexican",
+          "spanish"
+        ]
       },
       {
         "id": "S2",
         "name": "Indian",
         "spices": "1 tsp cumin + 1 tsp ground coriander + 0.5 tsp turmeric + 1 tsp garam masala",
-        "cuisines": ["indian"]
+        "cuisines": [
+          "indian"
+        ]
       },
       {
         "id": "S3",
         "name": "North African / Middle Eastern",
         "spices": "1 tsp cumin + 1 tsp ground coriander + 0.5 tsp cinnamon + 1 tsp paprika",
-        "cuisines": ["north_african", "middle_eastern", "west_african"]
+        "cuisines": [
+          "north_african",
+          "middle_eastern",
+          "west_african"
+        ]
       },
       {
         "id": "S4",
         "name": "Chinese",
         "spices": "0.5 tsp five spice",
-        "cuisines": ["chinese"]
+        "cuisines": [
+          "chinese"
+        ]
       }
     ],
     "depth": [
@@ -148,19 +159,35 @@
         "id": "H1",
         "name": "Coriander",
         "use": "Stir in at end or scatter as garnish. Never cook it.",
-        "cuisines": ["mexican", "indian", "thai", "north_african", "vietnamese", "west_african"]
+        "cuisines": [
+          "mexican",
+          "indian",
+          "thai",
+          "north_african",
+          "vietnamese",
+          "west_african"
+        ]
       },
       {
         "id": "H2",
         "name": "Italian herbs",
         "use": "Fresh basil stirred in at end. Dried oregano or dried basil can go in earlier.",
-        "cuisines": ["italian", "spanish", "mediterranean"]
+        "cuisines": [
+          "italian",
+          "spanish",
+          "mediterranean"
+        ]
       },
       {
         "id": "H3",
         "name": "Flat-leaf parsley",
         "use": "Stirred in at end or garnish.",
-        "cuisines": ["french", "mediterranean", "middle_eastern", "north_african"]
+        "cuisines": [
+          "french",
+          "mediterranean",
+          "middle_eastern",
+          "north_african"
+        ]
       }
     ],
     "thickener": {
@@ -198,17 +225,103 @@
   },
   "sauces": [
     {
+      "id": "french_style",
+      "name": "Herbed Jus",
+      "cuisine": "french",
+      "formula": [
+        "B2",
+        "Ar1",
+        "H3",
+        "D2",
+        "Ac1"
+      ],
+      "sw": "free",
+      "adult_heat": false,
+      "technique": "stovetop_gentle",
+      "pairs_with": {
+        "proteins": [
+          "chicken breast",
+          "white fish",
+          "salmon"
+        ],
+        "carbs": [
+          "potatoes",
+          "rice"
+        ],
+        "vegetables": [
+          "leeks",
+          "mushrooms",
+          "green beans",
+          "asparagus"
+        ]
+      },
+      "recipe_5": {
+        "ingredients": [
+          "600ml chicken stock",
+          "1 large onion or 3 shallots, finely diced",
+          "4 cloves garlic, crushed",
+          "1 tbsp Worcestershire sauce",
+          "juice of half a lemon",
+          "handful flat-leaf parsley, chopped",
+          "salt + white pepper",
+          "thickening granules"
+        ],
+        "method": "Soften shallots and garlic gently — don't let them colour. Add stock and Worcestershire. Simmer and reduce by about a third. Thicken with granules to your liking. Add lemon and parsley off the heat. Clean and simple — the protein should be the main event here."
+      },
+      "required_items": [
+        "Stock cubes (chicken + veg)",
+        "Onion",
+        "Garlic",
+        "Flat-leaf parsley",
+        "Worcestershire sauce",
+        "Lemon",
+        "Thickening granules"
+      ],
+      "elevate": [
+        {
+          "item": "Dry white wine",
+          "tip": "A small glass to deglaze after softening the shallots — reduce by half before adding the stock for complexity and acidity."
+        },
+        {
+          "item": "Fresh tarragon",
+          "tip": "Use instead of flat-leaf parsley for a more distinctly French result. The aniseed note is a classic pairing with chicken and fish."
+        }
+      ]
+    },
+    {
       "id": "italian_tomato",
-      "name": "Italian Tomato",
+      "name": "Pomodoro",
       "cuisine": "italian",
-      "formula": ["B1", "Ar1", "H2", "D1", "D2", "Ac3"],
+      "formula": [
+        "B1",
+        "Ar1",
+        "H2",
+        "D1",
+        "D2",
+        "Ac3"
+      ],
       "sw": "free",
       "adult_heat": false,
       "technique": "cast_iron_oven",
       "pairs_with": {
-        "proteins": ["chicken thigh", "beef mince", "sausage", "white fish"],
-        "carbs": ["pasta", "gnocchi", "rice"],
-        "vegetables": ["courgette", "aubergine", "peppers", "mushrooms", "spinach"]
+        "proteins": [
+          "chicken thigh",
+          "beef mince",
+          "sausage",
+          "white fish"
+        ],
+        "carbs": [
+          "pasta",
+          "gnocchi",
+          "rice"
+        ],
+        "vegetables": [
+          "courgette",
+          "aubergine",
+          "peppers",
+          "mushrooms",
+          "spinach"
+        ]
       },
       "recipe_5": {
         "ingredients": [
@@ -222,20 +335,57 @@
           "salt + black pepper"
         ],
         "method": "Soften onion and garlic in cast iron. Add tomatoes, paste, Worcestershire, vinegar, salt, pepper. Into 180°C oven for 25-30 mins until reduced and slightly caramelised at the edges. Stir in herbs just before serving."
-      }
+      },
+      "required_items": [
+        "Tinned chopped tomatoes",
+        "Onion",
+        "Garlic",
+        "Tomato paste",
+        "Worcestershire sauce",
+        "Red wine vinegar",
+        "Fresh basil (or dried)"
+      ],
+      "elevate": [
+        {
+          "item": "Anchovy paste",
+          "tip": "Half a teaspoon stirred in at the start — dissolves completely and adds umami depth without any fishy flavour."
+        },
+        {
+          "item": "Parmesan rind",
+          "tip": "Drop a piece in while it oven-braises and remove before serving. Adds a savouriness that's hard to put your finger on."
+        }
+      ]
     },
     {
       "id": "spanish_tomato",
-      "name": "Spanish Tomato",
+      "name": "Sofrito",
       "cuisine": "spanish",
-      "formula": ["B1", "Ar1", "S1", "H2", "D1", "Ac3"],
+      "formula": [
+        "B1",
+        "Ar1",
+        "S1",
+        "H2",
+        "D1",
+        "Ac3"
+      ],
       "sw": "free",
       "adult_heat": false,
       "technique": "cast_iron_oven",
       "pairs_with": {
-        "proteins": ["chicken thigh", "white fish", "prawns"],
-        "carbs": ["rice", "potatoes"],
-        "vegetables": ["peppers", "courgette", "aubergine"]
+        "proteins": [
+          "chicken thigh",
+          "white fish",
+          "prawns"
+        ],
+        "carbs": [
+          "rice",
+          "potatoes"
+        ],
+        "vegetables": [
+          "peppers",
+          "courgette",
+          "aubergine"
+        ]
       },
       "recipe_5": {
         "ingredients": [
@@ -250,21 +400,60 @@
           "salt + black pepper"
         ],
         "method": "Soften onion and garlic. Add spices and stir for 1 min before adding everything else. 180°C oven 25-30 mins. Smokier and earthier than Italian — works particularly well with fish."
-      }
+      },
+      "required_items": [
+        "Tinned chopped tomatoes",
+        "Onion",
+        "Garlic",
+        "Cumin (ground)",
+        "Smoked paprika",
+        "Dried oregano",
+        "Tomato paste",
+        "Red wine vinegar"
+      ],
+      "elevate": [
+        {
+          "item": "Dry sherry",
+          "tip": "A small glass to deglaze after the aromatics — the alcohol cooks off, leaving a subtle nutty sweetness that's very Spanish."
+        },
+        {
+          "item": "Saffron",
+          "tip": "A pinch bloomed in a tablespoon of hot water, stirred in with the tomatoes. Changes the whole personality of the sauce."
+        }
+      ]
     },
     {
       "id": "mexican",
-      "name": "Mexican",
+      "name": "Salsa Roja",
       "cuisine": "mexican",
-      "formula": ["B1", "Ar1", "S1", "H1", "Ac2"],
+      "formula": [
+        "B1",
+        "Ar1",
+        "S1",
+        "H1",
+        "Ac2"
+      ],
       "sw": "free",
       "adult_heat": true,
       "adult_heat_note": "Chili flakes or fresh chili at the table",
       "technique": "cast_iron_oven",
       "pairs_with": {
-        "proteins": ["beef mince", "chicken thigh", "kidney beans", "black beans"],
-        "carbs": ["rice", "wraps", "jacket potato"],
-        "vegetables": ["peppers", "sweetcorn", "courgette"]
+        "proteins": [
+          "beef mince",
+          "chicken thigh",
+          "kidney beans",
+          "black beans"
+        ],
+        "carbs": [
+          "rice",
+          "wraps",
+          "jacket potato"
+        ],
+        "vegetables": [
+          "peppers",
+          "sweetcorn",
+          "courgette"
+        ]
       },
       "recipe_5": {
         "ingredients": [
@@ -278,53 +467,60 @@
           "salt + black pepper"
         ],
         "method": "Soften onion and garlic. Toast spices 1 min. Add tomatoes and lime. 180°C oven 25 mins. Stir in coriander at the end. Chili on the table."
-      }
-    },
-    {
-      "id": "indian_simple",
-      "name": "Simple Indian",
-      "cuisine": "indian",
-      "formula": ["B1", "Ar1", "Ar2", "S2", "D1", "Ac2", "H1"],
-      "sw": "free",
-      "adult_heat": true,
-      "adult_heat_note": "Chili flakes at the table",
-      "technique": "cast_iron_oven",
-      "pairs_with": {
-        "proteins": ["chicken thigh", "white fish", "chickpeas", "lentils"],
-        "carbs": ["rice", "naan (synned)"],
-        "vegetables": ["spinach", "cauliflower", "peppers", "courgette"]
       },
-      "recipe_5": {
-        "ingredients": [
-          "2 tins chopped tomatoes (800g)",
-          "1 large onion, diced",
-          "4 cloves garlic, crushed",
-          "thumb of ginger, grated",
-          "1 tsp cumin",
-          "1 tsp ground coriander",
-          "0.5 tsp turmeric",
-          "1 tsp garam masala",
-          "2 tbsp tomato paste",
-          "juice of 1 lime",
-          "handful fresh coriander",
-          "salt"
-        ],
-        "method": "Soften onion, garlic, ginger. Add spices, toast 1 min. Add tomatoes and paste. 180°C oven 25-30 mins. Stir in lime juice and coriander at the end."
-      }
+      "required_items": [
+        "Tinned chopped tomatoes",
+        "Onion",
+        "Garlic",
+        "Cumin (ground)",
+        "Smoked paprika",
+        "Fresh coriander",
+        "Lime"
+      ],
+      "elevate": [
+        {
+          "item": "Chipotle paste",
+          "tip": "A tablespoon gives smoky, complex heat that goes far beyond chilli flakes — stir in with the tomatoes."
+        },
+        {
+          "item": "Dark chocolate",
+          "tip": "A square of 85% stirred in at the very end. Classic Mexican mole trick — adds depth without tasting chocolatey."
+        }
+      ]
     },
     {
       "id": "north_african",
-      "name": "North African",
+      "name": "Tagine Base",
       "cuisine": "north_african",
-      "formula": ["B1", "Ar1", "Ar2", "S3", "D1", "Ac1", "H1"],
+      "formula": [
+        "B1",
+        "Ar1",
+        "Ar2",
+        "S3",
+        "D1",
+        "Ac1",
+        "H1"
+      ],
       "sw": "free",
       "adult_heat": true,
       "adult_heat_note": "Harissa on the side",
       "technique": "cast_iron_oven",
       "pairs_with": {
-        "proteins": ["chicken thigh", "lamb mince", "chickpeas"],
-        "carbs": ["couscous", "rice"],
-        "vegetables": ["aubergine", "courgette", "sweet potato", "peppers"]
+        "proteins": [
+          "chicken thigh",
+          "lamb mince",
+          "chickpeas"
+        ],
+        "carbs": [
+          "couscous",
+          "rice"
+        ],
+        "vegetables": [
+          "aubergine",
+          "courgette",
+          "sweet potato",
+          "peppers"
+        ]
       },
       "recipe_5": {
         "ingredients": [
@@ -342,22 +538,62 @@
           "salt + black pepper"
         ],
         "method": "Soften aromatics, toast spices 1 min. Add tomatoes and paste. 180°C oven 25-30 mins. The cinnamon is what makes this — don't skip it. Stir in herbs at end."
-      }
+      },
+      "required_items": [
+        "Tinned chopped tomatoes",
+        "Onion",
+        "Garlic",
+        "Fresh ginger",
+        "Cumin (ground)",
+        "Coriander (ground)",
+        "Cinnamon (ground)",
+        "Paprika (sweet)",
+        "Tomato paste",
+        "Lemon",
+        "Fresh coriander"
+      ],
+      "elevate": [
+        {
+          "item": "Preserved lemon",
+          "tip": "A quarter, rind only, finely sliced and stirred in at the end. Adds a briny, intensely lemony note that transforms the whole sauce."
+        },
+        {
+          "item": "Harissa paste",
+          "tip": "A teaspoon stirred through for adults — adds heat and a roasted pepper complexity. Also excellent kept at the table."
+        }
+      ]
     },
     {
       "id": "west_african_groundnut",
-      "name": "West African Groundnut",
+      "name": "Groundnut Stew",
       "cuisine": "west_african",
-      "formula": ["B1", "Ar1", "Ar2", "S3", "D6", "Ac1"],
+      "formula": [
+        "B1",
+        "Ar1",
+        "Ar2",
+        "S3",
+        "D6",
+        "Ac1"
+      ],
       "sw": "synned",
       "sw_note": "2-3 tbsp peanut butter split 5 ways — roughly 1-2 syns per portion",
       "adult_heat": true,
       "adult_heat_note": "Chili flakes at the table",
       "technique": "cast_iron_oven",
       "pairs_with": {
-        "proteins": ["chicken thigh", "chickpeas", "sweet potato"],
-        "carbs": ["rice"],
-        "vegetables": ["sweet potato", "spinach", "peppers"]
+        "proteins": [
+          "chicken thigh",
+          "chickpeas",
+          "sweet potato"
+        ],
+        "carbs": [
+          "rice"
+        ],
+        "vegetables": [
+          "sweet potato",
+          "spinach",
+          "peppers"
+        ]
       },
       "recipe_5": {
         "ingredients": [
@@ -373,80 +609,141 @@
           "salt + black pepper"
         ],
         "method": "Soften aromatics, toast spices 1 min. Add tomatoes and peanut butter — stir well to combine before putting in the oven. 180°C oven 25-30 mins. Thickens naturally from the peanut butter."
-      }
+      },
+      "required_items": [
+        "Tinned chopped tomatoes",
+        "Onion",
+        "Garlic",
+        "Fresh ginger",
+        "Cumin (ground)",
+        "Coriander (ground)",
+        "Cinnamon (ground)",
+        "Paprika (sweet)",
+        "Peanut butter (smooth)",
+        "Lemon"
+      ],
+      "elevate": [
+        {
+          "item": "Scotch bonnet",
+          "tip": "One whole pepper in the stew for the last 15 minutes, removed before serving — infuses flavour without the full hit of heat."
+        },
+        {
+          "item": "Ground crayfish",
+          "tip": "A teaspoon of dried ground crayfish (from African food shops) adds the authentic umami note that defines a real groundnut stew."
+        }
+      ]
     },
     {
-      "id": "chinese_stirfry",
-      "name": "Chinese Stir-Fry",
-      "cuisine": "chinese",
-      "formula": ["B2", "Ar1", "Ar2", "S4", "D3", "D5", "Ac4"],
-      "sw": "synned",
-      "sw_note": "Miso is synned — check brand. Soy sauce is free.",
+      "id": "indian_simple",
+      "name": "Masala",
+      "cuisine": "indian",
+      "formula": [
+        "B1",
+        "Ar1",
+        "Ar2",
+        "S2",
+        "D1",
+        "Ac2",
+        "H1"
+      ],
+      "sw": "free",
       "adult_heat": true,
-      "adult_heat_note": "Chili oil at the table",
-      "technique": "stir_fry",
+      "adult_heat_note": "Chili flakes at the table",
+      "technique": "cast_iron_oven",
       "pairs_with": {
-        "proteins": ["chicken breast", "prawns", "beef strips"],
-        "carbs": ["noodles", "rice"],
-        "vegetables": ["pak choi", "broccoli", "peppers", "mushrooms", "beansprouts"]
+        "proteins": [
+          "chicken thigh",
+          "white fish",
+          "chickpeas",
+          "lentils"
+        ],
+        "carbs": [
+          "rice",
+          "naan (synned)"
+        ],
+        "vegetables": [
+          "spinach",
+          "cauliflower",
+          "peppers",
+          "courgette"
+        ]
       },
       "recipe_5": {
         "ingredients": [
-          "400ml chicken or veg stock",
-          "1 onion, sliced thin",
+          "2 tins chopped tomatoes (800g)",
+          "1 large onion, diced",
           "4 cloves garlic, crushed",
           "thumb of ginger, grated",
-          "0.5 tsp five spice",
-          "2-3 tbsp soy sauce",
-          "2 tbsp white miso",
-          "1 tbsp rice wine vinegar",
-          "thickening granules to finish"
+          "1 tsp cumin",
+          "1 tsp ground coriander",
+          "0.5 tsp turmeric",
+          "1 tsp garam masala",
+          "2 tbsp tomato paste",
+          "juice of 1 lime",
+          "handful fresh coriander",
+          "salt"
         ],
-        "method": "High heat throughout. Stir-fry aromatics until just softening. Add five spice, toss 30 secs. Add stock, soy, miso, vinegar. Cook protein and veg in the sauce. Thicken with granules at the end."
-      }
-    },
-    {
-      "id": "japanese_miso",
-      "name": "Japanese Miso",
-      "cuisine": "japanese",
-      "formula": ["B2", "Ar1", "Ar2", "D5", "D3", "Ac4"],
-      "sw": "synned",
-      "sw_note": "Miso is synned — check brand",
-      "adult_heat": false,
-      "technique": "stovetop_gentle",
-      "pairs_with": {
-        "proteins": ["salmon", "white fish", "chicken breast"],
-        "carbs": ["rice", "noodles"],
-        "vegetables": ["pak choi", "mushrooms", "edamame", "spring onion"]
+        "method": "Soften onion, garlic, ginger. Add spices, toast 1 min. Add tomatoes and paste. 180°C oven 25-30 mins. Stir in lime juice and coriander at the end."
       },
-      "recipe_5": {
-        "ingredients": [
-          "500ml chicken or veg stock",
-          "4 cloves garlic, crushed",
-          "thumb of ginger, grated",
-          "3 tbsp white miso",
-          "2 tbsp soy sauce",
-          "1 tbsp rice wine vinegar",
-          "thickening granules to finish",
-          "spring onions to garnish"
-        ],
-        "method": "Gently warm stock with garlic and ginger — keep it below a boil. Whisk miso in off the heat or on very low (boiling degrades it). Add soy and vinegar. Taste as you go — it's delicate. Thicken lightly with granules. Garnish with spring onion."
-      }
+      "required_items": [
+        "Tinned chopped tomatoes",
+        "Onion",
+        "Garlic",
+        "Fresh ginger",
+        "Cumin (ground)",
+        "Coriander (ground)",
+        "Turmeric",
+        "Garam masala",
+        "Tomato paste",
+        "Lime",
+        "Fresh coriander"
+      ],
+      "elevate": [
+        {
+          "item": "Kashmiri chilli powder",
+          "tip": "Replace half the paprika with this for a deep red colour and a mild, complex heat that's very different from regular chilli."
+        },
+        {
+          "item": "Kasuri methi",
+          "tip": "A teaspoon of dried fenugreek, rubbed between your palms and stirred in at the end. The secret finishing touch in every restaurant-quality curry."
+        }
+      ]
     },
     {
       "id": "thai",
-      "name": "Thai-Style",
+      "name": "Coconut & Lime",
       "cuisine": "thai",
-      "formula": ["B3", "Ar1", "Ar2", "Ar3", "D4", "Ac2", "H1"],
+      "formula": [
+        "B3",
+        "Ar1",
+        "Ar2",
+        "Ar3",
+        "D4",
+        "Ac2",
+        "H1"
+      ],
       "sw": "synned",
       "sw_note": "Light coconut milk ~2.5 syns per 100ml — one tin (400ml) across 5 portions",
       "adult_heat": true,
       "adult_heat_note": "Chili oil or fresh chili at the table",
       "technique": "stovetop_gentle",
       "pairs_with": {
-        "proteins": ["chicken thigh", "prawns", "white fish"],
-        "carbs": ["rice", "rice noodles"],
-        "vegetables": ["peppers", "pak choi", "courgette", "mushrooms", "spinach"]
+        "proteins": [
+          "chicken thigh",
+          "prawns",
+          "white fish"
+        ],
+        "carbs": [
+          "rice",
+          "rice noodles"
+        ],
+        "vegetables": [
+          "peppers",
+          "pak choi",
+          "courgette",
+          "mushrooms",
+          "spinach"
+        ]
       },
       "recipe_5": {
         "ingredients": [
@@ -461,49 +758,267 @@
           "salt if needed"
         ],
         "method": "Soften aromatics with lemongrass paste. Add coconut milk and fish sauce. Simmer gently 15-20 mins — don't boil hard or the coconut milk splits. Add protein with enough time to cook through. Stir in lime juice and coriander at the very end. Fish sauce is strong — taste before adding more."
-      }
+      },
+      "required_items": [
+        "Light coconut milk",
+        "Onion",
+        "Garlic",
+        "Fresh ginger",
+        "Lemongrass paste (tube)",
+        "Fish sauce",
+        "Lime",
+        "Fresh coriander"
+      ],
+      "elevate": [
+        {
+          "item": "Kaffir lime leaves",
+          "tip": "2–3 torn leaves added with the coconut milk, removed before serving. Adds the aromatic citrus note that defines Thai cooking."
+        },
+        {
+          "item": "Thai basil",
+          "tip": "Use instead of (or alongside) regular coriander at the very end — aniseed-forward and quite different. Very authentic."
+        }
+      ]
     },
     {
-      "id": "french_style",
-      "name": "French-Style",
-      "cuisine": "french",
-      "formula": ["B2", "Ar1", "H3", "D2", "Ac1"],
+      "id": "vietnamese",
+      "name": "Lemongrass Broth",
+      "cuisine": "vietnamese",
+      "formula": [
+        "B2",
+        "Ar1",
+        "Ar2",
+        "Ar3",
+        "D4",
+        "Ac2",
+        "H1"
+      ],
       "sw": "free",
-      "adult_heat": false,
+      "adult_heat": true,
+      "adult_heat_note": "Fresh chilli or chilli oil at the table",
       "technique": "stovetop_gentle",
       "pairs_with": {
-        "proteins": ["chicken breast", "white fish", "salmon"],
-        "carbs": ["potatoes", "rice"],
-        "vegetables": ["leeks", "mushrooms", "green beans", "asparagus"]
+        "proteins": [
+          "white fish",
+          "prawns",
+          "chicken breast",
+          "tofu"
+        ],
+        "carbs": [
+          "rice noodles",
+          "rice"
+        ],
+        "vegetables": [
+          "pak choi",
+          "beansprouts",
+          "spring onion",
+          "cucumber"
+        ]
       },
       "recipe_5": {
         "ingredients": [
-          "600ml chicken stock",
-          "1 large onion or 3 shallots, finely diced",
+          "500ml chicken or veg stock",
+          "1 onion, diced",
           "4 cloves garlic, crushed",
-          "1 tbsp Worcestershire sauce",
-          "juice of half a lemon",
-          "handful flat-leaf parsley, chopped",
-          "salt + white pepper",
-          "thickening granules"
+          "thumb of ginger, grated",
+          "1 tsp lemongrass paste",
+          "1–2 tbsp fish sauce — start with 1",
+          "juice of 1 lime",
+          "handful fresh coriander",
+          "salt if needed"
         ],
-        "method": "Soften shallots and garlic gently — don't let them colour. Add stock and Worcestershire. Simmer and reduce by about a third. Thicken with granules to your liking. Add lemon and parsley off the heat. Clean and simple — the protein should be the main event here."
-      }
+        "method": "Gently soften onion and garlic. Add lemongrass paste and cook 1 min. Add stock and fish sauce — taste before adding more, it's very salty. Simmer 15 mins below a boil. Add lime juice and coriander off the heat. Lighter than Thai with no coconut milk — clean, fragrant and very good with fish and prawns."
+      },
+      "required_items": [
+        "Stock cubes (chicken + veg)",
+        "Onion",
+        "Garlic",
+        "Fresh ginger",
+        "Lemongrass paste (tube)",
+        "Fish sauce",
+        "Lime",
+        "Fresh coriander"
+      ],
+      "elevate": [
+        {
+          "item": "Star anise",
+          "tip": "One or two simmered in the stock and removed before serving — adds the aromatic backbone of a proper pho."
+        },
+        {
+          "item": "Rice wine vinegar",
+          "tip": "A teaspoon alongside the lime juice adds another layer of acidity and a slightly different brightness."
+        }
+      ]
+    },
+    {
+      "id": "chinese_stirfry",
+      "name": "Five Spice Wok",
+      "cuisine": "chinese",
+      "formula": [
+        "B2",
+        "Ar1",
+        "Ar2",
+        "S4",
+        "D3",
+        "D5",
+        "Ac4"
+      ],
+      "sw": "synned",
+      "sw_note": "Miso is synned — check brand. Soy sauce is free.",
+      "adult_heat": true,
+      "adult_heat_note": "Chili oil at the table",
+      "technique": "stir_fry",
+      "pairs_with": {
+        "proteins": [
+          "chicken breast",
+          "prawns",
+          "beef strips"
+        ],
+        "carbs": [
+          "noodles",
+          "rice"
+        ],
+        "vegetables": [
+          "pak choi",
+          "broccoli",
+          "peppers",
+          "mushrooms",
+          "beansprouts"
+        ]
+      },
+      "recipe_5": {
+        "ingredients": [
+          "400ml chicken or veg stock",
+          "1 onion, sliced thin",
+          "4 cloves garlic, crushed",
+          "thumb of ginger, grated",
+          "0.5 tsp five spice",
+          "2-3 tbsp soy sauce",
+          "2 tbsp white miso",
+          "1 tbsp rice wine vinegar",
+          "thickening granules to finish"
+        ],
+        "method": "High heat throughout. Stir-fry aromatics until just softening. Add five spice, toss 30 secs. Add stock, soy, miso, vinegar. Cook protein and veg in the sauce. Thicken with granules at the end."
+      },
+      "required_items": [
+        "Stock cubes (chicken + veg)",
+        "Onion",
+        "Garlic",
+        "Fresh ginger",
+        "Five spice",
+        "Soy sauce",
+        "White miso paste",
+        "Rice wine vinegar"
+      ],
+      "elevate": [
+        {
+          "item": "Shaoxing rice wine",
+          "tip": "A splash into the hot wok before the stock — adds the characteristic flavour that separates restaurant Chinese cooking from home versions."
+        },
+        {
+          "item": "Oyster sauce",
+          "tip": "A tablespoon stirred in adds glossy, savoury depth. Worth keeping in the fridge — it lasts months and transforms stir-fries."
+        }
+      ]
+    },
+    {
+      "id": "japanese_miso",
+      "name": "Shiro Miso",
+      "cuisine": "japanese",
+      "formula": [
+        "B2",
+        "Ar1",
+        "Ar2",
+        "D5",
+        "D3",
+        "Ac4"
+      ],
+      "sw": "synned",
+      "sw_note": "Miso is synned — check brand",
+      "adult_heat": false,
+      "technique": "stovetop_gentle",
+      "pairs_with": {
+        "proteins": [
+          "salmon",
+          "white fish",
+          "chicken breast"
+        ],
+        "carbs": [
+          "rice",
+          "noodles"
+        ],
+        "vegetables": [
+          "pak choi",
+          "mushrooms",
+          "edamame",
+          "spring onion"
+        ]
+      },
+      "recipe_5": {
+        "ingredients": [
+          "500ml chicken or veg stock",
+          "4 cloves garlic, crushed",
+          "thumb of ginger, grated",
+          "3 tbsp white miso",
+          "2 tbsp soy sauce",
+          "1 tbsp rice wine vinegar",
+          "thickening granules to finish",
+          "spring onions to garnish"
+        ],
+        "method": "Gently warm stock with garlic and ginger — keep it below a boil. Whisk miso in off the heat or on very low (boiling degrades it). Add soy and vinegar. Taste as you go — it's delicate. Thicken lightly with granules. Garnish with spring onion."
+      },
+      "required_items": [
+        "Stock cubes (chicken + veg)",
+        "Garlic",
+        "Fresh ginger",
+        "White miso paste",
+        "Soy sauce",
+        "Rice wine vinegar"
+      ],
+      "elevate": [
+        {
+          "item": "Mirin",
+          "tip": "A teaspoon adds a subtle, clean sweetness that rounds out the saltiness of the miso and soy — don't use more or it tips too sweet."
+        },
+        {
+          "item": "Dashi powder",
+          "tip": "Replace the stock cube with instant dashi for a more authentic Japanese flavour base. Huge difference for very little effort."
+        }
+      ]
     },
     {
       "id": "korean",
-      "name": "Korean-Style",
+      "name": "Soy & Miso",
       "cuisine": "korean",
-      "formula": ["B2", "Ar1", "Ar2", "D3", "D5", "Ac4"],
+      "formula": [
+        "B2",
+        "Ar1",
+        "Ar2",
+        "D3",
+        "D5",
+        "Ac4"
+      ],
       "sw": "synned",
       "sw_note": "Miso synned. Gochujang for adults is low-syn — check brand.",
       "adult_heat": true,
       "adult_heat_note": "Gochujang paste on the side — also doubles as a table chili sauce for Mexican and Chinese",
       "technique": "stovetop_gentle",
       "pairs_with": {
-        "proteins": ["chicken thigh", "beef mince", "pork mince"],
-        "carbs": ["rice", "noodles"],
-        "vegetables": ["pak choi", "mushrooms", "spring onion", "beansprouts"]
+        "proteins": [
+          "chicken thigh",
+          "beef mince",
+          "pork mince"
+        ],
+        "carbs": [
+          "rice",
+          "noodles"
+        ],
+        "vegetables": [
+          "pak choi",
+          "mushrooms",
+          "spring onion",
+          "beansprouts"
+        ]
       },
       "recipe_5": {
         "ingredients": [
@@ -518,7 +1033,26 @@
           "thickening granules"
         ],
         "method": "Soften aromatics. Add stock, soy, miso, vinegar. Simmer 10-15 mins. Thicken with granules. Finish with just a few drops of sesame oil — it's very strong, don't overdo it. Adults add gochujang at the table."
-      }
+      },
+      "required_items": [
+        "Stock cubes (chicken + veg)",
+        "Onion",
+        "Garlic",
+        "Fresh ginger",
+        "Soy sauce",
+        "White miso paste",
+        "Rice wine vinegar"
+      ],
+      "elevate": [
+        {
+          "item": "Gochujang",
+          "tip": "A tablespoon for adults — the fermented chilli paste that defines Korean cooking. Stir in at the end or keep at the table."
+        },
+        {
+          "item": "Mirin",
+          "tip": "A teaspoon adds subtle sweetness and gloss. The combination of miso, soy and mirin is the foundation of Korean and Japanese sauces."
+        }
+      ]
     }
   ],
   "shopping_list": {
@@ -570,20 +1104,98 @@
       "White miso paste",
       "Stock cubes (chicken + veg)",
       "Thickening granules"
+    ],
+    "Elevate (optional)": [
+      "Anchovy paste",
+      "Chipotle paste",
+      "Preserved lemon",
+      "Harissa paste",
+      "Kashmiri chilli powder",
+      "Kasuri methi (dried fenugreek)",
+      "Kaffir lime leaves",
+      "Shaoxing rice wine",
+      "Oyster sauce",
+      "Mirin",
+      "Gochujang",
+      "Za'atar",
+      "Pomegranate molasses",
+      "Fennel seeds",
+      "Saffron"
     ]
   },
   "rubs": [
     {
+      "id": "lemon_thyme_rub",
+      "name": "Lemon + Thyme",
+      "cuisine": "french",
+      "type": "dry_rub",
+      "spice_profile": null,
+      "sw": "free",
+      "works_with": [
+        "chicken",
+        "fish",
+        "pork"
+      ],
+      "pairs_with": {
+        "carbs": [
+          "potatoes",
+          "rice"
+        ],
+        "vegetables": [
+          "asparagus",
+          "green beans",
+          "leeks",
+          "mushrooms"
+        ]
+      },
+      "recipe_5": {
+        "ingredients": [
+          "1 tsp dried thyme (or 3-4 fresh sprigs)",
+          "zest of 1 lemon",
+          "0.5 tsp garlic powder",
+          "black pepper + salt"
+        ],
+        "method": "Mix and press into meat. Simple and clean — lets the protein do the work. Good on fish fillets in the oven or chicken with roasted potatoes."
+      },
+      "required_items": [
+        "Dried thyme",
+        "Lemon",
+        "Garlic powder"
+      ],
+      "elevate": [
+        {
+          "item": "Fresh thyme",
+          "tip": "A few sprigs of fresh instead of dried — the difference in aroma is significant. Worth keeping a small pot on the windowsill."
+        },
+        {
+          "item": "Dijon mustard",
+          "tip": "A teaspoon mixed in acts as a binder and adds a gentle sharpness that works particularly well with chicken and fish."
+        }
+      ]
+    },
+    {
       "id": "italian_herb_rub",
-      "name": "Italian Herb",
+      "name": "Erbe",
       "cuisine": "italian",
       "type": "dry_rub",
       "spice_profile": null,
       "sw": "free",
-      "works_with": ["chicken", "fish", "pork"],
+      "works_with": [
+        "chicken",
+        "fish",
+        "pork"
+      ],
       "pairs_with": {
-        "carbs": ["pasta", "gnocchi"],
-        "vegetables": ["courgette", "peppers", "cherry tomatoes", "aubergine"]
+        "carbs": [
+          "pasta",
+          "gnocchi"
+        ],
+        "vegetables": [
+          "courgette",
+          "peppers",
+          "cherry tomatoes",
+          "aubergine"
+        ]
       },
       "recipe_5": {
         "ingredients": [
@@ -594,71 +1206,48 @@
           "black pepper + salt"
         ],
         "method": "Mix and press into the meat. Leave 15 mins if you have time, cook straight away if not. Air fryer at 190°C for 20-25 mins for chicken thighs. Works brilliantly tossed through pasta with roasted veg — no sauce needed."
-      }
-    },
-    {
-      "id": "north_african_rub",
-      "name": "North African",
-      "cuisine": "north_african",
-      "type": "dry_rub",
-      "spice_profile": "S3",
-      "sw": "free",
-      "works_with": ["chicken", "lamb", "fish"],
-      "pairs_with": {
-        "carbs": ["couscous", "rice"],
-        "vegetables": ["aubergine", "courgette", "sweet potato", "peppers"]
       },
-      "recipe_5": {
-        "ingredients": [
-          "1 tsp cumin",
-          "1 tsp ground coriander",
-          "0.5 tsp cinnamon",
-          "1 tsp paprika",
-          "0.5 tsp garlic powder",
-          "juice of half a lemon",
-          "salt + black pepper"
-        ],
-        "method": "Mix into a rough paste with the lemon juice. Coat the meat. Oven or air fryer. The lemon juice helps it stick and caramelises nicely. Serve with couscous and scatter fresh coriander or parsley over."
-      }
-    },
-    {
-      "id": "indian_rub",
-      "name": "Indian",
-      "cuisine": "indian",
-      "type": "dry_rub",
-      "spice_profile": "S2",
-      "sw": "free",
-      "works_with": ["chicken", "fish", "cauliflower"],
-      "pairs_with": {
-        "carbs": ["rice", "naan (synned)"],
-        "vegetables": ["cauliflower", "spinach", "peppers"]
-      },
-      "recipe_5": {
-        "ingredients": [
-          "1 tsp garam masala",
-          "0.5 tsp turmeric",
-          "1 tsp cumin",
-          "0.5 tsp ground coriander",
-          "thumb of ginger, grated (or 0.5 tsp ground ginger)",
-          "juice of half a lime",
-          "salt"
-        ],
-        "method": "Mix into a paste with lime juice. Coat chicken and leave at least 20 mins — an hour in the fridge is better. Air fryer or oven at 200°C. The turmeric will colour the meat golden."
-      }
+      "required_items": [
+        "Garlic powder",
+        "Dried oregano",
+        "Lemon"
+      ],
+      "elevate": [
+        {
+          "item": "Fennel seeds",
+          "tip": "A pinch, lightly crushed and added to the rub — particularly good with pork and sausage. Very Italian."
+        },
+        {
+          "item": "Anchovy paste",
+          "tip": "A small smear rubbed into the meat under the herbs before they go on. Disappears completely but adds remarkable depth."
+        }
+      ]
     },
     {
       "id": "mexican_rub",
-      "name": "Mexican",
+      "name": "Adobo",
       "cuisine": "mexican",
       "type": "dry_rub",
       "spice_profile": "S1",
       "sw": "free",
       "adult_heat": true,
       "adult_heat_note": "Chili flakes mixed into adults' portion after cooking",
-      "works_with": ["chicken", "beef", "fish"],
+      "works_with": [
+        "chicken",
+        "beef",
+        "fish"
+      ],
       "pairs_with": {
-        "carbs": ["rice", "wraps", "jacket potato"],
-        "vegetables": ["peppers", "sweetcorn", "courgette"]
+        "carbs": [
+          "rice",
+          "wraps",
+          "jacket potato"
+        ],
+        "vegetables": [
+          "peppers",
+          "sweetcorn",
+          "courgette"
+        ]
       },
       "recipe_5": {
         "ingredients": [
@@ -669,21 +1258,47 @@
           "salt + black pepper"
         ],
         "method": "Mix and coat. Air fryer or griddle pan. Good on chicken thighs sliced and served in wraps or over rice with lime and coriander."
-      }
+      },
+      "required_items": [
+        "Smoked paprika",
+        "Cumin (ground)",
+        "Garlic powder",
+        "Lime"
+      ],
+      "elevate": [
+        {
+          "item": "Chipotle powder",
+          "tip": "Replace or supplement the smoked paprika for a deeper, more complex smokiness with subtle heat."
+        },
+        {
+          "item": "Orange zest",
+          "tip": "The juice and zest of half an orange in the mix adds brightness and sweetness — particularly good with chicken."
+        }
+      ]
     },
     {
       "id": "jerk_rub",
-      "name": "Jerk-Style",
+      "name": "Jerk",
       "cuisine": "caribbean",
       "type": "wet_rub",
       "spice_profile": null,
       "sw": "free",
       "adult_heat": true,
       "adult_heat_note": "This is already the mild version — adults can add hot sauce",
-      "works_with": ["chicken", "pork"],
+      "works_with": [
+        "chicken",
+        "pork"
+      ],
       "pairs_with": {
-        "carbs": ["rice", "rice and peas"],
-        "vegetables": ["peppers", "sweetcorn", "courgette"]
+        "carbs": [
+          "rice",
+          "rice and peas"
+        ],
+        "vegetables": [
+          "peppers",
+          "sweetcorn",
+          "courgette"
+        ]
       },
       "recipe_5": {
         "ingredients": [
@@ -698,41 +1313,223 @@
           "salt + black pepper"
         ],
         "method": "Mix into a paste. Coat chicken thoroughly — score the meat if thighs so it gets in. Ideally marinate 1hr+. Air fryer at 190°C for 25 mins or oven at 200°C. The allspice is the key flavour — don't substitute."
-      }
+      },
+      "required_items": [
+        "Allspice",
+        "Dried thyme",
+        "Cinnamon (ground)",
+        "Smoked paprika",
+        "Garlic powder",
+        "Fresh ginger",
+        "Soy sauce",
+        "Lime"
+      ],
+      "elevate": [
+        {
+          "item": "Scotch bonnet",
+          "tip": "Blend one into the marinade for adults — this is the defining heat of proper jerk and really cannot be substituted."
+        },
+        {
+          "item": "Dark rum",
+          "tip": "A tablespoon in the wet marinade. Make sure the marinating time is long enough for the alcohol to work into the meat."
+        }
+      ]
     },
     {
-      "id": "lemon_thyme_rub",
-      "name": "Lemon + Thyme",
-      "cuisine": "french",
+      "id": "north_african_rub",
+      "name": "Baharat",
+      "cuisine": "north_african",
       "type": "dry_rub",
-      "spice_profile": null,
+      "spice_profile": "S3",
       "sw": "free",
-      "works_with": ["chicken", "fish", "pork"],
+      "works_with": [
+        "chicken",
+        "lamb",
+        "fish"
+      ],
       "pairs_with": {
-        "carbs": ["potatoes", "rice"],
-        "vegetables": ["asparagus", "green beans", "leeks", "mushrooms"]
+        "carbs": [
+          "couscous",
+          "rice"
+        ],
+        "vegetables": [
+          "aubergine",
+          "courgette",
+          "sweet potato",
+          "peppers"
+        ]
       },
       "recipe_5": {
         "ingredients": [
-          "1 tsp dried thyme (or 3-4 fresh sprigs)",
-          "zest of 1 lemon",
+          "1 tsp cumin",
+          "1 tsp ground coriander",
+          "0.5 tsp cinnamon",
+          "1 tsp paprika",
           "0.5 tsp garlic powder",
-          "black pepper + salt"
+          "juice of half a lemon",
+          "salt + black pepper"
         ],
-        "method": "Mix and press into meat. Simple and clean — lets the protein do the work. Good on fish fillets in the oven or chicken with roasted potatoes."
-      }
+        "method": "Mix into a rough paste with the lemon juice. Coat the meat. Oven or air fryer. The lemon juice helps it stick and caramelises nicely. Serve with couscous and scatter fresh coriander or parsley over."
+      },
+      "required_items": [
+        "Cumin (ground)",
+        "Coriander (ground)",
+        "Cinnamon (ground)",
+        "Paprika (sweet)",
+        "Garlic powder",
+        "Lemon"
+      ],
+      "elevate": [
+        {
+          "item": "Preserved lemon",
+          "tip": "Finely grated rind mixed into the rub instead of (or alongside) fresh lemon juice — more concentrated and aromatic."
+        },
+        {
+          "item": "Za'atar",
+          "tip": "A teaspoon in the rub or scattered over after cooking — adds a herbaceous, sesame note that bridges North African and Middle Eastern."
+        }
+      ]
+    },
+    {
+      "id": "berbere_rub",
+      "name": "Berbere",
+      "cuisine": "ethiopian",
+      "type": "dry_rub",
+      "spice_profile": null,
+      "sw": "free",
+      "adult_heat": false,
+      "works_with": [
+        "chicken",
+        "lamb",
+        "beef"
+      ],
+      "pairs_with": {
+        "carbs": [
+          "rice",
+          "flatbread",
+          "couscous"
+        ],
+        "vegetables": [
+          "sweet potato",
+          "aubergine",
+          "peppers",
+          "spinach"
+        ]
+      },
+      "recipe_5": {
+        "ingredients": [
+          "1 tsp cumin",
+          "1 tsp ground coriander",
+          "0.5 tsp cinnamon",
+          "0.5 tsp allspice",
+          "1 tsp paprika (sweet)",
+          "0.25 tsp turmeric",
+          "0.5 tsp garlic powder",
+          "thumb of ginger, grated (or 0.5 tsp ground)",
+          "juice of half a lemon",
+          "salt + black pepper"
+        ],
+        "method": "Mix into a paste with the lemon juice. More complex than any single-cuisine rub — go gently until you know it. Particularly good on lamb shoulder or chicken thighs. Oven or air fryer at 190°C. The allspice is what makes it Ethiopian rather than North African."
+      },
+      "required_items": [
+        "Cumin (ground)",
+        "Coriander (ground)",
+        "Cinnamon (ground)",
+        "Allspice",
+        "Paprika (sweet)",
+        "Turmeric",
+        "Garlic powder",
+        "Fresh ginger",
+        "Lemon"
+      ],
+      "elevate": [
+        {
+          "item": "Fenugreek seeds",
+          "tip": "A tiny pinch, lightly toasted and ground — adds a slightly bitter, maple-like note that's a classic berbere ingredient."
+        },
+        {
+          "item": "Honey",
+          "tip": "A teaspoon in the paste helps caramelisation and tempers the spice complexity — particularly good on chicken."
+        }
+      ]
+    },
+    {
+      "id": "indian_rub",
+      "name": "Tandoori",
+      "cuisine": "indian",
+      "type": "dry_rub",
+      "spice_profile": "S2",
+      "sw": "free",
+      "works_with": [
+        "chicken",
+        "fish",
+        "cauliflower"
+      ],
+      "pairs_with": {
+        "carbs": [
+          "rice",
+          "naan (synned)"
+        ],
+        "vegetables": [
+          "cauliflower",
+          "spinach",
+          "peppers"
+        ]
+      },
+      "recipe_5": {
+        "ingredients": [
+          "1 tsp garam masala",
+          "0.5 tsp turmeric",
+          "1 tsp cumin",
+          "0.5 tsp ground coriander",
+          "thumb of ginger, grated (or 0.5 tsp ground ginger)",
+          "juice of half a lime",
+          "salt"
+        ],
+        "method": "Mix into a paste with lime juice. Coat chicken and leave at least 20 mins — an hour in the fridge is better. Air fryer or oven at 200°C. The turmeric will colour the meat golden."
+      },
+      "required_items": [
+        "Garam masala",
+        "Turmeric",
+        "Cumin (ground)",
+        "Coriander (ground)",
+        "Fresh ginger",
+        "Lime"
+      ],
+      "elevate": [
+        {
+          "item": "Kashmiri chilli powder",
+          "tip": "Replace all the paprika with this for the deep red-orange colour and gentle, complex heat of an authentic tandoori."
+        },
+        {
+          "item": "Kasuri methi",
+          "tip": "Half a teaspoon rubbed between your palms and mixed in — dried fenugreek is the ingredient that makes tandoori taste like tandoori."
+        }
+      ]
     },
     {
       "id": "asian_soy_rub",
-      "name": "Asian Soy",
+      "name": "Ginger Soy",
       "cuisine": "asian",
       "type": "wet_rub",
       "spice_profile": null,
       "sw": "free",
-      "works_with": ["chicken", "salmon", "beef strips"],
+      "works_with": [
+        "chicken",
+        "salmon",
+        "beef strips"
+      ],
       "pairs_with": {
-        "carbs": ["rice", "noodles"],
-        "vegetables": ["pak choi", "broccoli", "peppers", "mushrooms"]
+        "carbs": [
+          "rice",
+          "noodles"
+        ],
+        "vegetables": [
+          "pak choi",
+          "broccoli",
+          "peppers",
+          "mushrooms"
+        ]
       },
       "recipe_5": {
         "ingredients": [
@@ -743,49 +1540,91 @@
           "few drops sesame oil (synned — optional)"
         ],
         "method": "Mix and coat. Marinate at least 20 mins — longer is better. The soy acts as a brine as well as a flavouring. Air fryer, griddle, or oven. Good on salmon fillets or chicken thighs over rice."
-      }
+      },
+      "required_items": [
+        "Soy sauce",
+        "Fresh ginger",
+        "Garlic",
+        "Rice wine vinegar"
+      ],
+      "elevate": [
+        {
+          "item": "Mirin",
+          "tip": "A teaspoon in the marinade adds gloss and subtle sweetness that helps caramelisation — the key to a proper teriyaki finish."
+        },
+        {
+          "item": "Sesame oil",
+          "tip": "A few drops only — extremely strong, but adds the nutty finish that characterises Japanese and Korean cooking."
+        }
+      ]
+    },
+    {
+      "id": "char_siu_rub",
+      "name": "Char Siu",
+      "cuisine": "chinese",
+      "type": "wet_rub",
+      "spice_profile": null,
+      "sw": "free",
+      "adult_heat": false,
+      "works_with": [
+        "pork",
+        "chicken",
+        "tofu"
+      ],
+      "pairs_with": {
+        "carbs": [
+          "rice",
+          "noodles"
+        ],
+        "vegetables": [
+          "pak choi",
+          "spring onion",
+          "cucumber"
+        ]
+      },
+      "recipe_5": {
+        "ingredients": [
+          "0.5 tsp five spice",
+          "2 tbsp soy sauce",
+          "3 cloves garlic, crushed",
+          "thumb of ginger, grated",
+          "0.5 tsp smoked paprika",
+          "black pepper"
+        ],
+        "method": "Mix into a paste. Score pork or chicken deeply and work the marinade in — at least 1 hour, overnight is better. The five spice and soy should form a red-brown glaze after cooking. Air fryer or oven at 200°C, basting with leftover marinade halfway through."
+      },
+      "required_items": [
+        "Five spice",
+        "Soy sauce",
+        "Garlic",
+        "Fresh ginger",
+        "Smoked paprika"
+      ],
+      "elevate": [
+        {
+          "item": "Hoisin sauce",
+          "tip": "A tablespoon in the marinade adds the glossy sweetness that defines restaurant char siu — a small jar lasts months."
+        },
+        {
+          "item": "Rice wine vinegar",
+          "tip": "A teaspoon adds gentle acidity that balances the soy and helps the glaze caramelise evenly."
+        }
+      ]
     }
   ],
   "dressings": [
-    {
-      "id": "caper_lemon",
-      "name": "Caper Lemon",
-      "cuisine": "mediterranean",
-      "sw": "free",
-      "notes": "Barely qualifies as a dressing — more of a seasoning. No oil needed.",
-      "works_with": ["green salad", "chicken salad", "fish", "pasta salad", "roasted veg"],
-      "recipe_5": {
-        "ingredients": [
-          "juice of 1 lemon",
-          "1-2 tbsp capers (to taste)",
-          "black pepper",
-          "pinch of salt"
-        ],
-        "method": "Squeeze lemon over, scatter capers, crack pepper. That's it. Add a little caper brine from the jar if you want extra punch."
-      }
-    },
-    {
-      "id": "simple_lemon_herb",
-      "name": "Lemon Herb",
-      "cuisine": "mediterranean",
-      "sw": "free",
-      "works_with": ["green salad", "chicken", "fish", "couscous"],
-      "recipe_5": {
-        "ingredients": [
-          "juice of 1 lemon",
-          "handful flat-leaf parsley or fresh coriander, chopped",
-          "black pepper + salt"
-        ],
-        "method": "Mix and drizzle. Light and fresh — works anywhere you want brightness without weight."
-      }
-    },
     {
       "id": "balsamic_dijon",
       "name": "Balsamic + Dijon",
       "cuisine": "french",
       "sw": "synned",
       "sw_note": "Balsamic ~1 syn per tbsp. Keep to 1 tbsp across the whole salad.",
-      "works_with": ["leaves", "roasted veg salad", "chicken salad", "warm salads"],
+      "works_with": [
+        "leaves",
+        "roasted veg salad",
+        "chicken salad",
+        "warm salads"
+      ],
       "recipe_5": {
         "ingredients": [
           "1 tbsp balsamic vinegar",
@@ -794,32 +1633,142 @@
           "black pepper + salt"
         ],
         "method": "Whisk together. The Dijon emulsifies it so it coats leaves evenly without oil. Slightly richer than a plain vinegar dressing — good on warm salads or with roasted veg."
-      }
+      },
+      "required_items": [
+        "Balsamic vinegar",
+        "Dijon mustard",
+        "Red wine vinegar"
+      ],
+      "elevate": [
+        {
+          "item": "Aged balsamic",
+          "tip": "A few drops of the proper thick, syrupy kind instead of regular balsamic — completely different product. A little goes a very long way."
+        },
+        {
+          "item": "Shallot",
+          "tip": "A very finely minced small shallot stirred in — the standard addition to a correct French dressing and worth doing every time."
+        }
+      ]
     },
     {
-      "id": "asian_soy_dressing",
-      "name": "Asian Soy",
-      "cuisine": "asian",
+      "id": "french_vinaigrette",
+      "name": "Dijon Vinaigrette",
+      "cuisine": "french",
       "sw": "free",
-      "notes": "Add a few drops of sesame oil if you have syns to spend — transforms it.",
-      "works_with": ["asian slaw", "noodle salad", "chicken salad", "cucumber salad"],
+      "notes": "Proper vinaigrette without the oil — the Dijon holds it together.",
+      "works_with": [
+        "green salad",
+        "leaves",
+        "green beans",
+        "asparagus"
+      ],
       "recipe_5": {
         "ingredients": [
-          "2 tbsp soy sauce",
-          "1 tbsp rice wine vinegar",
-          "thumb of ginger, grated",
-          "juice of half a lime",
-          "few drops sesame oil (optional, synned)"
+          "2 tbsp red wine vinegar",
+          "1 tsp Dijon mustard",
+          "1 small shallot, very finely diced",
+          "black pepper + salt"
         ],
-        "method": "Mix and drizzle. Works cold over noodles, shredded chicken or raw veg. Punchy — a little goes a long way."
-      }
+        "method": "Whisk vinegar into Dijon. Add shallot. Toss through leaves just before serving — not before or they'll wilt."
+      },
+      "required_items": [
+        "Red wine vinegar",
+        "Dijon mustard"
+      ],
+      "elevate": [
+        {
+          "item": "Shallot",
+          "tip": "A very finely minced small shallot is the thing that separates a real French vinaigrette from everything else. This is the correct way to make it."
+        },
+        {
+          "item": "Fresh tarragon",
+          "tip": "A few leaves, finely chopped — the defining herb of French salads, particularly good with anything involving chicken."
+        }
+      ]
+    },
+    {
+      "id": "caper_lemon",
+      "name": "Caper Lemon",
+      "cuisine": "mediterranean",
+      "sw": "free",
+      "notes": "Barely qualifies as a dressing — more of a seasoning. No oil needed.",
+      "works_with": [
+        "green salad",
+        "chicken salad",
+        "fish",
+        "pasta salad",
+        "roasted veg"
+      ],
+      "recipe_5": {
+        "ingredients": [
+          "juice of 1 lemon",
+          "1-2 tbsp capers (to taste)",
+          "black pepper",
+          "pinch of salt"
+        ],
+        "method": "Squeeze lemon over, scatter capers, crack pepper. That's it. Add a little caper brine from the jar if you want extra punch."
+      },
+      "required_items": [
+        "Lemon",
+        "Capers"
+      ],
+      "elevate": [
+        {
+          "item": "Anchovy",
+          "tip": "One fillet mashed to a paste — invisible in the dressing but adds a savouriness that makes everything taste more of itself."
+        },
+        {
+          "item": "Fresh dill",
+          "tip": "A few fronds work beautifully with capers and lemon. Particularly good over poached salmon or a warm potato salad."
+        }
+      ]
+    },
+    {
+      "id": "simple_lemon_herb",
+      "name": "Lemon Herb",
+      "cuisine": "mediterranean",
+      "sw": "free",
+      "works_with": [
+        "green salad",
+        "chicken",
+        "fish",
+        "couscous"
+      ],
+      "recipe_5": {
+        "ingredients": [
+          "juice of 1 lemon",
+          "handful flat-leaf parsley or fresh coriander, chopped",
+          "black pepper + salt"
+        ],
+        "method": "Mix and drizzle. Light and fresh — works anywhere you want brightness without weight."
+      },
+      "required_items": [
+        "Lemon",
+        "Flat-leaf parsley",
+        "Fresh coriander"
+      ],
+      "elevate": [
+        {
+          "item": "Shallot",
+          "tip": "A very finely minced small shallot, left to macerate in the lemon juice for 10 minutes — mellows the rawness and adds real depth."
+        },
+        {
+          "item": "Preserved lemon",
+          "tip": "A teaspoon of finely chopped rind instead of (or alongside) fresh lemon — more complex, more aromatic, and very different."
+        }
+      ]
     },
     {
       "id": "lime_coriander",
       "name": "Lime + Coriander",
       "cuisine": "mexican",
       "sw": "free",
-      "works_with": ["slaw", "chicken salad", "black bean salad", "rice salad"],
+      "works_with": [
+        "slaw",
+        "chicken salad",
+        "black bean salad",
+        "rice salad"
+      ],
       "recipe_5": {
         "ingredients": [
           "juice of 1 lime",
@@ -828,7 +1777,22 @@
           "salt + black pepper"
         ],
         "method": "Mix and toss through. Good as a slaw dressing or over a Mexican-style chicken salad. Bright and clean."
-      }
+      },
+      "required_items": [
+        "Lime",
+        "Fresh coriander",
+        "Cumin (ground)"
+      ],
+      "elevate": [
+        {
+          "item": "Fresh jalapeño",
+          "tip": "Half a jalapeño, very finely minced and stirred through — adds heat without overpowering. Particularly good in a Mexican slaw."
+        },
+        {
+          "item": "Honey",
+          "tip": "Half a teaspoon to balance the acidity of the lime. Synned, but a small amount makes a noticeable difference — taste as you go."
+        }
+      ]
     },
     {
       "id": "tahini_lemon",
@@ -836,7 +1800,12 @@
       "cuisine": "middle_eastern",
       "sw": "synned",
       "sw_note": "~3 syns per tbsp tahini — 1 tbsp across 5 portions is about 0.6 syns each",
-      "works_with": ["roasted veg", "falafel", "chicken", "grain salads"],
+      "works_with": [
+        "roasted veg",
+        "falafel",
+        "chicken",
+        "grain salads"
+      ],
       "recipe_5": {
         "ingredients": [
           "1-2 tbsp tahini",
@@ -846,24 +1815,143 @@
           "salt"
         ],
         "method": "Whisk tahini and lemon together — it'll seize up first, keep going. Add water gradually until it's a pourable consistency. Drizzle over roasted veg or falafel."
-      }
+      },
+      "required_items": [
+        "Tahini",
+        "Lemon",
+        "Garlic"
+      ],
+      "elevate": [
+        {
+          "item": "Za'atar",
+          "tip": "Scattered over the top after drizzling — adds herby, sesame crunch that's particularly good over roasted vegetables or falafel."
+        },
+        {
+          "item": "Pomegranate molasses",
+          "tip": "A teaspoon drizzled alongside — the sweet-sour contrast with tahini is a classic Middle Eastern combination."
+        }
+      ]
     },
     {
-      "id": "french_vinaigrette",
-      "name": "French Vinaigrette",
-      "cuisine": "french",
+      "id": "nam_jim",
+      "name": "Nam Jim",
+      "cuisine": "thai",
       "sw": "free",
-      "notes": "Proper vinaigrette without the oil — the Dijon holds it together.",
-      "works_with": ["green salad", "leaves", "green beans", "asparagus"],
+      "notes": "A Thai dipping sauce that doubles as a punchy dressing. Fish sauce is very strong — add gradually.",
+      "works_with": [
+        "prawn salad",
+        "chicken salad",
+        "green papaya slaw",
+        "cucumber salad",
+        "noodle salad"
+      ],
       "recipe_5": {
         "ingredients": [
-          "2 tbsp red wine vinegar",
-          "1 tsp Dijon mustard",
-          "1 small shallot, very finely diced",
-          "black pepper + salt"
+          "1–2 tbsp fish sauce — start with 1",
+          "juice of 1 lime",
+          "1 tsp lemongrass paste",
+          "1 clove garlic, crushed",
+          "handful fresh coriander, roughly chopped",
+          "pinch of salt if needed"
         ],
-        "method": "Whisk vinegar into Dijon. Add shallot. Toss through leaves just before serving — not before or they'll wilt."
-      }
+        "method": "Mix and taste — it should be salty, sour and very fragrant. Fish sauce is the dominant flavour so build slowly. Use as a dressing, dipping sauce or light marinade. Keeps in the fridge for a few days."
+      },
+      "required_items": [
+        "Fish sauce",
+        "Lime",
+        "Lemongrass paste (tube)",
+        "Garlic",
+        "Fresh coriander"
+      ],
+      "elevate": [
+        {
+          "item": "Fresh chilli",
+          "tip": "Half a bird's eye finely sliced — the proper version has chilli heat. Keep at the table for adults."
+        },
+        {
+          "item": "Palm sugar",
+          "tip": "Half a teaspoon dissolved in the lime juice is the classic balance to the fish sauce saltiness."
+        }
+      ]
+    },
+    {
+      "id": "asian_soy_dressing",
+      "name": "Ginger Lime",
+      "cuisine": "asian",
+      "sw": "free",
+      "notes": "Add a few drops of sesame oil if you have syns to spend — transforms it.",
+      "works_with": [
+        "asian slaw",
+        "noodle salad",
+        "chicken salad",
+        "cucumber salad"
+      ],
+      "recipe_5": {
+        "ingredients": [
+          "2 tbsp soy sauce",
+          "1 tbsp rice wine vinegar",
+          "thumb of ginger, grated",
+          "juice of half a lime",
+          "few drops sesame oil (optional, synned)"
+        ],
+        "method": "Mix and drizzle. Works cold over noodles, shredded chicken or raw veg. Punchy — a little goes a long way."
+      },
+      "required_items": [
+        "Soy sauce",
+        "Rice wine vinegar",
+        "Fresh ginger",
+        "Lime"
+      ],
+      "elevate": [
+        {
+          "item": "Sesame oil",
+          "tip": "Just a few drops — very strong, but adds the nutty depth that lifts this from a dressing into something restaurant-quality."
+        },
+        {
+          "item": "Palm sugar",
+          "tip": "Half a teaspoon dissolved in the lime juice — balances the acidity and adds the subtle complexity that defines Thai dressings."
+        }
+      ]
+    },
+    {
+      "id": "miso_ginger",
+      "name": "Miso & Ginger",
+      "cuisine": "japanese",
+      "sw": "synned",
+      "sw_note": "Miso is synned — check brand. Two tablespoons across 5 portions is minimal.",
+      "works_with": [
+        "asian slaw",
+        "cucumber salad",
+        "noodle salad",
+        "roasted sweet potato",
+        "edamame salad"
+      ],
+      "recipe_5": {
+        "ingredients": [
+          "2 tbsp white miso",
+          "2 tbsp rice wine vinegar",
+          "1 tbsp soy sauce",
+          "thumb of ginger, grated",
+          "1–2 tbsp cold water to thin"
+        ],
+        "method": "Whisk together and thin with water until it pours easily — miso thickens it significantly. Taste for balance: you may want a little more vinegar. Works cold over soba noodles, shredded cabbage, roasted sweet potato or cucumber."
+      },
+      "required_items": [
+        "White miso paste",
+        "Rice wine vinegar",
+        "Soy sauce",
+        "Fresh ginger"
+      ],
+      "elevate": [
+        {
+          "item": "Sesame oil",
+          "tip": "A few drops transforms this into something restaurant-quality. Extremely strong — less than you think."
+        },
+        {
+          "item": "Mirin",
+          "tip": "A teaspoon instead of some of the water — adds subtle sweetness and makes the dressing glossier."
+        }
+      ]
     }
   ]
 }

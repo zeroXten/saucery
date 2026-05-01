@@ -2,26 +2,41 @@ let data = null;
 let currentCat = 'sauces';
 
 const CUISINE_COLOURS = {
-  italian:        '#c0392b',
-  spanish:        '#d4651a',
-  mexican:        '#2e8b4a',
-  indian:         '#c9860a',
-  north_african:  '#a0791a',
-  west_african:   '#7a4010',
-  chinese:        '#9b1a1a',
-  japanese:       '#6b4c7a',
-  thai:           '#1a7a5e',
-  french:         '#2a5a8a',
-  korean:         '#8a1a2e',
-  caribbean:      '#b8620a',
-  mediterranean:  '#2a6a8a',
-  middle_eastern: '#8a6a10',
-  asian:          '#1a6a6a',
+  // Europe — navy blues to warm terracotta
+  french:         '#2e4d7e',
+  italian:        '#7a2e28',
+  spanish:        '#8e3e1a',
+  mediterranean:  '#2e628a',
+  // Americas — greens and amber
+  mexican:        '#2a7a40',
+  caribbean:      '#8a5218',
+  // MENA + Africa — ochres and earth browns
+  middle_eastern: '#7a5618',
+  north_african:  '#8a6818',
+  west_african:   '#6a3a10',
+  ethiopian:      '#7a3418',
+  // Indian subcontinent — turmeric gold
+  indian:         '#b07a08',
+  // SE Asia — teals and forest greens
+  thai:           '#1a7a58',
+  vietnamese:     '#1a6845',
+  asian:          '#1a5e5e',
+  // E Asia — deep red through burgundy to purple
+  chinese:        '#8e1e1e',
+  korean:         '#781e2e',
+  japanese:       '#5a3e6a',
 };
+
+function hexToRgba(hex, alpha) {
+  const r = parseInt(hex.slice(1, 3), 16);
+  const g = parseInt(hex.slice(3, 5), 16);
+  const b = parseInt(hex.slice(5, 7), 16);
+  return `rgba(${r},${g},${b},${alpha})`;
+}
 
 async function init() {
   try {
-    const res = await fetch('./sauces.json');
+    const res = await fetch('./sauces.json?v=6');
     data = await res.json();
   } catch (e) {
     document.getElementById('main').innerHTML = '<p style="padding:24px;color:red">Could not load sauces.json</p>';
@@ -49,25 +64,46 @@ async function init() {
 function showGrid(cat) {
   setHeader('Kitchen', true);
   const items = data[cat] || [];
+  const missing = JSON.parse(localStorage.getItem('pantry_missing') || '[]');
+
+  const wrap = document.createElement('div');
+
+  if (missing.length) {
+    const banner = document.createElement('div');
+    banner.className = 'pantry-banner';
+    banner.innerHTML = `<span>${missing.length} ingredient${missing.length > 1 ? 's' : ''} missing — greyed recipes need restocking</span>
+      <button id="pantry-clear-banner">Clear filter</button>`;
+    banner.querySelector('#pantry-clear-banner').addEventListener('click', () => {
+      localStorage.removeItem('pantry_missing');
+      showGrid(cat);
+    });
+    wrap.appendChild(banner);
+  }
 
   const grid = document.createElement('div');
   grid.className = 'grid';
 
   items.forEach(item => {
     const card = document.createElement('div');
-    card.className = 'card';
-    const colour = CUISINE_COLOURS[item.cuisine] || '#888';
-    card.style.borderLeftColor = colour;
+    const unavailable = missing.length && item.required_items &&
+      item.required_items.some(i => missing.includes(i));
+    card.className = 'card' + (unavailable ? ' unavailable' : '');
+    const colour = CUISINE_COLOURS[item.cuisine] || '#555';
+    const badges = swBadge(item) + heatBadge(item);
+    const tint = hexToRgba(colour, 0.06);
     card.innerHTML = `
-      <div class="card-name">${item.name}</div>
-      <div class="card-cuisine">${fmtCuisine(item.cuisine)}</div>
-      <div class="badges">${swBadge(item)}${heatBadge(item)}</div>
+      <div class="card-header" style="background:${colour}">
+        <div class="card-name">${item.name}</div>
+        <div class="card-cuisine">${fmtCuisine(item.cuisine)}</div>
+      </div>
+      <div class="card-body" style="background:${tint};border-top:1.5px solid ${colour}"><div class="badges">${badges}</div></div>
     `;
     card.addEventListener('click', () => showDetail(item));
     grid.appendChild(card);
   });
 
-  setMain(grid);
+  wrap.appendChild(grid);
+  setMain(wrap);
 }
 
 function showDetail(item) {
@@ -90,13 +126,15 @@ function showDetail(item) {
     : '';
 
   const pairsHtml = buildPairs(item);
+  const elevateHtml = buildElevate(item);
 
   const el = document.createElement('div');
   el.className = 'detail';
+  const accentColour = CUISINE_COLOURS[item.cuisine] || '#555';
+  el.style.borderLeftColor = accentColour;
   el.innerHTML = `
     <div class="detail-header">
-      <h2>${item.name}</h2>
-      <div class="detail-cuisine">${fmtCuisine(item.cuisine)}</div>
+      <span class="detail-cuisine">${fmtCuisine(item.cuisine)}</span>
       <div class="badges">${swBadge(item)}${heatBadge(item)}</div>
     </div>
     <div class="detail-body">
@@ -112,6 +150,7 @@ function showDetail(item) {
       </div>
     </div>
     ${pairsHtml}
+    ${elevateHtml}
   `;
 
   setMain(el);
@@ -119,10 +158,10 @@ function showDetail(item) {
 
 function buildShareText() {
   const groups = data.shopping_list;
-  const checked = JSON.parse(localStorage.getItem('shopping_checked') || '{}');
+  const missing = JSON.parse(localStorage.getItem('pantry_missing') || '[]');
   const lines = ['Shopping list\n'];
   Object.entries(groups).forEach(([groupName, items]) => {
-    const needed = items.filter(item => !checked[groupName + ':' + item]);
+    const needed = items.filter(item => missing.includes(item));
     if (!needed.length) return;
     lines.push(groupName.toUpperCase());
     needed.forEach(item => lines.push('• ' + item));
@@ -134,7 +173,7 @@ function buildShareText() {
 async function shareList() {
   const text = buildShareText();
   if (!text.includes('•')) {
-    alert('Nothing left to buy — everything is ticked!');
+    alert('Nothing ticked — tick what you need to buy first.');
     return;
   }
   if (navigator.share) {
@@ -194,18 +233,19 @@ function showFallback(text) {
 function showShopping() {
   setHeader('Kitchen', true);
   const groups = data.shopping_list;
-  const checked = JSON.parse(localStorage.getItem('shopping_checked') || '{}');
+  const missing = JSON.parse(localStorage.getItem('pantry_missing') || '[]');
 
   const wrap = document.createElement('div');
 
   const actions = document.createElement('div');
   actions.className = 'shopping-actions';
   actions.innerHTML = `
+    <span class="shopping-hint">Tick what you need to buy</span>
     <button class="clear-btn">Clear all</button>
     <button class="share-btn" id="share-btn">Share list</button>
   `;
   actions.querySelector('.clear-btn').addEventListener('click', () => {
-    localStorage.removeItem('shopping_checked');
+    localStorage.removeItem('pantry_missing');
     showShopping();
   });
   actions.querySelector('.share-btn').addEventListener('click', shareList);
@@ -220,11 +260,9 @@ function showShopping() {
     group.innerHTML = `<h3>${groupName}</h3>`;
 
     items.forEach(item => {
-      const key = groupName + ':' + item;
-      const isChecked = !!checked[key];
-
+      const isMissing = missing.includes(item);
       const row = document.createElement('div');
-      row.className = 'shopping-item' + (isChecked ? ' checked' : '');
+      row.className = 'shopping-item' + (isMissing ? ' checked' : '');
       row.innerHTML = `
         <div class="check-box">
           <svg viewBox="0 0 16 16" fill="none" stroke="currentColor" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round">
@@ -234,15 +272,15 @@ function showShopping() {
         <span class="item-label">${item}</span>
       `;
       row.addEventListener('click', () => {
-        const current = JSON.parse(localStorage.getItem('shopping_checked') || '{}');
-        if (current[key]) delete current[key];
-        else current[key] = true;
-        localStorage.setItem('shopping_checked', JSON.stringify(current));
-        row.classList.toggle('checked');
-        row.querySelector('.check-box').style.background = current[key] ? '#5b3fa6' : '';
-        row.querySelector('.check-box').style.borderColor = current[key] ? '#5b3fa6' : '';
-        row.querySelector('span').style.textDecoration = current[key] ? 'line-through' : '';
-        row.querySelector('span').style.color = current[key] ? 'var(--muted)' : '';
+        const current = JSON.parse(localStorage.getItem('pantry_missing') || '[]');
+        const idx = current.indexOf(item);
+        if (idx >= 0) current.splice(idx, 1);
+        else current.push(item);
+        localStorage.setItem('pantry_missing', JSON.stringify(current));
+        const nowMissing = current.includes(item);
+        row.classList.toggle('checked', nowMissing);
+        row.querySelector('span').style.textDecoration = '';
+        row.querySelector('span').style.color = '';
       });
       group.appendChild(row);
     });
@@ -255,33 +293,49 @@ function showShopping() {
 }
 
 function buildPairs(item) {
-  const groups = [];
+  const rows = [];
 
   if (item.works_with && !item.pairs_with) {
-    groups.push({ label: null, items: item.works_with });
+    rows.push({ label: 'Works with', items: item.works_with });
   } else {
-    if (item.works_with) groups.push({ label: 'Protein',    items: item.works_with });
+    if (item.works_with) rows.push({ label: 'Protein',    items: item.works_with });
     if (item.pairs_with) {
       const p = item.pairs_with;
-      if (p.proteins)   groups.push({ label: 'Protein',    items: p.proteins });
-      if (p.carbs)      groups.push({ label: 'Carbs',      items: p.carbs });
-      if (p.vegetables) groups.push({ label: 'Vegetables', items: p.vegetables });
+      if (p.proteins)   rows.push({ label: 'Protein',    items: p.proteins });
+      if (p.carbs)      rows.push({ label: 'Carbs',      items: p.carbs });
+      if (p.vegetables) rows.push({ label: 'Veg',        items: p.vegetables });
     }
   }
 
-  if (!groups.length) return '';
+  if (!rows.length) return '';
 
-  const groupsHtml = groups.map(g => `
-    <div class="pairs-group">
-      ${g.label ? `<h4>${g.label}</h4>` : ''}
-      <p>${g.items.join(', ')}</p>
+  const rowsHtml = rows.map(r => `
+    <div class="pairs-row">
+      <span class="pairs-label">${r.label}</span>
+      <span class="pairs-items">${r.items.join(', ')}</span>
     </div>
   `).join('');
 
   return `
     <div class="pairs-section">
       <div class="section-label">Pairs with</div>
-      <div class="pairs-row">${groupsHtml}</div>
+      <div class="pairs-list">${rowsHtml}</div>
+    </div>
+  `;
+}
+
+function buildElevate(item) {
+  if (!item.elevate || !item.elevate.length) return '';
+  const itemsHtml = item.elevate.map(e => `
+    <div class="elevate-item">
+      <div class="elevate-item-name">${e.item}</div>
+      <div class="elevate-item-tip">${e.tip}</div>
+    </div>
+  `).join('');
+  return `
+    <div class="elevate-section">
+      <div class="section-label">Elevate &mdash; optional extras</div>
+      <div class="elevate-list">${itemsHtml}</div>
     </div>
   `;
 }
