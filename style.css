@@ -169,8 +169,12 @@ main {
 }
 
 .card-body {
-  padding: 14px 20px;
+  padding: 10px 20px;
+  height: 54px;
+  overflow: hidden;
   flex-shrink: 0;
+  display: flex;
+  align-items: center;
 }
 
 .badges {
@@ -210,6 +214,13 @@ main {
   margin-bottom: 28px;
   padding-bottom: 16px;
   border-bottom: 2.5px solid var(--border-dark);
+}
+
+.detail-desc {
+  font-size: 1.05rem;
+  color: var(--muted);
+  line-height: 1.65;
+  margin-bottom: 28px;
 }
 
 .detail-cuisine {
@@ -488,8 +499,11 @@ main {
   main { padding: 16px; }
   .grid { grid-template-columns: 1fr 1fr; gap: 8px; }
   .card-name { font-size: 1rem; }
+  .card-body { height: 78px; }
   .detail-body { grid-template-columns: 1fr; }
   .detail-header h2 { font-size: 1.8rem; }
+  .tabs { padding: 0; }
+  .tab { flex: 1; text-align: center; padding: 12px 4px; letter-spacing: 0; }
 }
 
 @media (min-width: 600px) and (max-width: 900px) {

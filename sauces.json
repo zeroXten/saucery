@@ -19,7 +19,7 @@
         "name": "Light coconut milk",
         "amount_5": "1 tin (400ml)",
         "sw": "synned",
-        "sw_note": "~2.5 syns per 100ml light — one tin split 5 ways is manageable"
+        "sw_note": "~2.5 syns per 100ml light \u2014 one tin split 5 ways is manageable"
       }
     ],
     "aromatics": [
@@ -42,7 +42,7 @@
         "name": "Lemongrass paste",
         "amount_5": "1 tsp",
         "sw": "free",
-        "notes": "Tube — keeps forever. Thai and Vietnamese."
+        "notes": "Tube \u2014 keeps forever. Thai and Vietnamese."
       }
     ],
     "spice_profiles": [
@@ -107,7 +107,7 @@
       {
         "id": "D4",
         "name": "Fish sauce",
-        "amount_5": "1-2 tbsp — start with 1",
+        "amount_5": "1-2 tbsp \u2014 start with 1",
         "sw": "free",
         "notes": "Very strong. Easy to overdo. Thai and Vietnamese. Can also sneak 1 tsp into Italian for depth."
       },
@@ -116,7 +116,7 @@
         "name": "White miso",
         "amount_5": "2 tbsp",
         "sw": "synned",
-        "sw_note": "Check brand — typically 1-2 syns per tbsp. Keeps months in the fridge.",
+        "sw_note": "Check brand \u2014 typically 1-2 syns per tbsp. Keeps months in the fridge.",
         "notes": "Japanese, Chinese, Korean. Also works as a general umami booster in stocks."
       },
       {
@@ -124,7 +124,7 @@
         "name": "Peanut butter",
         "amount_5": "2-3 tbsp",
         "sw": "synned",
-        "sw_note": "~3 syns per tbsp — 2 tbsp split 5 ways is about 1.2 syns each",
+        "sw_note": "~3 syns per tbsp \u2014 2 tbsp split 5 ways is about 1.2 syns each",
         "notes": "West African and Thai. Use smooth. Thickens the sauce naturally."
       }
     ],
@@ -192,14 +192,14 @@
     ],
     "thickener": {
       "name": "Thickening granules",
-      "notes": "Add at end to any stock-based sauce — stir in gradually until you reach the consistency you want. Not needed for tomato-based sauces which reduce naturally in the oven. Check SW syn value on your brand but typically negligible per portion."
+      "notes": "Add at end to any stock-based sauce \u2014 stir in gradually until you reach the consistency you want. Not needed for tomato-based sauces which reduce naturally in the oven. Check SW syn value on your brand but typically negligible per portion."
     },
     "dressing_extras": [
       {
         "id": "De1",
         "name": "Capers",
         "sw": "free",
-        "notes": "Jar — keeps for months. Briny and punchy. Use straight from the jar, no prep."
+        "notes": "Jar \u2014 keeps for months. Briny and punchy. Use straight from the jar, no prep."
       },
       {
         "id": "De2",
@@ -211,14 +211,14 @@
         "id": "De3",
         "name": "Balsamic vinegar",
         "sw": "synned",
-        "sw_note": "~1 syn per tbsp — check brand. Use sparingly.",
+        "sw_note": "~1 syn per tbsp \u2014 check brand. Use sparingly.",
         "notes": "Richer and sweeter than red wine vinegar. Good in warmer salads and roasted veg dressings."
       },
       {
         "id": "De4",
         "name": "Tahini",
         "sw": "synned",
-        "sw_note": "~3 syns per tbsp — worth it split across 5",
+        "sw_note": "~3 syns per tbsp \u2014 worth it split across 5",
         "notes": "Sesame paste. Thickens dressings, adds nuttiness. Middle Eastern and Mediterranean."
       }
     ]
@@ -266,7 +266,7 @@
           "salt + white pepper",
           "thickening granules"
         ],
-        "method": "Soften shallots and garlic gently — don't let them colour. Add stock and Worcestershire. Simmer and reduce by about a third. Thicken with granules to your liking. Add lemon and parsley off the heat. Clean and simple — the protein should be the main event here."
+        "method": "Soften shallots and garlic gently \u2014 don't let them colour. Add stock and Worcestershire. Simmer and reduce by about a third. Thicken with granules to your liking. Add lemon and parsley off the heat. Clean and simple \u2014 the protein should be the main event here."
       },
       "required_items": [
         "Stock cubes (chicken + veg)",
@@ -280,13 +280,14 @@
       "elevate": [
         {
           "item": "Dry white wine",
-          "tip": "A small glass to deglaze after softening the shallots — reduce by half before adding the stock for complexity and acidity."
+          "tip": "A small glass to deglaze after softening the shallots \u2014 reduce by half before adding the stock for complexity and acidity."
         },
         {
           "item": "Fresh tarragon",
           "tip": "Use instead of flat-leaf parsley for a more distinctly French result. The aniseed note is a classic pairing with chicken and fish."
         }
-      ]
+      ],
+      "description": "A classic of the French kitchen \u2014 the sauce that appears alongside every serious roast. Lighter than a British gravy and more elegant, it's best in autumn and winter when the slow-roasted meats it's built for come into their own."
     },
     {
       "id": "italian_tomato",
@@ -334,7 +335,7 @@
           "handful fresh basil or 1 tsp dried oregano",
           "salt + black pepper"
         ],
-        "method": "Soften onion and garlic in cast iron. Add tomatoes, paste, Worcestershire, vinegar, salt, pepper. Into 180°C oven for 25-30 mins until reduced and slightly caramelised at the edges. Stir in herbs just before serving."
+        "method": "Soften onion and garlic in cast iron. Add tomatoes, paste, Worcestershire, vinegar, salt, pepper. Into 180\u00b0C oven for 25-30 mins until reduced and slightly caramelised at the edges. Stir in herbs just before serving."
       },
       "required_items": [
         "Tinned chopped tomatoes",
@@ -348,13 +349,14 @@
       "elevate": [
         {
           "item": "Anchovy paste",
-          "tip": "Half a teaspoon stirred in at the start — dissolves completely and adds umami depth without any fishy flavour."
+          "tip": "Half a teaspoon stirred in at the start \u2014 dissolves completely and adds umami depth without any fishy flavour."
         },
         {
           "item": "Parmesan rind",
           "tip": "Drop a piece in while it oven-braises and remove before serving. Adds a savouriness that's hard to put your finger on."
         }
-      ]
+      ],
+      "description": "The foundational tomato sauce of Southern Italy \u2014 Neapolitan in origin, and younger than it feels, since tomatoes didn't reach Italian kitchens until the 18th century. The simplicity is deliberate: Italian cooking trusts good ingredients over technique, and this is the proof of it."
     },
     {
       "id": "spanish_tomato",
@@ -399,7 +401,7 @@
           "1 tsp dried oregano",
           "salt + black pepper"
         ],
-        "method": "Soften onion and garlic. Add spices and stir for 1 min before adding everything else. 180°C oven 25-30 mins. Smokier and earthier than Italian — works particularly well with fish."
+        "method": "Soften onion and garlic. Add spices and stir for 1 min before adding everything else. 180\u00b0C oven 25-30 mins. Smokier and earthier than Italian \u2014 works particularly well with fish."
       },
       "required_items": [
         "Tinned chopped tomatoes",
@@ -414,13 +416,14 @@
       "elevate": [
         {
           "item": "Dry sherry",
-          "tip": "A small glass to deglaze after the aromatics — the alcohol cooks off, leaving a subtle nutty sweetness that's very Spanish."
+          "tip": "A small glass to deglaze after the aromatics \u2014 the alcohol cooks off, leaving a subtle nutty sweetness that's very Spanish."
         },
         {
           "item": "Saffron",
           "tip": "A pinch bloomed in a tablespoon of hot water, stirred in with the tomatoes. Changes the whole personality of the sauce."
         }
-      ]
+      ],
+      "description": "The foundation of Spanish cooking \u2014 a slowly cooked paste of onions, tomatoes, and garlic that goes into almost everything from paella to stews. Warming and deeply savoury; the patience required is the whole point."
     },
     {
       "id": "mexican",
@@ -466,7 +469,7 @@
           "handful fresh coriander",
           "salt + black pepper"
         ],
-        "method": "Soften onion and garlic. Toast spices 1 min. Add tomatoes and lime. 180°C oven 25 mins. Stir in coriander at the end. Chili on the table."
+        "method": "Soften onion and garlic. Toast spices 1 min. Add tomatoes and lime. 180\u00b0C oven 25 mins. Stir in coriander at the end. Chili on the table."
       },
       "required_items": [
         "Tinned chopped tomatoes",
@@ -480,13 +483,14 @@
       "elevate": [
         {
           "item": "Chipotle paste",
-          "tip": "A tablespoon gives smoky, complex heat that goes far beyond chilli flakes — stir in with the tomatoes."
+          "tip": "A tablespoon gives smoky, complex heat that goes far beyond chilli flakes \u2014 stir in with the tomatoes."
         },
         {
           "item": "Dark chocolate",
-          "tip": "A square of 85% stirred in at the very end. Classic Mexican mole trick — adds depth without tasting chocolatey."
+          "tip": "A square of 85% stirred in at the very end. Classic Mexican mole trick \u2014 adds depth without tasting chocolatey."
         }
-      ]
+      ],
+      "description": "A traditional Mexican sauce built on charred tomatoes and rehydrated dried chillies \u2014 the charring technique predates the Spanish conquest and gives it a depth that no amount of cooking time can replicate. Smoky and punchy, equally good warm or at room temperature."
     },
     {
       "id": "north_african",
@@ -537,7 +541,7 @@
           "handful fresh coriander or flat-leaf parsley",
           "salt + black pepper"
         ],
-        "method": "Soften aromatics, toast spices 1 min. Add tomatoes and paste. 180°C oven 25-30 mins. The cinnamon is what makes this — don't skip it. Stir in herbs at end."
+        "method": "Soften aromatics, toast spices 1 min. Add tomatoes and paste. 180\u00b0C oven 25-30 mins. The cinnamon is what makes this \u2014 don't skip it. Stir in herbs at end."
       },
       "required_items": [
         "Tinned chopped tomatoes",
@@ -559,9 +563,10 @@
         },
         {
           "item": "Harissa paste",
-          "tip": "A teaspoon stirred through for adults — adds heat and a roasted pepper complexity. Also excellent kept at the table."
+          "tip": "A teaspoon stirred through for adults \u2014 adds heat and a roasted pepper complexity. Also excellent kept at the table."
         }
-      ]
+      ],
+      "description": "The base of Moroccan tagine cooking \u2014 a warmly spiced braise that cooks low and slow alongside lamb, chicken, or root vegetables. The combination of sweet spices with savoury meat is distinctly North African, and it's at its best on a cold evening."
     },
     {
       "id": "west_african_groundnut",
@@ -576,7 +581,7 @@
         "Ac1"
       ],
       "sw": "synned",
-      "sw_note": "2-3 tbsp peanut butter split 5 ways — roughly 1-2 syns per portion",
+      "sw_note": "2-3 tbsp peanut butter split 5 ways \u2014 roughly 1-2 syns per portion",
       "adult_heat": true,
       "adult_heat_note": "Chili flakes at the table",
       "technique": "cast_iron_oven",
@@ -608,7 +613,7 @@
           "juice of half a lemon",
           "salt + black pepper"
         ],
-        "method": "Soften aromatics, toast spices 1 min. Add tomatoes and peanut butter — stir well to combine before putting in the oven. 180°C oven 25-30 mins. Thickens naturally from the peanut butter."
+        "method": "Soften aromatics, toast spices 1 min. Add tomatoes and peanut butter \u2014 stir well to combine before putting in the oven. 180\u00b0C oven 25-30 mins. Thickens naturally from the peanut butter."
       },
       "required_items": [
         "Tinned chopped tomatoes",
@@ -625,13 +630,14 @@
       "elevate": [
         {
           "item": "Scotch bonnet",
-          "tip": "One whole pepper in the stew for the last 15 minutes, removed before serving — infuses flavour without the full hit of heat."
+          "tip": "One whole pepper in the stew for the last 15 minutes, removed before serving \u2014 infuses flavour without the full hit of heat."
         },
         {
           "item": "Ground crayfish",
           "tip": "A teaspoon of dried ground crayfish (from African food shops) adds the authentic umami note that defines a real groundnut stew."
         }
-      ]
+      ],
+      "description": "One of West Africa's great comfort foods \u2014 a thick, peanut-based stew that appears in various forms across Ghana, Senegal, and Nigeria. Deeply warming and filling, it improves the longer it cooks."
     },
     {
       "id": "indian_simple",
@@ -683,7 +689,7 @@
           "handful fresh coriander",
           "salt"
         ],
-        "method": "Soften onion, garlic, ginger. Add spices, toast 1 min. Add tomatoes and paste. 180°C oven 25-30 mins. Stir in lime juice and coriander at the end."
+        "method": "Soften onion, garlic, ginger. Add spices, toast 1 min. Add tomatoes and paste. 180\u00b0C oven 25-30 mins. Stir in lime juice and coriander at the end."
       },
       "required_items": [
         "Tinned chopped tomatoes",
@@ -707,7 +713,8 @@
           "item": "Kasuri methi",
           "tip": "A teaspoon of dried fenugreek, rubbed between your palms and stirred in at the end. The secret finishing touch in every restaurant-quality curry."
         }
-      ]
+      ],
+      "description": "The building block of North Indian cooking \u2014 an onion, tomato, and spice base refined over centuries and made globally familiar through the British curry house. Warm and aromatic, it works year-round but feels most at home on an autumn or winter evening."
     },
     {
       "id": "thai",
@@ -723,7 +730,7 @@
         "H1"
       ],
       "sw": "synned",
-      "sw_note": "Light coconut milk ~2.5 syns per 100ml — one tin (400ml) across 5 portions",
+      "sw_note": "Light coconut milk ~2.5 syns per 100ml \u2014 one tin (400ml) across 5 portions",
       "adult_heat": true,
       "adult_heat_note": "Chili oil or fresh chili at the table",
       "technique": "stovetop_gentle",
@@ -752,12 +759,12 @@
           "4 cloves garlic, crushed",
           "thumb of ginger, grated",
           "1 tsp lemongrass paste",
-          "1-2 tbsp fish sauce — start with 1",
+          "1-2 tbsp fish sauce \u2014 start with 1",
           "juice of 1 lime",
           "handful fresh coriander",
           "salt if needed"
         ],
-        "method": "Soften aromatics with lemongrass paste. Add coconut milk and fish sauce. Simmer gently 15-20 mins — don't boil hard or the coconut milk splits. Add protein with enough time to cook through. Stir in lime juice and coriander at the very end. Fish sauce is strong — taste before adding more."
+        "method": "Soften aromatics with lemongrass paste. Add coconut milk and fish sauce. Simmer gently 15-20 mins \u2014 don't boil hard or the coconut milk splits. Add protein with enough time to cook through. Stir in lime juice and coriander at the very end. Fish sauce is strong \u2014 taste before adding more."
       },
       "required_items": [
         "Light coconut milk",
@@ -772,13 +779,14 @@
       "elevate": [
         {
           "item": "Kaffir lime leaves",
-          "tip": "2–3 torn leaves added with the coconut milk, removed before serving. Adds the aromatic citrus note that defines Thai cooking."
+          "tip": "2\u20133 torn leaves added with the coconut milk, removed before serving. Adds the aromatic citrus note that defines Thai cooking."
         },
         {
           "item": "Thai basil",
-          "tip": "Use instead of (or alongside) regular coriander at the very end — aniseed-forward and quite different. Very authentic."
+          "tip": "Use instead of (or alongside) regular coriander at the very end \u2014 aniseed-forward and quite different. Very authentic."
         }
-      ]
+      ],
+      "description": "A simplified Thai coconut sauce, lighter than the restaurant versions and brighter from the lime. Built on Thailand's four-way balance of sweet, sour, salty, and heat \u2014 fresh enough for summer but warming enough to work into autumn."
     },
     {
       "id": "vietnamese",
@@ -822,12 +830,12 @@
           "4 cloves garlic, crushed",
           "thumb of ginger, grated",
           "1 tsp lemongrass paste",
-          "1–2 tbsp fish sauce — start with 1",
+          "1\u20132 tbsp fish sauce \u2014 start with 1",
           "juice of 1 lime",
           "handful fresh coriander",
           "salt if needed"
         ],
-        "method": "Gently soften onion and garlic. Add lemongrass paste and cook 1 min. Add stock and fish sauce — taste before adding more, it's very salty. Simmer 15 mins below a boil. Add lime juice and coriander off the heat. Lighter than Thai with no coconut milk — clean, fragrant and very good with fish and prawns."
+        "method": "Gently soften onion and garlic. Add lemongrass paste and cook 1 min. Add stock and fish sauce \u2014 taste before adding more, it's very salty. Simmer 15 mins below a boil. Add lime juice and coriander off the heat. Lighter than Thai with no coconut milk \u2014 clean, fragrant and very good with fish and prawns."
       },
       "required_items": [
         "Stock cubes (chicken + veg)",
@@ -842,13 +850,14 @@
       "elevate": [
         {
           "item": "Star anise",
-          "tip": "One or two simmered in the stock and removed before serving — adds the aromatic backbone of a proper pho."
+          "tip": "One or two simmered in the stock and removed before serving \u2014 adds the aromatic backbone of a proper pho."
         },
         {
           "item": "Rice wine vinegar",
           "tip": "A teaspoon alongside the lime juice adds another layer of acidity and a slightly different brightness."
         }
-      ]
+      ],
+      "description": "Vietnamese cooking is often described as the freshest of the Southeast Asian cuisines \u2014 more herbs, more citrus, less fat. This broth follows that logic: light, fragrant, and built for poaching rather than coating."
     },
     {
       "id": "chinese_stirfry",
@@ -864,7 +873,7 @@
         "Ac4"
       ],
       "sw": "synned",
-      "sw_note": "Miso is synned — check brand. Soy sauce is free.",
+      "sw_note": "Miso is synned \u2014 check brand. Soy sauce is free.",
       "adult_heat": true,
       "adult_heat_note": "Chili oil at the table",
       "technique": "stir_fry",
@@ -913,13 +922,14 @@
       "elevate": [
         {
           "item": "Shaoxing rice wine",
-          "tip": "A splash into the hot wok before the stock — adds the characteristic flavour that separates restaurant Chinese cooking from home versions."
+          "tip": "A splash into the hot wok before the stock \u2014 adds the characteristic flavour that separates restaurant Chinese cooking from home versions."
         },
         {
           "item": "Oyster sauce",
-          "tip": "A tablespoon stirred in adds glossy, savoury depth. Worth keeping in the fridge — it lasts months and transforms stir-fries."
+          "tip": "A tablespoon stirred in adds glossy, savoury depth. Worth keeping in the fridge \u2014 it lasts months and transforms stir-fries."
         }
-      ]
+      ],
+      "description": "A Chinese stir-fry sauce built around five spice \u2014 the ancient blend of star anise, cloves, cinnamon, Sichuan pepper, and fennel that sits at the heart of Chinese cooking. Fast and bold; needs a hot pan and a short clock."
     },
     {
       "id": "japanese_miso",
@@ -934,7 +944,7 @@
         "Ac4"
       ],
       "sw": "synned",
-      "sw_note": "Miso is synned — check brand",
+      "sw_note": "Miso is synned \u2014 check brand",
       "adult_heat": false,
       "technique": "stovetop_gentle",
       "pairs_with": {
@@ -965,7 +975,7 @@
           "thickening granules to finish",
           "spring onions to garnish"
         ],
-        "method": "Gently warm stock with garlic and ginger — keep it below a boil. Whisk miso in off the heat or on very low (boiling degrades it). Add soy and vinegar. Taste as you go — it's delicate. Thicken lightly with granules. Garnish with spring onion."
+        "method": "Gently warm stock with garlic and ginger \u2014 keep it below a boil. Whisk miso in off the heat or on very low (boiling degrades it). Add soy and vinegar. Taste as you go \u2014 it's delicate. Thicken lightly with granules. Garnish with spring onion."
       },
       "required_items": [
         "Stock cubes (chicken + veg)",
@@ -978,13 +988,14 @@
       "elevate": [
         {
           "item": "Mirin",
-          "tip": "A teaspoon adds a subtle, clean sweetness that rounds out the saltiness of the miso and soy — don't use more or it tips too sweet."
+          "tip": "A teaspoon adds a subtle, clean sweetness that rounds out the saltiness of the miso and soy \u2014 don't use more or it tips too sweet."
         },
         {
           "item": "Dashi powder",
           "tip": "Replace the stock cube with instant dashi for a more authentic Japanese flavour base. Huge difference for very little effort."
         }
-      ]
+      ],
+      "description": "Shiro miso \u2014 white miso \u2014 is the mildest and sweetest of Japan's fermented soybean pastes, associated with the refined cooking of Kyoto. Subtle and umami-rich, it works particularly well on delicate fish and autumn vegetables."
     },
     {
       "id": "korean",
@@ -999,9 +1010,9 @@
         "Ac4"
       ],
       "sw": "synned",
-      "sw_note": "Miso synned. Gochujang for adults is low-syn — check brand.",
+      "sw_note": "Miso synned. Gochujang for adults is low-syn \u2014 check brand.",
       "adult_heat": true,
-      "adult_heat_note": "Gochujang paste on the side — also doubles as a table chili sauce for Mexican and Chinese",
+      "adult_heat_note": "Gochujang paste on the side \u2014 also doubles as a table chili sauce for Mexican and Chinese",
       "technique": "stovetop_gentle",
       "pairs_with": {
         "proteins": [
@@ -1029,10 +1040,10 @@
           "3 tbsp soy sauce",
           "2 tbsp white miso",
           "1 tbsp rice wine vinegar",
-          "few drops sesame oil to finish (synned — a little goes a long way)",
+          "few drops sesame oil to finish (synned \u2014 a little goes a long way)",
           "thickening granules"
         ],
-        "method": "Soften aromatics. Add stock, soy, miso, vinegar. Simmer 10-15 mins. Thicken with granules. Finish with just a few drops of sesame oil — it's very strong, don't overdo it. Adults add gochujang at the table."
+        "method": "Soften aromatics. Add stock, soy, miso, vinegar. Simmer 10-15 mins. Thicken with granules. Finish with just a few drops of sesame oil \u2014 it's very strong, don't overdo it. Adults add gochujang at the table."
       },
       "required_items": [
         "Stock cubes (chicken + veg)",
@@ -1046,13 +1057,14 @@
       "elevate": [
         {
           "item": "Gochujang",
-          "tip": "A tablespoon for adults — the fermented chilli paste that defines Korean cooking. Stir in at the end or keep at the table."
+          "tip": "A tablespoon for adults \u2014 the fermented chilli paste that defines Korean cooking. Stir in at the end or keep at the table."
         },
         {
           "item": "Mirin",
           "tip": "A teaspoon adds subtle sweetness and gloss. The combination of miso, soy and mirin is the foundation of Korean and Japanese sauces."
         }
-      ]
+      ],
+      "description": "Korean cooking is built on fermented, bold flavours \u2014 doenjang and soy sauce are foundational. This sauce follows that tradition: deeply savoury with enough sweetness to caramelise under heat, and built for the colder months."
     }
   ],
   "shopping_list": {
@@ -1155,7 +1167,7 @@
           "0.5 tsp garlic powder",
           "black pepper + salt"
         ],
-        "method": "Mix and press into meat. Simple and clean — lets the protein do the work. Good on fish fillets in the oven or chicken with roasted potatoes."
+        "method": "Mix and press into meat. Simple and clean \u2014 lets the protein do the work. Good on fish fillets in the oven or chicken with roasted potatoes."
       },
       "required_items": [
         "Dried thyme",
@@ -1165,13 +1177,14 @@
       "elevate": [
         {
           "item": "Fresh thyme",
-          "tip": "A few sprigs of fresh instead of dried — the difference in aroma is significant. Worth keeping a small pot on the windowsill."
+          "tip": "A few sprigs of fresh instead of dried \u2014 the difference in aroma is significant. Worth keeping a small pot on the windowsill."
         },
         {
           "item": "Dijon mustard",
           "tip": "A teaspoon mixed in acts as a binder and adds a gentle sharpness that works particularly well with chicken and fish."
         }
-      ]
+      ],
+      "description": "The herb rub of Provence \u2014 thyme grows wild across the south of France, and with lemon and garlic it's become the default seasoning for chicken and fish throughout French cooking. Bright and fresh, and at its best in spring and summer."
     },
     {
       "id": "italian_herb_rub",
@@ -1205,7 +1218,7 @@
           "zest of half a lemon",
           "black pepper + salt"
         ],
-        "method": "Mix and press into the meat. Leave 15 mins if you have time, cook straight away if not. Air fryer at 190°C for 20-25 mins for chicken thighs. Works brilliantly tossed through pasta with roasted veg — no sauce needed."
+        "method": "Mix and press into the meat. Leave 15 mins if you have time, cook straight away if not. Air fryer at 190\u00b0C for 20-25 mins for chicken thighs. Works brilliantly tossed through pasta with roasted veg \u2014 no sauce needed."
       },
       "required_items": [
         "Garlic powder",
@@ -1215,13 +1228,14 @@
       "elevate": [
         {
           "item": "Fennel seeds",
-          "tip": "A pinch, lightly crushed and added to the rub — particularly good with pork and sausage. Very Italian."
+          "tip": "A pinch, lightly crushed and added to the rub \u2014 particularly good with pork and sausage. Very Italian."
         },
         {
           "item": "Anchovy paste",
           "tip": "A small smear rubbed into the meat under the herbs before they go on. Disappears completely but adds remarkable depth."
         }
-      ]
+      ],
+      "description": "An Italian dry herb rub built around fennel seed and rosemary \u2014 the combination that flavours everything from Italian sausage to porchetta. Traditional and straightforwardly rustic, best on pork and lamb in any season."
     },
     {
       "id": "mexican_rub",
@@ -1272,9 +1286,10 @@
         },
         {
           "item": "Orange zest",
-          "tip": "The juice and zest of half an orange in the mix adds brightness and sweetness — particularly good with chicken."
+          "tip": "The juice and zest of half an orange in the mix adds brightness and sweetness \u2014 particularly good with chicken."
         }
-      ]
+      ],
+      "description": "A dry take on the Mexican adobo \u2014 traditionally a marinade of dried chillies, vinegar, and spices used to preserve and flavour meat. Smoky, earthy, and warm, it comes into its own over a summer grill."
     },
     {
       "id": "jerk_rub",
@@ -1284,7 +1299,7 @@
       "spice_profile": null,
       "sw": "free",
       "adult_heat": true,
-      "adult_heat_note": "This is already the mild version — adults can add hot sauce",
+      "adult_heat_note": "This is already the mild version \u2014 adults can add hot sauce",
       "works_with": [
         "chicken",
         "pork"
@@ -1312,7 +1327,7 @@
           "juice of half a lime",
           "salt + black pepper"
         ],
-        "method": "Mix into a paste. Coat chicken thoroughly — score the meat if thighs so it gets in. Ideally marinate 1hr+. Air fryer at 190°C for 25 mins or oven at 200°C. The allspice is the key flavour — don't substitute."
+        "method": "Mix into a paste. Coat chicken thoroughly \u2014 score the meat if thighs so it gets in. Ideally marinate 1hr+. Air fryer at 190\u00b0C for 25 mins or oven at 200\u00b0C. The allspice is the key flavour \u2014 don't substitute."
       },
       "required_items": [
         "Allspice",
@@ -1327,13 +1342,14 @@
       "elevate": [
         {
           "item": "Scotch bonnet",
-          "tip": "Blend one into the marinade for adults — this is the defining heat of proper jerk and really cannot be substituted."
+          "tip": "Blend one into the marinade for adults \u2014 this is the defining heat of proper jerk and really cannot be substituted."
         },
         {
           "item": "Dark rum",
           "tip": "A tablespoon in the wet marinade. Make sure the marinating time is long enough for the alcohol to work into the meat."
         }
-      ]
+      ],
+      "description": "Jerk is Jamaican in origin and one of the Caribbean's most distinctive culinary traditions \u2014 slow-smoked over pimento wood and seasoned with allspice and scotch bonnet. The dry rub version brings those bold, hot flavours to any grill; a summer rub if there ever was one."
     },
     {
       "id": "north_african_rub",
@@ -1382,13 +1398,14 @@
       "elevate": [
         {
           "item": "Preserved lemon",
-          "tip": "Finely grated rind mixed into the rub instead of (or alongside) fresh lemon juice — more concentrated and aromatic."
+          "tip": "Finely grated rind mixed into the rub instead of (or alongside) fresh lemon juice \u2014 more concentrated and aromatic."
         },
         {
           "item": "Za'atar",
-          "tip": "A teaspoon in the rub or scattered over after cooking — adds a herbaceous, sesame note that bridges North African and Middle Eastern."
+          "tip": "A teaspoon in the rub or scattered over after cooking \u2014 adds a herbaceous, sesame note that bridges North African and Middle Eastern."
         }
-      ]
+      ],
+      "description": "Baharat simply means 'spices' in Arabic, and every family and region across the Middle East has their own version. This one is warm and aromatic \u2014 cumin, coriander, allspice, cinnamon \u2014 and suits slow-cooked autumn and winter dishes, particularly lamb."
     },
     {
       "id": "berbere_rub",
@@ -1429,7 +1446,7 @@
           "juice of half a lemon",
           "salt + black pepper"
         ],
-        "method": "Mix into a paste with the lemon juice. More complex than any single-cuisine rub — go gently until you know it. Particularly good on lamb shoulder or chicken thighs. Oven or air fryer at 190°C. The allspice is what makes it Ethiopian rather than North African."
+        "method": "Mix into a paste with the lemon juice. More complex than any single-cuisine rub \u2014 go gently until you know it. Particularly good on lamb shoulder or chicken thighs. Oven or air fryer at 190\u00b0C. The allspice is what makes it Ethiopian rather than North African."
       },
       "required_items": [
         "Cumin (ground)",
@@ -1445,13 +1462,14 @@
       "elevate": [
         {
           "item": "Fenugreek seeds",
-          "tip": "A tiny pinch, lightly toasted and ground — adds a slightly bitter, maple-like note that's a classic berbere ingredient."
+          "tip": "A tiny pinch, lightly toasted and ground \u2014 adds a slightly bitter, maple-like note that's a classic berbere ingredient."
         },
         {
           "item": "Honey",
-          "tip": "A teaspoon in the paste helps caramelisation and tempers the spice complexity — particularly good on chicken."
+          "tip": "A teaspoon in the paste helps caramelisation and tempers the spice complexity \u2014 particularly good on chicken."
         }
-      ]
+      ],
+      "description": "The spice blend at the heart of Ethiopian cooking \u2014 used in doro wat, tibs, and most of the country's slow-cooked stews. More complex than most blends, with fenugreek adding a bitterness that no other cuisine quite replicates, and built for slow cooking on cold nights."
     },
     {
       "id": "indian_rub",
@@ -1486,7 +1504,7 @@
           "juice of half a lime",
           "salt"
         ],
-        "method": "Mix into a paste with lime juice. Coat chicken and leave at least 20 mins — an hour in the fridge is better. Air fryer or oven at 200°C. The turmeric will colour the meat golden."
+        "method": "Mix into a paste with lime juice. Coat chicken and leave at least 20 mins \u2014 an hour in the fridge is better. Air fryer or oven at 200\u00b0C. The turmeric will colour the meat golden."
       },
       "required_items": [
         "Garam masala",
@@ -1503,9 +1521,10 @@
         },
         {
           "item": "Kasuri methi",
-          "tip": "Half a teaspoon rubbed between your palms and mixed in — dried fenugreek is the ingredient that makes tandoori taste like tandoori."
+          "tip": "Half a teaspoon rubbed between your palms and mixed in \u2014 dried fenugreek is the ingredient that makes tandoori taste like tandoori."
         }
-      ]
+      ],
+      "description": "The tandoor is a clay oven that's been central to Punjabi cooking for thousands of years \u2014 this spice paste replicates its effects under a domestic grill. Traditional, North Indian, and at its best in summer when you can finish it over coals."
     },
     {
       "id": "asian_soy_rub",
@@ -1537,9 +1556,9 @@
           "thumb of ginger, grated",
           "3 cloves garlic, crushed",
           "1 tbsp rice wine vinegar",
-          "few drops sesame oil (synned — optional)"
+          "few drops sesame oil (synned \u2014 optional)"
         ],
-        "method": "Mix and coat. Marinate at least 20 mins — longer is better. The soy acts as a brine as well as a flavouring. Air fryer, griddle, or oven. Good on salmon fillets or chicken thighs over rice."
+        "method": "Mix and coat. Marinate at least 20 mins \u2014 longer is better. The soy acts as a brine as well as a flavouring. Air fryer, griddle, or oven. Good on salmon fillets or chicken thighs over rice."
       },
       "required_items": [
         "Soy sauce",
@@ -1550,13 +1569,14 @@
       "elevate": [
         {
           "item": "Mirin",
-          "tip": "A teaspoon in the marinade adds gloss and subtle sweetness that helps caramelisation — the key to a proper teriyaki finish."
+          "tip": "A teaspoon in the marinade adds gloss and subtle sweetness that helps caramelisation \u2014 the key to a proper teriyaki finish."
         },
         {
           "item": "Sesame oil",
-          "tip": "A few drops only — extremely strong, but adds the nutty finish that characterises Japanese and Korean cooking."
+          "tip": "A few drops only \u2014 extremely strong, but adds the nutty finish that characterises Japanese and Korean cooking."
         }
-      ]
+      ],
+      "description": "Not tied to one tradition \u2014 ginger and soy feature across Chinese, Japanese, and Korean cooking, and this rub draws from all three. Simple and versatile, it works on fish, chicken, or tofu in any season."
     },
     {
       "id": "char_siu_rub",
@@ -1591,7 +1611,7 @@
           "0.5 tsp smoked paprika",
           "black pepper"
         ],
-        "method": "Mix into a paste. Score pork or chicken deeply and work the marinade in — at least 1 hour, overnight is better. The five spice and soy should form a red-brown glaze after cooking. Air fryer or oven at 200°C, basting with leftover marinade halfway through."
+        "method": "Mix into a paste. Score pork or chicken deeply and work the marinade in \u2014 at least 1 hour, overnight is better. The five spice and soy should form a red-brown glaze after cooking. Air fryer or oven at 200\u00b0C, basting with leftover marinade halfway through."
       },
       "required_items": [
         "Five spice",
@@ -1603,13 +1623,14 @@
       "elevate": [
         {
           "item": "Hoisin sauce",
-          "tip": "A tablespoon in the marinade adds the glossy sweetness that defines restaurant char siu — a small jar lasts months."
+          "tip": "A tablespoon in the marinade adds the glossy sweetness that defines restaurant char siu \u2014 a small jar lasts months."
         },
         {
           "item": "Rice wine vinegar",
           "tip": "A teaspoon adds gentle acidity that balances the soy and helps the glaze caramelise evenly."
         }
-      ]
+      ],
+      "description": "Char siu means 'fork roasted' in Cantonese \u2014 named for the way strips of pork were traditionally suspended over fire. The sweet, sticky glaze caramelises into the lacquered crust you see in Chinese BBQ shops, and it's one of the great things to do with pork belly."
     }
   ],
   "dressings": [
@@ -1632,7 +1653,7 @@
           "1 tbsp red wine vinegar",
           "black pepper + salt"
         ],
-        "method": "Whisk together. The Dijon emulsifies it so it coats leaves evenly without oil. Slightly richer than a plain vinegar dressing — good on warm salads or with roasted veg."
+        "method": "Whisk together. The Dijon emulsifies it so it coats leaves evenly without oil. Slightly richer than a plain vinegar dressing \u2014 good on warm salads or with roasted veg."
       },
       "required_items": [
         "Balsamic vinegar",
@@ -1642,20 +1663,21 @@
       "elevate": [
         {
           "item": "Aged balsamic",
-          "tip": "A few drops of the proper thick, syrupy kind instead of regular balsamic — completely different product. A little goes a very long way."
+          "tip": "A few drops of the proper thick, syrupy kind instead of regular balsamic \u2014 completely different product. A little goes a very long way."
         },
         {
           "item": "Shallot",
-          "tip": "A very finely minced small shallot stirred in — the standard addition to a correct French dressing and worth doing every time."
+          "tip": "A very finely minced small shallot stirred in \u2014 the standard addition to a correct French dressing and worth doing every time."
         }
-      ]
+      ],
+      "description": "A dressing that sits between French and Italian \u2014 balsamic vinegar from Modena meeting the mustard that defines French vinaigrette. Bold and assertive, it suits the bitter leaves of autumn and winter: rocket, radicchio, chicory."
     },
     {
       "id": "french_vinaigrette",
       "name": "Dijon Vinaigrette",
       "cuisine": "french",
       "sw": "free",
-      "notes": "Proper vinaigrette without the oil — the Dijon holds it together.",
+      "notes": "Proper vinaigrette without the oil \u2014 the Dijon holds it together.",
       "works_with": [
         "green salad",
         "leaves",
@@ -1669,7 +1691,7 @@
           "1 small shallot, very finely diced",
           "black pepper + salt"
         ],
-        "method": "Whisk vinegar into Dijon. Add shallot. Toss through leaves just before serving — not before or they'll wilt."
+        "method": "Whisk vinegar into Dijon. Add shallot. Toss through leaves just before serving \u2014 not before or they'll wilt."
       },
       "required_items": [
         "Red wine vinegar",
@@ -1682,16 +1704,17 @@
         },
         {
           "item": "Fresh tarragon",
-          "tip": "A few leaves, finely chopped — the defining herb of French salads, particularly good with anything involving chicken."
+          "tip": "A few leaves, finely chopped \u2014 the defining herb of French salads, particularly good with anything involving chicken."
         }
-      ]
+      ],
+      "description": "The vinaigrette that every French cook makes without measuring. The Dijon is there for emulsification as much as flavour \u2014 it's what makes the dressing hold together \u2014 and it's light and versatile enough for any season."
     },
     {
       "id": "caper_lemon",
       "name": "Caper Lemon",
       "cuisine": "mediterranean",
       "sw": "free",
-      "notes": "Barely qualifies as a dressing — more of a seasoning. No oil needed.",
+      "notes": "Barely qualifies as a dressing \u2014 more of a seasoning. No oil needed.",
       "works_with": [
         "green salad",
         "chicken salad",
@@ -1715,13 +1738,14 @@
       "elevate": [
         {
           "item": "Anchovy",
-          "tip": "One fillet mashed to a paste — invisible in the dressing but adds a savouriness that makes everything taste more of itself."
+          "tip": "One fillet mashed to a paste \u2014 invisible in the dressing but adds a savouriness that makes everything taste more of itself."
         },
         {
           "item": "Fresh dill",
           "tip": "A few fronds work beautifully with capers and lemon. Particularly good over poached salmon or a warm potato salad."
         }
-      ]
+      ],
+      "description": "A dressing built from Mediterranean pantry staples \u2014 capers, lemon, good olive oil. Briny and sharp, it belongs on a summer table alongside grilled fish or roasted courgette."
     },
     {
       "id": "simple_lemon_herb",
@@ -1740,7 +1764,7 @@
           "handful flat-leaf parsley or fresh coriander, chopped",
           "black pepper + salt"
         ],
-        "method": "Mix and drizzle. Light and fresh — works anywhere you want brightness without weight."
+        "method": "Mix and drizzle. Light and fresh \u2014 works anywhere you want brightness without weight."
       },
       "required_items": [
         "Lemon",
@@ -1750,13 +1774,14 @@
       "elevate": [
         {
           "item": "Shallot",
-          "tip": "A very finely minced small shallot, left to macerate in the lemon juice for 10 minutes — mellows the rawness and adds real depth."
+          "tip": "A very finely minced small shallot, left to macerate in the lemon juice for 10 minutes \u2014 mellows the rawness and adds real depth."
         },
         {
           "item": "Preserved lemon",
-          "tip": "A teaspoon of finely chopped rind instead of (or alongside) fresh lemon — more complex, more aromatic, and very different."
+          "tip": "A teaspoon of finely chopped rind instead of (or alongside) fresh lemon \u2014 more complex, more aromatic, and very different."
         }
-      ]
+      ],
+      "description": "A clean Mediterranean dressing that appears in some form across the whole basin \u2014 Greek, Italian, Spanish. Light and fresh, it's a spring and summer dressing that works on everything from grains to grilled chicken."
     },
     {
       "id": "lime_coriander",
@@ -1785,21 +1810,22 @@
       ],
       "elevate": [
         {
-          "item": "Fresh jalapeño",
-          "tip": "Half a jalapeño, very finely minced and stirred through — adds heat without overpowering. Particularly good in a Mexican slaw."
+          "item": "Fresh jalape\u00f1o",
+          "tip": "Half a jalape\u00f1o, very finely minced and stirred through \u2014 adds heat without overpowering. Particularly good in a Mexican slaw."
         },
         {
           "item": "Honey",
-          "tip": "Half a teaspoon to balance the acidity of the lime. Synned, but a small amount makes a noticeable difference — taste as you go."
+          "tip": "Half a teaspoon to balance the acidity of the lime. Synned, but a small amount makes a noticeable difference \u2014 taste as you go."
         }
-      ]
+      ],
+      "description": "The flavour combination that runs through Mexican cooking from the street taco upwards \u2014 fresh coriander and sharp lime cutting through rich or fatty food. Bright and summery, but works year-round in slaws and grain bowls."
     },
     {
       "id": "tahini_lemon",
       "name": "Tahini Lemon",
       "cuisine": "middle_eastern",
       "sw": "synned",
-      "sw_note": "~3 syns per tbsp tahini — 1 tbsp across 5 portions is about 0.6 syns each",
+      "sw_note": "~3 syns per tbsp tahini \u2014 1 tbsp across 5 portions is about 0.6 syns each",
       "works_with": [
         "roasted veg",
         "falafel",
@@ -1814,7 +1840,7 @@
           "3-4 tbsp cold water (to loosen)",
           "salt"
         ],
-        "method": "Whisk tahini and lemon together — it'll seize up first, keep going. Add water gradually until it's a pourable consistency. Drizzle over roasted veg or falafel."
+        "method": "Whisk tahini and lemon together \u2014 it'll seize up first, keep going. Add water gradually until it's a pourable consistency. Drizzle over roasted veg or falafel."
       },
       "required_items": [
         "Tahini",
@@ -1824,20 +1850,21 @@
       "elevate": [
         {
           "item": "Za'atar",
-          "tip": "Scattered over the top after drizzling — adds herby, sesame crunch that's particularly good over roasted vegetables or falafel."
+          "tip": "Scattered over the top after drizzling \u2014 adds herby, sesame crunch that's particularly good over roasted vegetables or falafel."
         },
         {
           "item": "Pomegranate molasses",
-          "tip": "A teaspoon drizzled alongside — the sweet-sour contrast with tahini is a classic Middle Eastern combination."
+          "tip": "A teaspoon drizzled alongside \u2014 the sweet-sour contrast with tahini is a classic Middle Eastern combination."
         }
-      ]
+      ],
+      "description": "Tahini \u2014 ground sesame paste \u2014 is central to Levantine cooking, appearing in everything from hummus to falafel to baked fish. Loosened with lemon and water it becomes a dressing that works on almost anything, earthy and nutty in any season."
     },
     {
       "id": "nam_jim",
       "name": "Nam Jim",
       "cuisine": "thai",
       "sw": "free",
-      "notes": "A Thai dipping sauce that doubles as a punchy dressing. Fish sauce is very strong — add gradually.",
+      "notes": "A Thai dipping sauce that doubles as a punchy dressing. Fish sauce is very strong \u2014 add gradually.",
       "works_with": [
         "prawn salad",
         "chicken salad",
@@ -1847,14 +1874,14 @@
       ],
       "recipe_5": {
         "ingredients": [
-          "1–2 tbsp fish sauce — start with 1",
+          "1\u20132 tbsp fish sauce \u2014 start with 1",
           "juice of 1 lime",
           "1 tsp lemongrass paste",
           "1 clove garlic, crushed",
           "handful fresh coriander, roughly chopped",
           "pinch of salt if needed"
         ],
-        "method": "Mix and taste — it should be salty, sour and very fragrant. Fish sauce is the dominant flavour so build slowly. Use as a dressing, dipping sauce or light marinade. Keeps in the fridge for a few days."
+        "method": "Mix and taste \u2014 it should be salty, sour and very fragrant. Fish sauce is the dominant flavour so build slowly. Use as a dressing, dipping sauce or light marinade. Keeps in the fridge for a few days."
       },
       "required_items": [
         "Fish sauce",
@@ -1866,20 +1893,21 @@
       "elevate": [
         {
           "item": "Fresh chilli",
-          "tip": "Half a bird's eye finely sliced — the proper version has chilli heat. Keep at the table for adults."
+          "tip": "Half a bird's eye finely sliced \u2014 the proper version has chilli heat. Keep at the table for adults."
         },
         {
           "item": "Palm sugar",
           "tip": "Half a teaspoon dissolved in the lime juice is the classic balance to the fish sauce saltiness."
         }
-      ]
+      ],
+      "description": "Nam jim simply means 'dipping sauce' in Thai, and there are dozens of versions \u2014 all built on the same four-way balance of fish sauce, lime, palm sugar, and chilli. Fresh, sharp, and bright, it cuts through anything rich or fatty."
     },
     {
       "id": "asian_soy_dressing",
       "name": "Ginger Lime",
       "cuisine": "asian",
       "sw": "free",
-      "notes": "Add a few drops of sesame oil if you have syns to spend — transforms it.",
+      "notes": "Add a few drops of sesame oil if you have syns to spend \u2014 transforms it.",
       "works_with": [
         "asian slaw",
         "noodle salad",
@@ -1894,7 +1922,7 @@
           "juice of half a lime",
           "few drops sesame oil (optional, synned)"
         ],
-        "method": "Mix and drizzle. Works cold over noodles, shredded chicken or raw veg. Punchy — a little goes a long way."
+        "method": "Mix and drizzle. Works cold over noodles, shredded chicken or raw veg. Punchy \u2014 a little goes a long way."
       },
       "required_items": [
         "Soy sauce",
@@ -1905,20 +1933,21 @@
       "elevate": [
         {
           "item": "Sesame oil",
-          "tip": "Just a few drops — very strong, but adds the nutty depth that lifts this from a dressing into something restaurant-quality."
+          "tip": "Just a few drops \u2014 very strong, but adds the nutty depth that lifts this from a dressing into something restaurant-quality."
         },
         {
           "item": "Palm sugar",
-          "tip": "Half a teaspoon dissolved in the lime juice — balances the acidity and adds the subtle complexity that defines Thai dressings."
+          "tip": "Half a teaspoon dissolved in the lime juice \u2014 balances the acidity and adds the subtle complexity that defines Thai dressings."
         }
-      ]
+      ],
+      "description": "A lighter take on Asian dressing that leads with lime rather than soy \u2014 closer in spirit to Vietnamese and Thai cooking than Chinese or Japanese. Fresh and citrusy, it suits summer eating and works particularly well on noodle salads."
     },
     {
       "id": "miso_ginger",
       "name": "Miso & Ginger",
       "cuisine": "japanese",
       "sw": "synned",
-      "sw_note": "Miso is synned — check brand. Two tablespoons across 5 portions is minimal.",
+      "sw_note": "Miso is synned \u2014 check brand. Two tablespoons across 5 portions is minimal.",
       "works_with": [
         "asian slaw",
         "cucumber salad",
@@ -1932,9 +1961,9 @@
           "2 tbsp rice wine vinegar",
           "1 tbsp soy sauce",
           "thumb of ginger, grated",
-          "1–2 tbsp cold water to thin"
+          "1\u20132 tbsp cold water to thin"
         ],
-        "method": "Whisk together and thin with water until it pours easily — miso thickens it significantly. Taste for balance: you may want a little more vinegar. Works cold over soba noodles, shredded cabbage, roasted sweet potato or cucumber."
+        "method": "Whisk together and thin with water until it pours easily \u2014 miso thickens it significantly. Taste for balance: you may want a little more vinegar. Works cold over soba noodles, shredded cabbage, roasted sweet potato or cucumber."
       },
       "required_items": [
         "White miso paste",
@@ -1945,13 +1974,14 @@
       "elevate": [
         {
           "item": "Sesame oil",
-          "tip": "A few drops transforms this into something restaurant-quality. Extremely strong — less than you think."
+          "tip": "A few drops transforms this into something restaurant-quality. Extremely strong \u2014 less than you think."
         },
         {
           "item": "Mirin",
-          "tip": "A teaspoon instead of some of the water — adds subtle sweetness and makes the dressing glossier."
+          "tip": "A teaspoon instead of some of the water \u2014 adds subtle sweetness and makes the dressing glossier."
         }
-      ]
+      ],
+      "description": "A dressing with roots in Japanese cooking \u2014 the miso and ginger combination associated with Kyoto restaurant salads and popularised worldwide by Japanese-American diners. Earthy and savoury, with more depth than any standard vinaigrette."
     }
   ]
 }

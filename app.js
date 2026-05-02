@@ -36,7 +36,7 @@ function hexToRgba(hex, alpha) {
 
 async function init() {
   try {
-    const res = await fetch('./sauces.json?v=6');
+    const res = await fetch('./sauces.json?v=9');
     data = await res.json();
   } catch (e) {
     document.getElementById('main').innerHTML = '<p style="padding:24px;color:red">Could not load sauces.json</p>';
@@ -137,6 +137,7 @@ function showDetail(item) {
       <span class="detail-cuisine">${fmtCuisine(item.cuisine)}</span>
       <div class="badges">${swBadge(item)}${heatBadge(item)}</div>
     </div>
+    ${item.description ? `<p class="detail-desc">${item.description}</p>` : ''}
     <div class="detail-body">
       <div>
         <div class="section-label">Ingredients &mdash; 5 portions</div>
