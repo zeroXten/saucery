@@ -493,6 +493,55 @@
       "description": "A traditional Mexican sauce built on charred tomatoes and rehydrated dried chillies \u2014 the charring technique predates the Spanish conquest and gives it a depth that no amount of cooking time can replicate. Smoky and punchy, equally good warm or at room temperature."
     },
     {
+      "id": "chimichurri",
+      "name": "Chimichurri",
+      "cuisine": "argentinian",
+      "sw": "synned",
+      "sw_note": "Oil-based \u2014 about 3 syns per portion.",
+      "adult_heat": false,
+      "pairs_with": {
+        "proteins": [
+          "sirloin",
+          "flank steak",
+          "chicken thighs",
+          "lamb chops"
+        ],
+        "vegetables": [
+          "grilled courgette",
+          "roasted peppers",
+          "grilled corn"
+        ]
+      },
+      "recipe_5": {
+        "ingredients": [
+          "large bunch flat-leaf parsley (about 40g), very finely chopped",
+          "4 cloves garlic, finely minced",
+          "3 tbsp red wine vinegar",
+          "1 tsp dried oregano",
+          "120ml olive oil",
+          "salt + black pepper"
+        ],
+        "method": "Chop parsley as finely as you can \u2014 a food processor works but keep it rough. Combine with garlic, oregano, red wine vinegar, and oil. Season well and rest for at least 20 minutes before serving. Better still, make it a few hours ahead."
+      },
+      "required_items": [
+        "Flat-leaf parsley",
+        "Garlic",
+        "Red wine vinegar",
+        "Dried oregano"
+      ],
+      "elevate": [
+        {
+          "item": "Chipotle paste",
+          "tip": "A teaspoon stirred in adds smoky heat \u2014 moves it towards Mexican territory but works very well with beef."
+        },
+        {
+          "item": "Preserved lemon",
+          "tip": "A little finely chopped preserved lemon rind in place of some of the vinegar adds salty, citrusy complexity."
+        }
+      ],
+      "description": "Argentina's table sauce \u2014 made in bulk for every asado and used as liberally as ketchup. Bright, sharp, and herby, it cuts through fatty grilled meat in a way nothing else quite does. A proper summer sauce."
+    },
+    {
       "id": "north_african",
       "name": "Tagine Base",
       "cuisine": "north_african",
@@ -567,6 +616,65 @@
         }
       ],
       "description": "The base of Moroccan tagine cooking \u2014 a warmly spiced braise that cooks low and slow alongside lamb, chicken, or root vegetables. The combination of sweet spices with savoury meat is distinctly North African, and it's at its best on a cold evening."
+    },
+    {
+      "id": "chermoula",
+      "name": "Chermoula",
+      "cuisine": "north_african",
+      "sw": "synned",
+      "sw_note": "Oil-based \u2014 roughly 3 syns per portion depending on how generously you dress.",
+      "adult_heat": false,
+      "pairs_with": {
+        "proteins": [
+          "white fish",
+          "salmon",
+          "chicken thighs",
+          "lamb"
+        ],
+        "carbs": [
+          "couscous",
+          "flatbread"
+        ],
+        "vegetables": [
+          "roasted aubergine",
+          "roasted courgette",
+          "roasted cauliflower"
+        ]
+      },
+      "recipe_5": {
+        "ingredients": [
+          "large bunch fresh coriander (about 25g)",
+          "handful flat-leaf parsley",
+          "3 cloves garlic",
+          "1.5 tsp cumin (ground)",
+          "1 tsp coriander (ground)",
+          "1 tsp sweet paprika",
+          "juice of 1 lemon",
+          "4 tbsp olive oil",
+          "salt + pepper"
+        ],
+        "method": "Blitz everything to a rough paste \u2014 texture is good, it shouldn't be completely smooth. Adjust lemon and seasoning. Use immediately as a sauce or leave overnight as a marinade; it improves with time."
+      },
+      "required_items": [
+        "Fresh coriander",
+        "Flat-leaf parsley",
+        "Garlic",
+        "Cumin (ground)",
+        "Coriander (ground)",
+        "Paprika (sweet)",
+        "Lemon"
+      ],
+      "elevate": [
+        {
+          "item": "Preserved lemon",
+          "tip": "A small amount of finely chopped preserved lemon rind instead of fresh lemon completely transforms it \u2014 more depth, less sharpness."
+        },
+        {
+          "item": "Harissa paste",
+          "tip": "Stir in a teaspoon for heat and complexity \u2014 the standard Moroccan combination and very good on fish."
+        }
+      ],
+      "description": "Morocco's herb sauce and marinade \u2014 used across North Africa wherever grilled fish or meat appears. Vibrant green, sharp from the lemon and warm from the cumin. Works particularly well in spring and summer when you want something fresh that still has backbone."
     },
     {
       "id": "west_african_groundnut",
@@ -858,6 +966,62 @@
         }
       ],
       "description": "Vietnamese cooking is often described as the freshest of the Southeast Asian cuisines \u2014 more herbs, more citrus, less fat. This broth follows that logic: light, fragrant, and built for poaching rather than coating."
+    },
+    {
+      "id": "satay",
+      "name": "Satay",
+      "cuisine": "asian",
+      "sw": "synned",
+      "sw_note": "Peanut butter and sesame oil both synned \u2014 roughly 4\u20135 syns per portion.",
+      "adult_heat": false,
+      "pairs_with": {
+        "proteins": [
+          "chicken skewers",
+          "beef strips",
+          "tofu",
+          "prawns"
+        ],
+        "carbs": [
+          "rice noodles",
+          "rice"
+        ],
+        "vegetables": [
+          "cucumber",
+          "spring onion",
+          "shredded cabbage"
+        ]
+      },
+      "recipe_5": {
+        "ingredients": [
+          "5 tbsp peanut butter (smooth)",
+          "2 tbsp soy sauce",
+          "juice of 1 lime",
+          "1 tsp sesame oil",
+          "thumb-sized piece fresh ginger, grated",
+          "2 cloves garlic, crushed",
+          "warm water to loosen"
+        ],
+        "method": "Whisk peanut butter, soy, lime juice, sesame oil, ginger, and garlic together. Add warm water a tablespoon at a time until pourable. Taste and adjust \u2014 more lime for sharpness, more soy for salt. It thickens when it cools, so loosen again before serving."
+      },
+      "required_items": [
+        "Peanut butter (smooth)",
+        "Soy sauce",
+        "Lime",
+        "Sesame oil",
+        "Fresh ginger",
+        "Garlic"
+      ],
+      "elevate": [
+        {
+          "item": "Gochujang",
+          "tip": "A teaspoon added to the mix brings heat and a fermented depth \u2014 more Korean-leaning but very good."
+        },
+        {
+          "item": "Kaffir lime leaves",
+          "tip": "Finely shredded and stirred in just before serving for a bright citrus fragrance."
+        }
+      ],
+      "description": "Southeast Asian in origin, with roots in Indonesian and Malaysian street food \u2014 the sauce that arrives with skewers of grilled meat at every night market from Jakarta to Kuala Lumpur. Rich and nutty, with enough lime and soy to stop it being heavy. Works year-round."
     },
     {
       "id": "chinese_stirfry",
