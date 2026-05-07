@@ -1,5 +1,6 @@
 let data = null;
 let currentCat = 'sauces';
+let currentServings = parseInt(localStorage.getItem('serving_size') || '4', 10);
 
 const CUISINE_COLOURS = {
   // Europe — navy blues to warm terracotta
@@ -28,6 +29,41 @@ const CUISINE_COLOURS = {
   japanese:       '#5a3e6a',
 };
 
+function formatFraction(n) {
+  const whole = Math.floor(n);
+  const frac = n - whole;
+  const fracStr = frac < 0.01 ? '' : frac < 0.2 ? '⅛' : frac < 0.37 ? '¼' : frac < 0.62 ? '½' : frac < 0.87 ? '¾' : '';
+  if (!fracStr) return whole ? String(whole) : '0';
+  return whole ? `${whole}${fracStr}` : fracStr;
+}
+
+function pluralizeUnit(unit, qty) {
+  if (qty <= 1) return unit;
+  const plurals = { clove: 'cloves', tin: 'tins', bunch: 'bunches', handful: 'handfuls', thumb: 'thumbs' };
+  return plurals[unit] || unit;
+}
+
+function renderIngredient(ing, scaleFactor) {
+  if (ing.qty === null || ing.qty === undefined) return ing.item;
+
+  const scaled = ing.qty * scaleFactor;
+
+  if (ing.unit === 'lemon' || ing.unit === 'lime') {
+    const count = Math.max(1, Math.round(scaled));
+    const fruit = count === 1 ? `1 ${ing.unit}` : `${count} ${ing.unit}s`;
+    return `${ing.item} of ${fruit}`;
+  }
+
+  if (ing.unit === 'ml' || ing.unit === 'g') {
+    const rounded = Math.max(1, Math.round(scaled / 5) * 5);
+    return `${rounded}${ing.unit} ${ing.item}`;
+  }
+
+  const fmt = formatFraction(scaled);
+  const unit = pluralizeUnit(ing.unit, scaled);
+  return `${fmt} ${unit} ${ing.item}`;
+}
+
 function hexToRgba(hex, alpha) {
   const r = parseInt(hex.slice(1, 3), 16);
   const g = parseInt(hex.slice(3, 5), 16);
@@ -37,7 +73,7 @@ function hexToRgba(hex, alpha) {
 
 async function init() {
   try {
-    const res = await fetch('./sauces.json?v=12');
+    const res = await fetch('./sauces.json?v=13');
     data = await res.json();
   } catch (e) {
     document.getElementById('main').innerHTML = '<p style="padding:24px;color:red">Could not load sauces.json</p>';
@@ -114,10 +150,6 @@ function showDetail(item) {
   const ingredients = recipe.ingredients || [];
   const method = recipe.method || '';
 
-  const ingredientsHtml = ingredients
-    .map(i => `<li>${i}</li>`)
-    .join('');
-
   const swNote = item.sw_note
     ? `<div class="notice notice-syn"><strong>Slimming World:</strong> ${item.sw_note}</div>`
     : '';
@@ -141,8 +173,16 @@ function showDetail(item) {
     ${item.description ? `<p class="detail-desc">${item.description}</p>` : ''}
     <div class="detail-body">
       <div>
-        <div class="section-label">Ingredients &mdash; 5 portions</div>
-        <ul class="ingredient-list">${ingredientsHtml}</ul>
+        <div class="section-label">
+          <span>Ingredients</span>
+          <div class="serving-picker">
+            <button class="serving-btn" id="serving-dec">&#8722;</button>
+            <span class="serving-count" id="serving-count">${currentServings}</span>
+            <button class="serving-btn" id="serving-inc">&#43;</button>
+            <span class="serving-label">portions</span>
+          </div>
+        </div>
+        <ul class="ingredient-list" id="ingredient-list"></ul>
       </div>
       <div>
         <div class="section-label">Method</div>
@@ -154,6 +194,30 @@ function showDetail(item) {
     ${pairsHtml}
     ${elevateHtml}
   `;
+
+  function renderIngredients() {
+    const scaleFactor = currentServings / 5;
+    el.querySelector('#ingredient-list').innerHTML = ingredients
+      .map(i => `<li>${renderIngredient(i, scaleFactor)}</li>`)
+      .join('');
+    el.querySelector('#serving-count').textContent = currentServings;
+  }
+
+  renderIngredients();
+
+  el.querySelector('#serving-dec').addEventListener('click', () => {
+    if (currentServings <= 1) return;
+    currentServings--;
+    localStorage.setItem('serving_size', currentServings);
+    renderIngredients();
+  });
+
+  el.querySelector('#serving-inc').addEventListener('click', () => {
+    if (currentServings >= 12) return;
+    currentServings++;
+    localStorage.setItem('serving_size', currentServings);
+    renderIngredients();
+  });
 
   setMain(el);
 }

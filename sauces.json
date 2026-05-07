@@ -257,14 +257,44 @@
       },
       "recipe_5": {
         "ingredients": [
-          "600ml chicken stock",
-          "1 large onion or 3 shallots, finely diced",
-          "4 cloves garlic, crushed",
-          "1 tbsp Worcestershire sauce",
-          "juice of half a lemon",
-          "handful flat-leaf parsley, chopped",
-          "salt + white pepper",
-          "thickening granules"
+          {
+            "qty": 600,
+            "unit": "ml",
+            "item": "chicken stock"
+          },
+          {
+            "qty": 1,
+            "unit": "large",
+            "item": "onion (or 3 shallots), finely diced"
+          },
+          {
+            "qty": 4,
+            "unit": "clove",
+            "item": "garlic, crushed"
+          },
+          {
+            "qty": 1,
+            "unit": "tbsp",
+            "item": "Worcestershire sauce"
+          },
+          {
+            "qty": 0.5,
+            "unit": "lemon",
+            "item": "juice"
+          },
+          {
+            "qty": 1,
+            "unit": "handful",
+            "item": "flat-leaf parsley, chopped"
+          },
+          {
+            "qty": null,
+            "item": "salt + white pepper"
+          },
+          {
+            "qty": null,
+            "item": "thickening granules, to taste"
+          }
         ],
         "method": "Soften shallots and garlic gently \u2014 don't let them colour. Add stock and Worcestershire. Simmer and reduce by about a third. Thicken with granules to your liking. Add lemon and parsley off the heat. Clean and simple \u2014 the protein should be the main event here."
       },
@@ -326,14 +356,45 @@
       },
       "recipe_5": {
         "ingredients": [
-          "2 tins chopped tomatoes (800g)",
-          "1 large onion, diced",
-          "4-5 cloves garlic, crushed",
-          "2 tbsp tomato paste",
-          "1 tbsp Worcestershire sauce",
-          "1 tbsp red wine vinegar",
-          "handful fresh basil or 1 tsp dried oregano",
-          "salt + black pepper"
+          {
+            "qty": 2,
+            "unit": "tin",
+            "item": "chopped tomatoes"
+          },
+          {
+            "qty": 1,
+            "unit": "large",
+            "item": "onion, diced"
+          },
+          {
+            "qty": 4,
+            "unit": "clove",
+            "item": "garlic, crushed"
+          },
+          {
+            "qty": 2,
+            "unit": "tbsp",
+            "item": "tomato paste"
+          },
+          {
+            "qty": 1,
+            "unit": "tbsp",
+            "item": "Worcestershire sauce"
+          },
+          {
+            "qty": 1,
+            "unit": "tbsp",
+            "item": "red wine vinegar"
+          },
+          {
+            "qty": 1,
+            "unit": "handful",
+            "item": "fresh basil, torn (or 1 tsp dried oregano)"
+          },
+          {
+            "qty": null,
+            "item": "salt + black pepper"
+          }
         ],
         "method": "Soften onion and garlic in cast iron. Add tomatoes, paste, Worcestershire, vinegar, salt, pepper. Into 180\u00b0C oven for 25-30 mins until reduced and slightly caramelised at the edges. Stir in herbs just before serving."
       },
@@ -395,15 +456,50 @@
       },
       "recipe_5": {
         "ingredients": [
-          "2 tins chopped tomatoes (800g)",
-          "1 large onion, diced",
-          "4-5 cloves garlic, crushed",
-          "1.5 tsp smoked paprika",
-          "1 tsp cumin",
-          "2 tbsp tomato paste",
-          "1 tbsp red wine vinegar",
-          "1 tsp dried oregano",
-          "salt + black pepper"
+          {
+            "qty": 2,
+            "unit": "tin",
+            "item": "chopped tomatoes"
+          },
+          {
+            "qty": 1,
+            "unit": "large",
+            "item": "onion, diced"
+          },
+          {
+            "qty": 4,
+            "unit": "clove",
+            "item": "garlic, crushed"
+          },
+          {
+            "qty": 1.5,
+            "unit": "tsp",
+            "item": "smoked paprika"
+          },
+          {
+            "qty": 1,
+            "unit": "tsp",
+            "item": "cumin"
+          },
+          {
+            "qty": 2,
+            "unit": "tbsp",
+            "item": "tomato paste"
+          },
+          {
+            "qty": 1,
+            "unit": "tbsp",
+            "item": "red wine vinegar"
+          },
+          {
+            "qty": 1,
+            "unit": "tsp",
+            "item": "dried oregano"
+          },
+          {
+            "qty": null,
+            "item": "salt + black pepper"
+          }
         ],
         "method": "Soften onion and garlic. Add spices and stir for 1 min before adding everything else. 180\u00b0C oven 25-30 mins. Smokier and earthier than Italian \u2014 works particularly well with fish."
       },
@@ -468,14 +564,45 @@
       },
       "recipe_5": {
         "ingredients": [
-          "2 tins chopped tomatoes (800g)",
-          "1 large onion, diced",
-          "4-5 cloves garlic, crushed",
-          "1.5 tsp cumin",
-          "1.5 tsp smoked paprika",
-          "juice of 1 lime",
-          "handful fresh coriander",
-          "salt + black pepper"
+          {
+            "qty": 2,
+            "unit": "tin",
+            "item": "chopped tomatoes"
+          },
+          {
+            "qty": 1,
+            "unit": "large",
+            "item": "onion, diced"
+          },
+          {
+            "qty": 4,
+            "unit": "clove",
+            "item": "garlic, crushed"
+          },
+          {
+            "qty": 1.5,
+            "unit": "tsp",
+            "item": "cumin"
+          },
+          {
+            "qty": 1.5,
+            "unit": "tsp",
+            "item": "smoked paprika"
+          },
+          {
+            "qty": 1,
+            "unit": "lime",
+            "item": "juice"
+          },
+          {
+            "qty": 1,
+            "unit": "handful",
+            "item": "fresh coriander"
+          },
+          {
+            "qty": null,
+            "item": "salt + black pepper"
+          }
         ],
         "method": "Soften onion and garlic. Toast spices 1 min. Add tomatoes and lime. 180\u00b0C oven 25 mins. Stir in coriander at the end. Chili on the table."
       },
@@ -522,12 +649,35 @@
       },
       "recipe_5": {
         "ingredients": [
-          "large bunch flat-leaf parsley (about 40g), very finely chopped",
-          "4 cloves garlic, finely minced",
-          "3 tbsp red wine vinegar",
-          "1 tsp dried oregano",
-          "120ml olive oil",
-          "salt + black pepper"
+          {
+            "qty": 40,
+            "unit": "g",
+            "item": "flat-leaf parsley, very finely chopped"
+          },
+          {
+            "qty": 4,
+            "unit": "clove",
+            "item": "garlic, finely minced"
+          },
+          {
+            "qty": 3,
+            "unit": "tbsp",
+            "item": "red wine vinegar"
+          },
+          {
+            "qty": 1,
+            "unit": "tsp",
+            "item": "dried oregano"
+          },
+          {
+            "qty": 120,
+            "unit": "ml",
+            "item": "olive oil"
+          },
+          {
+            "qty": null,
+            "item": "salt + black pepper"
+          }
         ],
         "method": "Chop parsley as finely as you can \u2014 a food processor works but keep it rough. Combine with garlic, oregano, red wine vinegar, and oil. Season well and rest for at least 20 minutes before serving. Better still, make it a few hours ahead."
       },
@@ -585,18 +735,65 @@
       },
       "recipe_5": {
         "ingredients": [
-          "2 tins chopped tomatoes (800g)",
-          "1 large onion, diced",
-          "4 cloves garlic, crushed",
-          "thumb of ginger, grated",
-          "1 tsp cumin",
-          "1 tsp ground coriander",
-          "0.5 tsp cinnamon",
-          "1 tsp paprika",
-          "2 tbsp tomato paste",
-          "juice of half a lemon",
-          "handful fresh coriander or flat-leaf parsley",
-          "salt + black pepper"
+          {
+            "qty": 2,
+            "unit": "tin",
+            "item": "chopped tomatoes"
+          },
+          {
+            "qty": 1,
+            "unit": "large",
+            "item": "onion, diced"
+          },
+          {
+            "qty": 4,
+            "unit": "clove",
+            "item": "garlic, crushed"
+          },
+          {
+            "qty": 1,
+            "unit": "thumb",
+            "item": "ginger, grated"
+          },
+          {
+            "qty": 1,
+            "unit": "tsp",
+            "item": "cumin"
+          },
+          {
+            "qty": 1,
+            "unit": "tsp",
+            "item": "ground coriander"
+          },
+          {
+            "qty": 0.5,
+            "unit": "tsp",
+            "item": "cinnamon"
+          },
+          {
+            "qty": 1,
+            "unit": "tsp",
+            "item": "paprika"
+          },
+          {
+            "qty": 2,
+            "unit": "tbsp",
+            "item": "tomato paste"
+          },
+          {
+            "qty": 0.5,
+            "unit": "lemon",
+            "item": "juice"
+          },
+          {
+            "qty": 1,
+            "unit": "handful",
+            "item": "fresh coriander or flat-leaf parsley"
+          },
+          {
+            "qty": null,
+            "item": "salt + black pepper"
+          }
         ],
         "method": "Soften aromatics, toast spices 1 min. Add tomatoes and paste. 180\u00b0C oven 25-30 mins. The cinnamon is what makes this \u2014 don't skip it. Stir in herbs at end."
       },
@@ -651,15 +848,50 @@
       },
       "recipe_5": {
         "ingredients": [
-          "large bunch fresh coriander (about 25g)",
-          "handful flat-leaf parsley",
-          "3 cloves garlic",
-          "1.5 tsp cumin (ground)",
-          "1 tsp coriander (ground)",
-          "1 tsp sweet paprika",
-          "juice of 1 lemon",
-          "4 tbsp olive oil",
-          "salt + pepper"
+          {
+            "qty": 25,
+            "unit": "g",
+            "item": "fresh coriander"
+          },
+          {
+            "qty": 1,
+            "unit": "handful",
+            "item": "flat-leaf parsley"
+          },
+          {
+            "qty": 3,
+            "unit": "clove",
+            "item": "garlic"
+          },
+          {
+            "qty": 1.5,
+            "unit": "tsp",
+            "item": "cumin"
+          },
+          {
+            "qty": 1,
+            "unit": "tsp",
+            "item": "ground coriander"
+          },
+          {
+            "qty": 1,
+            "unit": "tsp",
+            "item": "sweet paprika"
+          },
+          {
+            "qty": 1,
+            "unit": "lemon",
+            "item": "juice"
+          },
+          {
+            "qty": 4,
+            "unit": "tbsp",
+            "item": "olive oil"
+          },
+          {
+            "qty": null,
+            "item": "salt + pepper"
+          }
         ],
         "method": "Blitz everything to a rough paste \u2014 texture is good, it shouldn't be completely smooth. Adjust lemon and seasoning. Use immediately as a sauce or leave overnight as a marinade; it improves with time."
       },
@@ -718,16 +950,55 @@
       },
       "recipe_5": {
         "ingredients": [
-          "2 tins chopped tomatoes (800g)",
-          "1 large onion, diced",
-          "4 cloves garlic, crushed",
-          "thumb of ginger, grated",
-          "1 tsp cumin",
-          "0.5 tsp cinnamon",
-          "1 tsp paprika",
-          "2-3 tbsp smooth peanut butter",
-          "juice of half a lemon",
-          "salt + black pepper"
+          {
+            "qty": 2,
+            "unit": "tin",
+            "item": "chopped tomatoes"
+          },
+          {
+            "qty": 1,
+            "unit": "large",
+            "item": "onion, diced"
+          },
+          {
+            "qty": 4,
+            "unit": "clove",
+            "item": "garlic, crushed"
+          },
+          {
+            "qty": 1,
+            "unit": "thumb",
+            "item": "ginger, grated"
+          },
+          {
+            "qty": 1,
+            "unit": "tsp",
+            "item": "cumin"
+          },
+          {
+            "qty": 0.5,
+            "unit": "tsp",
+            "item": "cinnamon"
+          },
+          {
+            "qty": 1,
+            "unit": "tsp",
+            "item": "paprika"
+          },
+          {
+            "qty": 2,
+            "unit": "tbsp",
+            "item": "smooth peanut butter"
+          },
+          {
+            "qty": 0.5,
+            "unit": "lemon",
+            "item": "juice"
+          },
+          {
+            "qty": null,
+            "item": "salt + black pepper"
+          }
         ],
         "method": "Soften aromatics, toast spices 1 min. Add tomatoes and peanut butter \u2014 stir well to combine before putting in the oven. 180\u00b0C oven 25-30 mins. Thickens naturally from the peanut butter."
       },
@@ -792,18 +1063,65 @@
       },
       "recipe_5": {
         "ingredients": [
-          "2 tins chopped tomatoes (800g)",
-          "1 large onion, diced",
-          "4 cloves garlic, crushed",
-          "thumb of ginger, grated",
-          "1 tsp cumin",
-          "1 tsp ground coriander",
-          "0.5 tsp turmeric",
-          "1 tsp garam masala",
-          "2 tbsp tomato paste",
-          "juice of 1 lime",
-          "handful fresh coriander",
-          "salt"
+          {
+            "qty": 2,
+            "unit": "tin",
+            "item": "chopped tomatoes"
+          },
+          {
+            "qty": 1,
+            "unit": "large",
+            "item": "onion, diced"
+          },
+          {
+            "qty": 4,
+            "unit": "clove",
+            "item": "garlic, crushed"
+          },
+          {
+            "qty": 1,
+            "unit": "thumb",
+            "item": "ginger, grated"
+          },
+          {
+            "qty": 1,
+            "unit": "tsp",
+            "item": "cumin"
+          },
+          {
+            "qty": 1,
+            "unit": "tsp",
+            "item": "ground coriander"
+          },
+          {
+            "qty": 0.5,
+            "unit": "tsp",
+            "item": "turmeric"
+          },
+          {
+            "qty": 1,
+            "unit": "tsp",
+            "item": "garam masala"
+          },
+          {
+            "qty": 2,
+            "unit": "tbsp",
+            "item": "tomato paste"
+          },
+          {
+            "qty": 1,
+            "unit": "lime",
+            "item": "juice"
+          },
+          {
+            "qty": 1,
+            "unit": "handful",
+            "item": "fresh coriander"
+          },
+          {
+            "qty": null,
+            "item": "salt"
+          }
         ],
         "method": "Soften onion, garlic, ginger. Add spices, toast 1 min. Add tomatoes and paste. 180\u00b0C oven 25-30 mins. Stir in lime juice and coriander at the end."
       },
@@ -870,15 +1188,50 @@
       },
       "recipe_5": {
         "ingredients": [
-          "1 tin light coconut milk (400ml)",
-          "1 onion, diced",
-          "4 cloves garlic, crushed",
-          "thumb of ginger, grated",
-          "1 tsp lemongrass paste",
-          "1-2 tbsp fish sauce \u2014 start with 1",
-          "juice of 1 lime",
-          "handful fresh coriander",
-          "salt if needed"
+          {
+            "qty": 1,
+            "unit": "tin",
+            "item": "light coconut milk (400ml)"
+          },
+          {
+            "qty": 1,
+            "unit": "medium",
+            "item": "onion, diced"
+          },
+          {
+            "qty": 4,
+            "unit": "clove",
+            "item": "garlic, crushed"
+          },
+          {
+            "qty": 1,
+            "unit": "thumb",
+            "item": "ginger, grated"
+          },
+          {
+            "qty": 1,
+            "unit": "tsp",
+            "item": "lemongrass paste"
+          },
+          {
+            "qty": 1,
+            "unit": "tbsp",
+            "item": "fish sauce (add more to taste)"
+          },
+          {
+            "qty": 1,
+            "unit": "lime",
+            "item": "juice"
+          },
+          {
+            "qty": 1,
+            "unit": "handful",
+            "item": "fresh coriander"
+          },
+          {
+            "qty": null,
+            "item": "salt if needed"
+          }
         ],
         "method": "Soften aromatics with lemongrass paste. Add coconut milk and fish sauce. Simmer gently 15-20 mins \u2014 don't boil hard or the coconut milk splits. Add protein with enough time to cook through. Stir in lime juice and coriander at the very end. Fish sauce is strong \u2014 taste before adding more."
       },
@@ -941,15 +1294,50 @@
       },
       "recipe_5": {
         "ingredients": [
-          "500ml chicken or veg stock",
-          "1 onion, diced",
-          "4 cloves garlic, crushed",
-          "thumb of ginger, grated",
-          "1 tsp lemongrass paste",
-          "1\u20132 tbsp fish sauce \u2014 start with 1",
-          "juice of 1 lime",
-          "handful fresh coriander",
-          "salt if needed"
+          {
+            "qty": 500,
+            "unit": "ml",
+            "item": "chicken or veg stock"
+          },
+          {
+            "qty": 1,
+            "unit": "medium",
+            "item": "onion, diced"
+          },
+          {
+            "qty": 4,
+            "unit": "clove",
+            "item": "garlic, crushed"
+          },
+          {
+            "qty": 1,
+            "unit": "thumb",
+            "item": "ginger, grated"
+          },
+          {
+            "qty": 1,
+            "unit": "tsp",
+            "item": "lemongrass paste"
+          },
+          {
+            "qty": 1,
+            "unit": "tbsp",
+            "item": "fish sauce (add more to taste)"
+          },
+          {
+            "qty": 1,
+            "unit": "lime",
+            "item": "juice"
+          },
+          {
+            "qty": 1,
+            "unit": "handful",
+            "item": "fresh coriander"
+          },
+          {
+            "qty": null,
+            "item": "salt if needed"
+          }
         ],
         "method": "Gently soften onion and garlic. Add lemongrass paste and cook 1 min. Add stock and fish sauce \u2014 taste before adding more, it's very salty. Simmer 15 mins below a boil. Add lime juice and coriander off the heat. Lighter than Thai with no coconut milk \u2014 clean, fragrant and very good with fish and prawns."
       },
@@ -1001,13 +1389,40 @@
       },
       "recipe_5": {
         "ingredients": [
-          "5 tbsp peanut butter (smooth)",
-          "2 tbsp soy sauce",
-          "juice of 1 lime",
-          "1 tsp sesame oil",
-          "thumb-sized piece fresh ginger, grated",
-          "2 cloves garlic, crushed",
-          "warm water to loosen"
+          {
+            "qty": 5,
+            "unit": "tbsp",
+            "item": "peanut butter, smooth"
+          },
+          {
+            "qty": 2,
+            "unit": "tbsp",
+            "item": "soy sauce"
+          },
+          {
+            "qty": 1,
+            "unit": "lime",
+            "item": "juice"
+          },
+          {
+            "qty": 1,
+            "unit": "tsp",
+            "item": "sesame oil"
+          },
+          {
+            "qty": 1,
+            "unit": "thumb",
+            "item": "fresh ginger, grated"
+          },
+          {
+            "qty": 2,
+            "unit": "clove",
+            "item": "garlic, crushed"
+          },
+          {
+            "qty": null,
+            "item": "warm water to loosen"
+          }
         ],
         "method": "Whisk peanut butter, soy, lime juice, sesame oil, ginger, and garlic together. Add warm water a tablespoon at a time until pourable. Taste and adjust \u2014 more lime for sharpness, more soy for salt. It thickens when it cools, so loosen again before serving."
       },
@@ -1069,15 +1484,50 @@
       },
       "recipe_5": {
         "ingredients": [
-          "400ml chicken or veg stock",
-          "1 onion, sliced thin",
-          "4 cloves garlic, crushed",
-          "thumb of ginger, grated",
-          "0.5 tsp five spice",
-          "2-3 tbsp soy sauce",
-          "2 tbsp white miso",
-          "1 tbsp rice wine vinegar",
-          "thickening granules to finish"
+          {
+            "qty": 400,
+            "unit": "ml",
+            "item": "chicken or veg stock"
+          },
+          {
+            "qty": 1,
+            "unit": "medium",
+            "item": "onion, sliced thin"
+          },
+          {
+            "qty": 4,
+            "unit": "clove",
+            "item": "garlic, crushed"
+          },
+          {
+            "qty": 1,
+            "unit": "thumb",
+            "item": "ginger, grated"
+          },
+          {
+            "qty": 0.5,
+            "unit": "tsp",
+            "item": "five spice"
+          },
+          {
+            "qty": 2,
+            "unit": "tbsp",
+            "item": "soy sauce"
+          },
+          {
+            "qty": 2,
+            "unit": "tbsp",
+            "item": "white miso"
+          },
+          {
+            "qty": 1,
+            "unit": "tbsp",
+            "item": "rice wine vinegar"
+          },
+          {
+            "qty": null,
+            "item": "thickening granules, to finish"
+          }
         ],
         "method": "High heat throughout. Stir-fry aromatics until just softening. Add five spice, toss 30 secs. Add stock, soy, miso, vinegar. Cook protein and veg in the sauce. Thicken with granules at the end."
       },
@@ -1138,14 +1588,44 @@
       },
       "recipe_5": {
         "ingredients": [
-          "500ml chicken or veg stock",
-          "4 cloves garlic, crushed",
-          "thumb of ginger, grated",
-          "3 tbsp white miso",
-          "2 tbsp soy sauce",
-          "1 tbsp rice wine vinegar",
-          "thickening granules to finish",
-          "spring onions to garnish"
+          {
+            "qty": 500,
+            "unit": "ml",
+            "item": "chicken or veg stock"
+          },
+          {
+            "qty": 4,
+            "unit": "clove",
+            "item": "garlic, crushed"
+          },
+          {
+            "qty": 1,
+            "unit": "thumb",
+            "item": "ginger, grated"
+          },
+          {
+            "qty": 3,
+            "unit": "tbsp",
+            "item": "white miso"
+          },
+          {
+            "qty": 2,
+            "unit": "tbsp",
+            "item": "soy sauce"
+          },
+          {
+            "qty": 1,
+            "unit": "tbsp",
+            "item": "rice wine vinegar"
+          },
+          {
+            "qty": null,
+            "item": "thickening granules, to finish"
+          },
+          {
+            "qty": null,
+            "item": "spring onions to garnish"
+          }
         ],
         "method": "Gently warm stock with garlic and ginger \u2014 keep it below a boil. Whisk miso in off the heat or on very low (boiling degrades it). Add soy and vinegar. Taste as you go \u2014 it's delicate. Thicken lightly with granules. Garnish with spring onion."
       },
@@ -1209,15 +1689,49 @@
       },
       "recipe_5": {
         "ingredients": [
-          "400ml chicken or beef stock",
-          "1 onion, diced",
-          "4 cloves garlic, crushed",
-          "thumb of ginger, grated",
-          "3 tbsp soy sauce",
-          "2 tbsp white miso",
-          "1 tbsp rice wine vinegar",
-          "few drops sesame oil to finish (synned \u2014 a little goes a long way)",
-          "thickening granules"
+          {
+            "qty": 400,
+            "unit": "ml",
+            "item": "chicken or beef stock"
+          },
+          {
+            "qty": 1,
+            "unit": "medium",
+            "item": "onion, diced"
+          },
+          {
+            "qty": 4,
+            "unit": "clove",
+            "item": "garlic, crushed"
+          },
+          {
+            "qty": 1,
+            "unit": "thumb",
+            "item": "ginger, grated"
+          },
+          {
+            "qty": 3,
+            "unit": "tbsp",
+            "item": "soy sauce"
+          },
+          {
+            "qty": 2,
+            "unit": "tbsp",
+            "item": "white miso"
+          },
+          {
+            "qty": 1,
+            "unit": "tbsp",
+            "item": "rice wine vinegar"
+          },
+          {
+            "qty": null,
+            "item": "few drops sesame oil to finish (synned)"
+          },
+          {
+            "qty": null,
+            "item": "thickening granules, to taste"
+          }
         ],
         "method": "Soften aromatics. Add stock, soy, miso, vinegar. Simmer 10-15 mins. Thicken with granules. Finish with just a few drops of sesame oil \u2014 it's very strong, don't overdo it. Adults add gochujang at the table."
       },
@@ -1338,10 +1852,25 @@
       },
       "recipe_5": {
         "ingredients": [
-          "1 tsp dried thyme (or 3-4 fresh sprigs)",
-          "zest of 1 lemon",
-          "0.5 tsp garlic powder",
-          "black pepper + salt"
+          {
+            "qty": 1,
+            "unit": "tsp",
+            "item": "dried thyme"
+          },
+          {
+            "qty": 1,
+            "unit": "lemon",
+            "item": "zest"
+          },
+          {
+            "qty": 0.5,
+            "unit": "tsp",
+            "item": "garlic powder"
+          },
+          {
+            "qty": null,
+            "item": "black pepper + salt"
+          }
         ],
         "method": "Mix and press into meat. Simple and clean \u2014 lets the protein do the work. Good on fish fillets in the oven or chicken with roasted potatoes."
       },
@@ -1388,11 +1917,30 @@
       },
       "recipe_5": {
         "ingredients": [
-          "1 tsp dried oregano",
-          "1 tsp dried basil (or use fresh, chopped, after cooking)",
-          "0.5 tsp garlic powder",
-          "zest of half a lemon",
-          "black pepper + salt"
+          {
+            "qty": 1,
+            "unit": "tsp",
+            "item": "dried oregano"
+          },
+          {
+            "qty": 1,
+            "unit": "tsp",
+            "item": "dried basil"
+          },
+          {
+            "qty": 0.5,
+            "unit": "tsp",
+            "item": "garlic powder"
+          },
+          {
+            "qty": 0.5,
+            "unit": "lemon",
+            "item": "zest"
+          },
+          {
+            "qty": null,
+            "item": "black pepper + salt"
+          }
         ],
         "method": "Mix and press into the meat. Leave 15 mins if you have time, cook straight away if not. Air fryer at 190\u00b0C for 20-25 mins for chicken thighs. Works brilliantly tossed through pasta with roasted veg \u2014 no sauce needed."
       },
@@ -1441,11 +1989,30 @@
       },
       "recipe_5": {
         "ingredients": [
-          "1.5 tsp smoked paprika",
-          "1.5 tsp cumin",
-          "0.5 tsp garlic powder",
-          "juice of half a lime",
-          "salt + black pepper"
+          {
+            "qty": 1.5,
+            "unit": "tsp",
+            "item": "smoked paprika"
+          },
+          {
+            "qty": 1.5,
+            "unit": "tsp",
+            "item": "cumin"
+          },
+          {
+            "qty": 0.5,
+            "unit": "tsp",
+            "item": "garlic powder"
+          },
+          {
+            "qty": 0.5,
+            "unit": "lime",
+            "item": "juice"
+          },
+          {
+            "qty": null,
+            "item": "salt + black pepper"
+          }
         ],
         "method": "Mix and coat. Air fryer or griddle pan. Good on chicken thighs sliced and served in wraps or over rice with lime and coriander."
       },
@@ -1493,15 +2060,50 @@
       },
       "recipe_5": {
         "ingredients": [
-          "1 tsp allspice",
-          "1 tsp dried thyme",
-          "0.5 tsp cinnamon",
-          "0.5 tsp smoked paprika",
-          "0.5 tsp garlic powder",
-          "thumb of ginger, grated",
-          "1 tbsp soy sauce",
-          "juice of half a lime",
-          "salt + black pepper"
+          {
+            "qty": 1,
+            "unit": "tsp",
+            "item": "allspice"
+          },
+          {
+            "qty": 1,
+            "unit": "tsp",
+            "item": "dried thyme"
+          },
+          {
+            "qty": 0.5,
+            "unit": "tsp",
+            "item": "cinnamon"
+          },
+          {
+            "qty": 0.5,
+            "unit": "tsp",
+            "item": "smoked paprika"
+          },
+          {
+            "qty": 0.5,
+            "unit": "tsp",
+            "item": "garlic powder"
+          },
+          {
+            "qty": 1,
+            "unit": "thumb",
+            "item": "ginger, grated"
+          },
+          {
+            "qty": 1,
+            "unit": "tbsp",
+            "item": "soy sauce"
+          },
+          {
+            "qty": 0.5,
+            "unit": "lime",
+            "item": "juice"
+          },
+          {
+            "qty": null,
+            "item": "salt + black pepper"
+          }
         ],
         "method": "Mix into a paste. Coat chicken thoroughly \u2014 score the meat if thighs so it gets in. Ideally marinate 1hr+. Air fryer at 190\u00b0C for 25 mins or oven at 200\u00b0C. The allspice is the key flavour \u2014 don't substitute."
       },
@@ -1553,13 +2155,40 @@
       },
       "recipe_5": {
         "ingredients": [
-          "1 tsp cumin",
-          "1 tsp ground coriander",
-          "0.5 tsp cinnamon",
-          "1 tsp paprika",
-          "0.5 tsp garlic powder",
-          "juice of half a lemon",
-          "salt + black pepper"
+          {
+            "qty": 1,
+            "unit": "tsp",
+            "item": "cumin"
+          },
+          {
+            "qty": 1,
+            "unit": "tsp",
+            "item": "ground coriander"
+          },
+          {
+            "qty": 0.5,
+            "unit": "tsp",
+            "item": "cinnamon"
+          },
+          {
+            "qty": 1,
+            "unit": "tsp",
+            "item": "paprika"
+          },
+          {
+            "qty": 0.5,
+            "unit": "tsp",
+            "item": "garlic powder"
+          },
+          {
+            "qty": 0.5,
+            "unit": "lemon",
+            "item": "juice"
+          },
+          {
+            "qty": null,
+            "item": "salt + black pepper"
+          }
         ],
         "method": "Mix into a rough paste with the lemon juice. Coat the meat. Oven or air fryer. The lemon juice helps it stick and caramelises nicely. Serve with couscous and scatter fresh coriander or parsley over."
       },
@@ -1611,16 +2240,55 @@
       },
       "recipe_5": {
         "ingredients": [
-          "1 tsp cumin",
-          "1 tsp ground coriander",
-          "0.5 tsp cinnamon",
-          "0.5 tsp allspice",
-          "1 tsp paprika (sweet)",
-          "0.25 tsp turmeric",
-          "0.5 tsp garlic powder",
-          "thumb of ginger, grated (or 0.5 tsp ground)",
-          "juice of half a lemon",
-          "salt + black pepper"
+          {
+            "qty": 1,
+            "unit": "tsp",
+            "item": "cumin"
+          },
+          {
+            "qty": 1,
+            "unit": "tsp",
+            "item": "ground coriander"
+          },
+          {
+            "qty": 0.5,
+            "unit": "tsp",
+            "item": "cinnamon"
+          },
+          {
+            "qty": 0.5,
+            "unit": "tsp",
+            "item": "allspice"
+          },
+          {
+            "qty": 1,
+            "unit": "tsp",
+            "item": "sweet paprika"
+          },
+          {
+            "qty": 0.25,
+            "unit": "tsp",
+            "item": "turmeric"
+          },
+          {
+            "qty": 0.5,
+            "unit": "tsp",
+            "item": "garlic powder"
+          },
+          {
+            "qty": 1,
+            "unit": "thumb",
+            "item": "ginger, grated"
+          },
+          {
+            "qty": 0.5,
+            "unit": "lemon",
+            "item": "juice"
+          },
+          {
+            "qty": null,
+            "item": "salt + black pepper"
+          }
         ],
         "method": "Mix into a paste with the lemon juice. More complex than any single-cuisine rub \u2014 go gently until you know it. Particularly good on lamb shoulder or chicken thighs. Oven or air fryer at 190\u00b0C. The allspice is what makes it Ethiopian rather than North African."
       },
@@ -1672,13 +2340,40 @@
       },
       "recipe_5": {
         "ingredients": [
-          "1 tsp garam masala",
-          "0.5 tsp turmeric",
-          "1 tsp cumin",
-          "0.5 tsp ground coriander",
-          "thumb of ginger, grated (or 0.5 tsp ground ginger)",
-          "juice of half a lime",
-          "salt"
+          {
+            "qty": 1,
+            "unit": "tsp",
+            "item": "garam masala"
+          },
+          {
+            "qty": 0.5,
+            "unit": "tsp",
+            "item": "turmeric"
+          },
+          {
+            "qty": 1,
+            "unit": "tsp",
+            "item": "cumin"
+          },
+          {
+            "qty": 0.5,
+            "unit": "tsp",
+            "item": "ground coriander"
+          },
+          {
+            "qty": 1,
+            "unit": "thumb",
+            "item": "ginger, grated"
+          },
+          {
+            "qty": 0.5,
+            "unit": "lime",
+            "item": "juice"
+          },
+          {
+            "qty": null,
+            "item": "salt"
+          }
         ],
         "method": "Mix into a paste with lime juice. Coat chicken and leave at least 20 mins \u2014 an hour in the fridge is better. Air fryer or oven at 200\u00b0C. The turmeric will colour the meat golden."
       },
@@ -1728,11 +2423,30 @@
       },
       "recipe_5": {
         "ingredients": [
-          "3 tbsp soy sauce",
-          "thumb of ginger, grated",
-          "3 cloves garlic, crushed",
-          "1 tbsp rice wine vinegar",
-          "few drops sesame oil (synned \u2014 optional)"
+          {
+            "qty": 3,
+            "unit": "tbsp",
+            "item": "soy sauce"
+          },
+          {
+            "qty": 1,
+            "unit": "thumb",
+            "item": "ginger, grated"
+          },
+          {
+            "qty": 3,
+            "unit": "clove",
+            "item": "garlic, crushed"
+          },
+          {
+            "qty": 1,
+            "unit": "tbsp",
+            "item": "rice wine vinegar"
+          },
+          {
+            "qty": null,
+            "item": "few drops sesame oil (synned, optional)"
+          }
         ],
         "method": "Mix and coat. Marinate at least 20 mins \u2014 longer is better. The soy acts as a brine as well as a flavouring. Air fryer, griddle, or oven. Good on salmon fillets or chicken thighs over rice."
       },
@@ -1780,12 +2494,35 @@
       },
       "recipe_5": {
         "ingredients": [
-          "0.5 tsp five spice",
-          "2 tbsp soy sauce",
-          "3 cloves garlic, crushed",
-          "thumb of ginger, grated",
-          "0.5 tsp smoked paprika",
-          "black pepper"
+          {
+            "qty": 0.5,
+            "unit": "tsp",
+            "item": "five spice"
+          },
+          {
+            "qty": 2,
+            "unit": "tbsp",
+            "item": "soy sauce"
+          },
+          {
+            "qty": 3,
+            "unit": "clove",
+            "item": "garlic, crushed"
+          },
+          {
+            "qty": 1,
+            "unit": "thumb",
+            "item": "ginger, grated"
+          },
+          {
+            "qty": 0.5,
+            "unit": "tsp",
+            "item": "smoked paprika"
+          },
+          {
+            "qty": null,
+            "item": "black pepper"
+          }
         ],
         "method": "Mix into a paste. Score pork or chicken deeply and work the marinade in \u2014 at least 1 hour, overnight is better. The five spice and soy should form a red-brown glaze after cooking. Air fryer or oven at 200\u00b0C, basting with leftover marinade halfway through."
       },
@@ -1824,10 +2561,25 @@
       ],
       "recipe_5": {
         "ingredients": [
-          "1 tbsp balsamic vinegar",
-          "1 tsp Dijon mustard",
-          "1 tbsp red wine vinegar",
-          "black pepper + salt"
+          {
+            "qty": 1,
+            "unit": "tbsp",
+            "item": "balsamic vinegar"
+          },
+          {
+            "qty": 1,
+            "unit": "tsp",
+            "item": "Dijon mustard"
+          },
+          {
+            "qty": 1,
+            "unit": "tbsp",
+            "item": "red wine vinegar"
+          },
+          {
+            "qty": null,
+            "item": "black pepper + salt"
+          }
         ],
         "method": "Whisk together. The Dijon emulsifies it so it coats leaves evenly without oil. Slightly richer than a plain vinegar dressing \u2014 good on warm salads or with roasted veg."
       },
@@ -1862,10 +2614,25 @@
       ],
       "recipe_5": {
         "ingredients": [
-          "2 tbsp red wine vinegar",
-          "1 tsp Dijon mustard",
-          "1 small shallot, very finely diced",
-          "black pepper + salt"
+          {
+            "qty": 2,
+            "unit": "tbsp",
+            "item": "red wine vinegar"
+          },
+          {
+            "qty": 1,
+            "unit": "tsp",
+            "item": "Dijon mustard"
+          },
+          {
+            "qty": 1,
+            "unit": "small",
+            "item": "shallot, very finely diced"
+          },
+          {
+            "qty": null,
+            "item": "black pepper + salt"
+          }
         ],
         "method": "Whisk vinegar into Dijon. Add shallot. Toss through leaves just before serving \u2014 not before or they'll wilt."
       },
@@ -1900,10 +2667,20 @@
       ],
       "recipe_5": {
         "ingredients": [
-          "juice of 1 lemon",
-          "1-2 tbsp capers (to taste)",
-          "black pepper",
-          "pinch of salt"
+          {
+            "qty": 1,
+            "unit": "lemon",
+            "item": "juice"
+          },
+          {
+            "qty": 1,
+            "unit": "tbsp",
+            "item": "capers (to taste)"
+          },
+          {
+            "qty": null,
+            "item": "black pepper + salt"
+          }
         ],
         "method": "Squeeze lemon over, scatter capers, crack pepper. That's it. Add a little caper brine from the jar if you want extra punch."
       },
@@ -1936,9 +2713,20 @@
       ],
       "recipe_5": {
         "ingredients": [
-          "juice of 1 lemon",
-          "handful flat-leaf parsley or fresh coriander, chopped",
-          "black pepper + salt"
+          {
+            "qty": 1,
+            "unit": "lemon",
+            "item": "juice"
+          },
+          {
+            "qty": 1,
+            "unit": "handful",
+            "item": "flat-leaf parsley or fresh coriander, chopped"
+          },
+          {
+            "qty": null,
+            "item": "black pepper + salt"
+          }
         ],
         "method": "Mix and drizzle. Light and fresh \u2014 works anywhere you want brightness without weight."
       },
@@ -1972,10 +2760,24 @@
       ],
       "recipe_5": {
         "ingredients": [
-          "juice of 1 lime",
-          "handful fresh coriander, roughly chopped",
-          "pinch of cumin",
-          "salt + black pepper"
+          {
+            "qty": 1,
+            "unit": "lime",
+            "item": "juice"
+          },
+          {
+            "qty": 1,
+            "unit": "handful",
+            "item": "fresh coriander, roughly chopped"
+          },
+          {
+            "qty": null,
+            "item": "pinch of cumin"
+          },
+          {
+            "qty": null,
+            "item": "salt + black pepper"
+          }
         ],
         "method": "Mix and toss through. Good as a slaw dressing or over a Mexican-style chicken salad. Bright and clean."
       },
@@ -2010,11 +2812,29 @@
       ],
       "recipe_5": {
         "ingredients": [
-          "1-2 tbsp tahini",
-          "juice of 1 lemon",
-          "1 clove garlic, crushed",
-          "3-4 tbsp cold water (to loosen)",
-          "salt"
+          {
+            "qty": 2,
+            "unit": "tbsp",
+            "item": "tahini"
+          },
+          {
+            "qty": 1,
+            "unit": "lemon",
+            "item": "juice"
+          },
+          {
+            "qty": 1,
+            "unit": "clove",
+            "item": "garlic, crushed"
+          },
+          {
+            "qty": null,
+            "item": "cold water to loosen"
+          },
+          {
+            "qty": null,
+            "item": "salt"
+          }
         ],
         "method": "Whisk tahini and lemon together \u2014 it'll seize up first, keep going. Add water gradually until it's a pourable consistency. Drizzle over roasted veg or falafel."
       },
@@ -2050,12 +2870,35 @@
       ],
       "recipe_5": {
         "ingredients": [
-          "1\u20132 tbsp fish sauce \u2014 start with 1",
-          "juice of 1 lime",
-          "1 tsp lemongrass paste",
-          "1 clove garlic, crushed",
-          "handful fresh coriander, roughly chopped",
-          "pinch of salt if needed"
+          {
+            "qty": 1,
+            "unit": "tbsp",
+            "item": "fish sauce (add more to taste)"
+          },
+          {
+            "qty": 1,
+            "unit": "lime",
+            "item": "juice"
+          },
+          {
+            "qty": 1,
+            "unit": "tsp",
+            "item": "lemongrass paste"
+          },
+          {
+            "qty": 1,
+            "unit": "clove",
+            "item": "garlic, crushed"
+          },
+          {
+            "qty": 1,
+            "unit": "handful",
+            "item": "fresh coriander, roughly chopped"
+          },
+          {
+            "qty": null,
+            "item": "salt if needed"
+          }
         ],
         "method": "Mix and taste \u2014 it should be salty, sour and very fragrant. Fish sauce is the dominant flavour so build slowly. Use as a dressing, dipping sauce or light marinade. Keeps in the fridge for a few days."
       },
@@ -2092,11 +2935,30 @@
       ],
       "recipe_5": {
         "ingredients": [
-          "2 tbsp soy sauce",
-          "1 tbsp rice wine vinegar",
-          "thumb of ginger, grated",
-          "juice of half a lime",
-          "few drops sesame oil (optional, synned)"
+          {
+            "qty": 2,
+            "unit": "tbsp",
+            "item": "soy sauce"
+          },
+          {
+            "qty": 1,
+            "unit": "tbsp",
+            "item": "rice wine vinegar"
+          },
+          {
+            "qty": 1,
+            "unit": "thumb",
+            "item": "ginger, grated"
+          },
+          {
+            "qty": 0.5,
+            "unit": "lime",
+            "item": "juice"
+          },
+          {
+            "qty": null,
+            "item": "few drops sesame oil (optional, synned)"
+          }
         ],
         "method": "Mix and drizzle. Works cold over noodles, shredded chicken or raw veg. Punchy \u2014 a little goes a long way."
       },
@@ -2133,11 +2995,30 @@
       ],
       "recipe_5": {
         "ingredients": [
-          "2 tbsp white miso",
-          "2 tbsp rice wine vinegar",
-          "1 tbsp soy sauce",
-          "thumb of ginger, grated",
-          "1\u20132 tbsp cold water to thin"
+          {
+            "qty": 2,
+            "unit": "tbsp",
+            "item": "white miso"
+          },
+          {
+            "qty": 2,
+            "unit": "tbsp",
+            "item": "rice wine vinegar"
+          },
+          {
+            "qty": 1,
+            "unit": "tbsp",
+            "item": "soy sauce"
+          },
+          {
+            "qty": 1,
+            "unit": "thumb",
+            "item": "ginger, grated"
+          },
+          {
+            "qty": null,
+            "item": "cold water to thin"
+          }
         ],
         "method": "Whisk together and thin with water until it pours easily \u2014 miso thickens it significantly. Taste for balance: you may want a little more vinegar. Works cold over soba noodles, shredded cabbage, roasted sweet potato or cucumber."
       },
