@@ -320,6 +320,168 @@
       "description": "A classic of the French kitchen \u2014 the sauce that appears alongside every serious roast. Lighter than a British gravy and more elegant, it's best in autumn and winter when the slow-roasted meats it's built for come into their own."
     },
     {
+      "name": "Sauce Proven\u00e7ale",
+      "cuisine": "french",
+      "description": "Southern France on a plate \u2014 slow-cooked tomatoes, garlic and herbs from the garrigue. Bright where Herbed Jus is rich, and deeply summery even when made in January with tinned tomatoes. The capers cut through and stop it being just another tomato sauce.",
+      "sw": "free",
+      "adult_heat": false,
+      "required_items": [
+        "Tinned chopped tomatoes",
+        "Garlic",
+        "Capers",
+        "Fresh basil (or dried)",
+        "Dried thyme",
+        "Dried oregano",
+        "Tomato paste"
+      ],
+      "pairs_with": {
+        "proteins": [
+          "Chicken breast",
+          "White fish",
+          "Lamb"
+        ],
+        "carbs": [
+          "Pasta",
+          "Potatoes",
+          "Crusty bread"
+        ],
+        "vegetables": [
+          "Courgettes",
+          "Aubergine",
+          "Roasted peppers"
+        ]
+      },
+      "elevate": [
+        {
+          "item": "Anchovy paste",
+          "tip": "Half a teaspoon into the garlic before the tomatoes go in \u2014 it dissolves completely and adds a savoury backbone the finished sauce won't taste like."
+        },
+        {
+          "item": "Preserved lemon",
+          "tip": "A small piece, finely chopped and stirred in at the end, gives a brightness that lifts the whole pot."
+        }
+      ],
+      "recipe_5": {
+        "ingredients": [
+          {
+            "qty": 2,
+            "unit": "tin",
+            "item": "chopped tomatoes"
+          },
+          {
+            "qty": 4,
+            "unit": "clove",
+            "item": "garlic, crushed"
+          },
+          {
+            "qty": 3,
+            "unit": "tbsp",
+            "item": "capers, drained"
+          },
+          {
+            "qty": 1,
+            "unit": "tbsp",
+            "item": "tomato paste"
+          },
+          {
+            "qty": 1,
+            "unit": "tsp",
+            "item": "dried thyme"
+          },
+          {
+            "qty": 1,
+            "unit": "tsp",
+            "item": "dried oregano"
+          },
+          {
+            "qty": 1,
+            "unit": "handful",
+            "item": "fresh basil, torn"
+          },
+          {
+            "qty": null,
+            "item": "salt + black pepper"
+          }
+        ],
+        "method": "Fry garlic briefly \u2014 60 seconds, don't let it colour. Add tomato paste and stir for a minute. Pour in tomatoes with the thyme and oregano. Simmer uncovered for 25\u201330 minutes until thickened and dark. Add capers off the heat. Tear in basil just before serving."
+      }
+    },
+    {
+      "name": "French Onion",
+      "cuisine": "french",
+      "description": "Soupe \u00e0 l'oignon reduced to a sauce. Proper caramelisation takes 40 minutes minimum \u2014 there are no shortcuts \u2014 but what you get is a sweetness and depth that makes a plain chicken breast feel like something worth sitting down for.",
+      "sw": "free",
+      "adult_heat": false,
+      "required_items": [
+        "Onion",
+        "Stock cubes (chicken + veg)",
+        "Worcestershire sauce",
+        "Balsamic vinegar",
+        "Dried thyme",
+        "Garlic"
+      ],
+      "pairs_with": {
+        "proteins": [
+          "Beef",
+          "Chicken thighs",
+          "Pork"
+        ],
+        "carbs": [
+          "Potatoes",
+          "Crusty bread"
+        ],
+        "vegetables": [
+          "Mushrooms",
+          "Leeks"
+        ]
+      },
+      "elevate": [
+        {
+          "item": "Thickening granules",
+          "tip": "A pinch stirred in at the end gives a glossier, more coating consistency if you want it to cling rather than pool."
+        }
+      ],
+      "recipe_5": {
+        "ingredients": [
+          {
+            "qty": 4,
+            "unit": "large",
+            "item": "onions, very thinly sliced"
+          },
+          {
+            "qty": 500,
+            "unit": "ml",
+            "item": "chicken stock"
+          },
+          {
+            "qty": 2,
+            "unit": "tbsp",
+            "item": "Worcestershire sauce"
+          },
+          {
+            "qty": 1,
+            "unit": "tbsp",
+            "item": "balsamic vinegar"
+          },
+          {
+            "qty": 1,
+            "unit": "tsp",
+            "item": "dried thyme"
+          },
+          {
+            "qty": 2,
+            "unit": "clove",
+            "item": "garlic, crushed"
+          },
+          {
+            "qty": null,
+            "item": "salt + black pepper"
+          }
+        ],
+        "method": "Cook onions over the lowest heat with a pinch of salt for 40\u201350 minutes, stirring every 10 minutes. They should be deeply golden and almost jammy \u2014 this is where the flavour lives, so don't rush it. Add garlic for the last 5 minutes. Pour in stock, Worcestershire and balsamic. Simmer 15 minutes until reduced by a third. Season."
+      }
+    },
+    {
       "id": "italian_tomato",
       "name": "Pomodoro",
       "cuisine": "italian",
@@ -422,6 +584,73 @@
         }
       ],
       "description": "The foundational tomato sauce of Southern Italy \u2014 Neapolitan in origin, and younger than it feels, since tomatoes didn't reach Italian kitchens until the 18th century. The simplicity is deliberate: Italian cooking trusts good ingredients over technique, and this is the proof of it."
+    },
+    {
+      "name": "Salsa Verde",
+      "cuisine": "italian",
+      "description": "Italy's cold herb sauce \u2014 not cooked, not blended smooth, just herbs and sharp things brought together with knife work. Older than chimichurri and arguably more versatile, it lifts anything from a rested steak to a plainly poached fish.",
+      "sw": "free",
+      "adult_heat": false,
+      "required_items": [
+        "Flat-leaf parsley",
+        "Capers",
+        "Garlic",
+        "Lemon",
+        "Dijon mustard",
+        "Red wine vinegar"
+      ],
+      "works_with": [
+        "Chicken breast",
+        "White fish",
+        "Lamb",
+        "Steak",
+        "Potatoes"
+      ],
+      "elevate": [
+        {
+          "item": "Anchovy paste",
+          "tip": "Half a teaspoon stirred in adds a deep savoury backbone \u2014 you won't taste anchovy, just a richer depth that makes everything else pop."
+        }
+      ],
+      "recipe_5": {
+        "ingredients": [
+          {
+            "qty": 2,
+            "unit": "handful",
+            "item": "flat-leaf parsley, finely chopped"
+          },
+          {
+            "qty": 3,
+            "unit": "tbsp",
+            "item": "capers, drained and roughly chopped"
+          },
+          {
+            "qty": 2,
+            "unit": "clove",
+            "item": "garlic, crushed"
+          },
+          {
+            "qty": 1,
+            "unit": "lemon",
+            "item": "juice"
+          },
+          {
+            "qty": 2,
+            "unit": "tbsp",
+            "item": "Dijon mustard"
+          },
+          {
+            "qty": 3,
+            "unit": "tbsp",
+            "item": "red wine vinegar"
+          },
+          {
+            "qty": null,
+            "item": "salt + black pepper"
+          }
+        ],
+        "method": "Finely chop parsley by hand for best texture \u2014 a processor makes it too wet. Combine with garlic, capers, mustard, vinegar and lemon juice. Taste and adjust: more vinegar for sharpness, more mustard for body. It should be punchy. Thin with a splash of water if needed."
+      }
     },
     {
       "id": "spanish_tomato",
@@ -530,6 +759,73 @@
       "description": "The foundation of Spanish cooking \u2014 a slowly cooked paste of onions, tomatoes, and garlic that goes into almost everything from paella to stews. Warming and deeply savoury; the patience required is the whole point."
     },
     {
+      "name": "Mojo",
+      "cuisine": "spanish",
+      "description": "From the Canary Islands, not the mainland \u2014 the raw, punchy counterpoint to Sofrito's slow warmth. Where Sofrito is built and cooked, mojo is assembled and immediate: garlic, acid, spice. Goes straight on everything.",
+      "sw": "free",
+      "adult_heat": false,
+      "required_items": [
+        "Garlic",
+        "Smoked paprika",
+        "Cumin (ground)",
+        "Red wine vinegar",
+        "Fresh coriander",
+        "Lemon"
+      ],
+      "works_with": [
+        "Chicken thighs",
+        "Pork",
+        "White fish",
+        "Potatoes",
+        "Roasted veg"
+      ],
+      "elevate": [
+        {
+          "item": "Chipotle paste",
+          "tip": "A teaspoon in makes this mojo rojo rather than verde \u2014 smokier, deeper, with a little heat."
+        }
+      ],
+      "recipe_5": {
+        "ingredients": [
+          {
+            "qty": 4,
+            "unit": "clove",
+            "item": "garlic, crushed"
+          },
+          {
+            "qty": 1,
+            "unit": "tsp",
+            "item": "smoked paprika"
+          },
+          {
+            "qty": 1,
+            "unit": "tsp",
+            "item": "ground cumin"
+          },
+          {
+            "qty": 3,
+            "unit": "tbsp",
+            "item": "red wine vinegar"
+          },
+          {
+            "qty": 1,
+            "unit": "handful",
+            "item": "fresh coriander, chopped"
+          },
+          {
+            "qty": 1,
+            "unit": "lemon",
+            "item": "juice"
+          },
+          {
+            "qty": null,
+            "item": "salt + black pepper"
+          }
+        ],
+        "method": "Crush garlic with a pinch of salt to a paste. Stir in smoked paprika and cumin, then the vinegar and lemon juice. Fold through coriander. Taste \u2014 it wants sharpness and a back note of smoke. Thin with a splash of water if it's too thick. Serve immediately or rest for 30 minutes to let the garlic mellow slightly."
+      }
+    },
+    {
       "id": "mexican",
       "name": "Salsa Roja",
       "cuisine": "mexican",
@@ -626,6 +922,91 @@
         }
       ],
       "description": "A traditional Mexican sauce built on charred tomatoes and rehydrated dried chillies \u2014 the charring technique predates the Spanish conquest and gives it a depth that no amount of cooking time can replicate. Smoky and punchy, equally good warm or at room temperature."
+    },
+    {
+      "name": "Chipotle",
+      "cuisine": "mexican",
+      "description": "Where Salsa Roja is fresh and immediate, this is slow and smoky \u2014 the dried, smoked jalape\u00f1o character of chipotle gives Mexican cooking its real depth. Works as a simmer sauce, a marinade or a bold condiment spooned straight from the pan.",
+      "sw": "free",
+      "adult_heat": true,
+      "adult_heat_note": "Chipotle paste varies a lot in heat between brands \u2014 start with 1 tbsp, taste, then add the second. Some jars are mild enough to use the full amount freely; others will floor you.",
+      "required_items": [
+        "Chipotle paste",
+        "Tinned chopped tomatoes",
+        "Garlic",
+        "Cumin (ground)",
+        "Smoked paprika",
+        "Tomato paste",
+        "Lime"
+      ],
+      "pairs_with": {
+        "proteins": [
+          "Chicken thighs",
+          "Beef",
+          "Pork",
+          "Prawns"
+        ],
+        "carbs": [
+          "Rice",
+          "Tacos",
+          "Baked potatoes"
+        ],
+        "vegetables": [
+          "Roasted peppers",
+          "Sweetcorn",
+          "Black beans"
+        ]
+      },
+      "elevate": [
+        {
+          "item": "Dried oregano",
+          "tip": "A pinch stirred in at the end is distinctly Mexican \u2014 the oregano used there is a different variety, slightly more pungent, and it gives the sauce an authentic back note."
+        }
+      ],
+      "recipe_5": {
+        "ingredients": [
+          {
+            "qty": 2,
+            "unit": "tin",
+            "item": "chopped tomatoes"
+          },
+          {
+            "qty": 2,
+            "unit": "tbsp",
+            "item": "chipotle paste"
+          },
+          {
+            "qty": 4,
+            "unit": "clove",
+            "item": "garlic, crushed"
+          },
+          {
+            "qty": 1,
+            "unit": "tbsp",
+            "item": "tomato paste"
+          },
+          {
+            "qty": 1,
+            "unit": "tsp",
+            "item": "ground cumin"
+          },
+          {
+            "qty": 1,
+            "unit": "tsp",
+            "item": "smoked paprika"
+          },
+          {
+            "qty": 1,
+            "unit": "lime",
+            "item": "juice"
+          },
+          {
+            "qty": null,
+            "item": "salt + black pepper"
+          }
+        ],
+        "method": "Fry garlic briefly. Add tomato paste and cook for a minute until it darkens slightly. Add tinned tomatoes, chipotle, cumin and smoked paprika. Simmer 20\u201325 minutes until thickened and the rawness is gone. Blend smooth or leave as is. Finish with lime juice and season."
+      }
     },
     {
       "id": "chimichurri",
@@ -915,6 +1296,78 @@
         }
       ],
       "description": "Morocco's herb sauce and marinade \u2014 used across North Africa wherever grilled fish or meat appears. Vibrant green, sharp from the lemon and warm from the cumin. Works particularly well in spring and summer when you want something fresh that still has backbone."
+    },
+    {
+      "name": "Zhug",
+      "cuisine": "middle_eastern",
+      "description": "Yemen's answer to chimichurri \u2014 a raw, electric green sauce that Israel has adopted as its own. Fiercely herbed, faintly spiced, and best made just before serving. Goes on everything from eggs to grilled lamb.",
+      "sw": "free",
+      "adult_heat": true,
+      "adult_heat_note": "Stir in 1\u20132 tsp chipotle paste for proper heat \u2014 zhug is traditionally built around fresh green chillies, and this brings it back closer to the original.",
+      "required_items": [
+        "Fresh coriander",
+        "Flat-leaf parsley",
+        "Garlic",
+        "Cumin (ground)",
+        "Coriander (ground)",
+        "Lemon"
+      ],
+      "works_with": [
+        "Lamb",
+        "Chicken thighs",
+        "White fish",
+        "Eggs",
+        "Flatbreads"
+      ],
+      "elevate": [
+        {
+          "item": "Chipotle paste",
+          "tip": "1\u20132 tsp stirred in adds the chilli fire that zhug traditionally relies on. Start with 1 tsp and taste."
+        },
+        {
+          "item": "Preserved lemon",
+          "tip": "A small piece, finely chopped, adds a fermented citrus note that lifts the whole sauce."
+        }
+      ],
+      "recipe_5": {
+        "ingredients": [
+          {
+            "qty": 2,
+            "unit": "handful",
+            "item": "fresh coriander"
+          },
+          {
+            "qty": 1,
+            "unit": "handful",
+            "item": "flat-leaf parsley"
+          },
+          {
+            "qty": 4,
+            "unit": "clove",
+            "item": "garlic"
+          },
+          {
+            "qty": 1,
+            "unit": "tsp",
+            "item": "ground cumin"
+          },
+          {
+            "qty": 1,
+            "unit": "tsp",
+            "item": "ground coriander"
+          },
+          {
+            "qty": 1,
+            "unit": "lemon",
+            "item": "juice"
+          },
+          {
+            "qty": null,
+            "item": "salt + black pepper"
+          }
+        ],
+        "method": "Blitz everything in a small processor or chop by hand until you have a coarse, vivid green paste. It should be thick \u2014 not a smooth pur\u00e9e. Taste: it wants to be sharp and herby. Adjust lemon and seasoning. Best made fresh; keeps in the fridge for 2\u20133 days."
+      }
     },
     {
       "id": "west_african_groundnut",
@@ -2213,6 +2666,67 @@
       "description": "Baharat simply means 'spices' in Arabic, and every family and region across the Middle East has their own version. This one is warm and aromatic \u2014 cumin, coriander, allspice, cinnamon \u2014 and suits slow-cooked autumn and winter dishes, particularly lamb."
     },
     {
+      "name": "Za'atar",
+      "cuisine": "middle_eastern",
+      "description": "Za'atar is simultaneously a herb, a spice blend and a way of eating \u2014 dried wild thyme, sumac and sesame baked into every Levantine kitchen. Here it anchors a dry rub that's aromatic, slightly tangy and effortless on chicken or white fish.",
+      "sw": "free",
+      "adult_heat": false,
+      "required_items": [
+        "Za'atar",
+        "Cumin (ground)",
+        "Coriander (ground)",
+        "Garlic powder",
+        "Smoked paprika"
+      ],
+      "works_with": [
+        "Chicken thighs",
+        "White fish",
+        "Lamb chops",
+        "Halloumi",
+        "Cauliflower"
+      ],
+      "elevate": [
+        {
+          "item": "Preserved lemon",
+          "tip": "Mix a small amount of finely chopped preserved lemon into the rub before applying \u2014 it adds a fermented citrus note that Za'atar was born to sit next to."
+        }
+      ],
+      "recipe_5": {
+        "ingredients": [
+          {
+            "qty": 3,
+            "unit": "tbsp",
+            "item": "za'atar"
+          },
+          {
+            "qty": 1,
+            "unit": "tsp",
+            "item": "ground cumin"
+          },
+          {
+            "qty": 1,
+            "unit": "tsp",
+            "item": "ground coriander"
+          },
+          {
+            "qty": 1,
+            "unit": "tsp",
+            "item": "garlic powder"
+          },
+          {
+            "qty": 1,
+            "unit": "tsp",
+            "item": "smoked paprika"
+          },
+          {
+            "qty": null,
+            "item": "salt + black pepper"
+          }
+        ],
+        "method": "Combine all spices. Press generously into chicken, fish or veg \u2014 it wants to be applied thickly, not dusted. Leave for at least 30 minutes. Works as a dry rub straight, or mix with a splash of water to make a paste that clings better."
+      }
+    },
+    {
       "id": "berbere_rub",
       "name": "Berbere",
       "cuisine": "ethiopian",
@@ -2856,6 +3370,85 @@
       "description": "Tahini \u2014 ground sesame paste \u2014 is central to Levantine cooking, appearing in everything from hummus to falafel to baked fish. Loosened with lemon and water it becomes a dressing that works on almost anything, earthy and nutty in any season."
     },
     {
+      "name": "Pomegranate & Cumin",
+      "cuisine": "middle_eastern",
+      "description": "The backbone of Lebanese fattoush and a dozen mezze salads. Pomegranate molasses hits a sweet-tart note that balsamic gestures toward but never quite reaches \u2014 with cumin and coriander underneath, the result is unmistakably Middle Eastern.",
+      "sw": "synned",
+      "sw_note": "Pomegranate molasses contains natural sugars \u2014 approximately 1 syn per tablespoon. Use 2 tbsp rather than 3 to bring it to around 1 syn per portion.",
+      "adult_heat": false,
+      "required_items": [
+        "Pomegranate molasses",
+        "Red wine vinegar",
+        "Lemon",
+        "Garlic",
+        "Cumin (ground)",
+        "Coriander (ground)"
+      ],
+      "pairs_with": {
+        "proteins": [
+          "Lamb",
+          "Chicken thighs",
+          "Halloumi"
+        ],
+        "carbs": [
+          "Flatbreads",
+          "Bulgur wheat",
+          "Couscous"
+        ],
+        "vegetables": [
+          "Roasted aubergine",
+          "Cucumber",
+          "Tomatoes",
+          "Roasted peppers"
+        ]
+      },
+      "elevate": [
+        {
+          "item": "Za'atar",
+          "tip": "Scatter over the finished dish \u2014 it adds a dried herb and sesame note that ties the whole thing together."
+        }
+      ],
+      "recipe_5": {
+        "ingredients": [
+          {
+            "qty": 3,
+            "unit": "tbsp",
+            "item": "pomegranate molasses"
+          },
+          {
+            "qty": 2,
+            "unit": "tbsp",
+            "item": "red wine vinegar"
+          },
+          {
+            "qty": 1,
+            "unit": "lemon",
+            "item": "juice"
+          },
+          {
+            "qty": 1,
+            "unit": "clove",
+            "item": "garlic, crushed"
+          },
+          {
+            "qty": 1,
+            "unit": "tsp",
+            "item": "ground cumin"
+          },
+          {
+            "qty": 1,
+            "unit": "tsp",
+            "item": "ground coriander"
+          },
+          {
+            "qty": null,
+            "item": "salt + black pepper"
+          }
+        ],
+        "method": "Whisk molasses with vinegar and lemon juice \u2014 the molasses is thick, so work it in gradually. Add garlic, cumin and coriander. Taste: it should be sweet-sharp with spice underneath. More vinegar if it's too cloying; more molasses if too harsh."
+      }
+    },
+    {
       "id": "nam_jim",
       "name": "Nam Jim",
       "cuisine": "thai",
@@ -3039,6 +3632,89 @@
         }
       ],
       "description": "A dressing with roots in Japanese cooking \u2014 the miso and ginger combination associated with Kyoto restaurant salads and popularised worldwide by Japanese-American diners. Earthy and savoury, with more depth than any standard vinaigrette."
+    },
+    {
+      "name": "Gochujang",
+      "cuisine": "korean",
+      "description": "South Korea's fermented chilli paste gives this dressing a depth that straight chilli never achieves \u2014 hot, sweet, savoury and faintly funky all at once. The kind of dressing that makes you eat a salad you'd otherwise skip.",
+      "sw": "synned",
+      "sw_note": "Sesame oil is synned. Use \u00bd tsp instead of 1 tsp to reduce to roughly 1 syn per portion.",
+      "adult_heat": true,
+      "adult_heat_note": "Gochujang brings moderate heat \u2014 scale down to 1 tbsp for a milder version, or up to 3 tbsp if you want it properly fiery.",
+      "required_items": [
+        "Gochujang",
+        "Rice wine vinegar",
+        "Soy sauce",
+        "Sesame oil",
+        "Garlic",
+        "Fresh ginger",
+        "Lime"
+      ],
+      "pairs_with": {
+        "proteins": [
+          "Chicken thighs",
+          "Beef",
+          "Tofu",
+          "Prawns"
+        ],
+        "carbs": [
+          "Rice",
+          "Noodles",
+          "Shredded cabbage"
+        ],
+        "vegetables": [
+          "Cucumber",
+          "Carrots",
+          "Spring onions",
+          "Pak choi"
+        ]
+      },
+      "elevate": [
+        {
+          "item": "Mirin",
+          "tip": "1 tbsp balances the heat with a clean sweetness \u2014 more authentic to the Korean pantry than adjusting vinegar."
+        }
+      ],
+      "recipe_5": {
+        "ingredients": [
+          {
+            "qty": 2,
+            "unit": "tbsp",
+            "item": "gochujang"
+          },
+          {
+            "qty": 2,
+            "unit": "tbsp",
+            "item": "rice wine vinegar"
+          },
+          {
+            "qty": 1,
+            "unit": "tbsp",
+            "item": "soy sauce"
+          },
+          {
+            "qty": 1,
+            "unit": "tsp",
+            "item": "sesame oil"
+          },
+          {
+            "qty": 2,
+            "unit": "clove",
+            "item": "garlic, crushed"
+          },
+          {
+            "qty": 1,
+            "unit": "thumb",
+            "item": "fresh ginger, grated"
+          },
+          {
+            "qty": 1,
+            "unit": "lime",
+            "item": "juice"
+          }
+        ],
+        "method": "Whisk gochujang with vinegar and soy until smooth \u2014 it can be stubborn, keep going. Add sesame oil, garlic and ginger. Finish with lime juice. Taste: balance the heat with more vinegar, savouriness with more soy. Thin with water to your preferred consistency."
+      }
     }
   ]
 }
