@@ -497,6 +497,9 @@ main {
 
 @media (max-width: 600px) {
   main { padding: 16px; }
+  .header-row { padding: 14px 16px 12px; gap: 12px; min-height: 64px; }
+  .page-title { font-size: 1.8rem; min-width: 0; overflow: hidden; text-overflow: ellipsis; white-space: nowrap; }
+  .back-btn { padding: 8px 14px; font-size: 0.9rem; flex-shrink: 0; }
   .grid { grid-template-columns: 1fr 1fr; gap: 8px; }
   .card-name { font-size: 1rem; }
   .card-body { height: 78px; }

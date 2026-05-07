@@ -354,6 +354,10 @@
         {
           "item": "Parmesan rind",
           "tip": "Drop a piece in while it oven-braises and remove before serving. Adds a savouriness that's hard to put your finger on."
+        },
+        {
+          "item": "Pasta water",
+          "tip": "Add a ladleful of starchy pasta cooking water to the finished sauce before tossing \u2014 it loosens the sauce and helps it cling to the pasta properly. Standard practice in every Italian kitchen."
         }
       ],
       "description": "The foundational tomato sauce of Southern Italy \u2014 Neapolitan in origin, and younger than it feels, since tomatoes didn't reach Italian kitchens until the 18th century. The simplicity is deliberate: Italian cooking trusts good ingredients over technique, and this is the proof of it."
@@ -421,6 +425,10 @@
         {
           "item": "Saffron",
           "tip": "A pinch bloomed in a tablespoon of hot water, stirred in with the tomatoes. Changes the whole personality of the sauce."
+        },
+        {
+          "item": "Pasta water",
+          "tip": "Add a ladleful of starchy pasta cooking water to the finished sauce before tossing \u2014 it loosens the sauce and helps it cling to the pasta properly."
         }
       ],
       "description": "The foundation of Spanish cooking \u2014 a slowly cooked paste of onions, tomatoes, and garlic that goes into almost everything from paella to stews. Warming and deeply savoury; the patience required is the whole point."
@@ -1157,6 +1165,10 @@
         {
           "item": "Dashi powder",
           "tip": "Replace the stock cube with instant dashi for a more authentic Japanese flavour base. Huge difference for very little effort."
+        },
+        {
+          "item": "Pasta water",
+          "tip": "Add a ladleful of starchy pasta cooking water to the finished sauce before tossing \u2014 it loosens the sauce and helps it cling to the pasta properly."
         }
       ],
       "description": "Shiro miso \u2014 white miso \u2014 is the mildest and sweetest of Japan's fermented soybean pastes, associated with the refined cooking of Kyoto. Subtle and umami-rich, it works particularly well on delicate fish and autumn vegetables."
