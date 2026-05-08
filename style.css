@@ -37,7 +37,6 @@ html, body {
 
 header {
   background: var(--bg);
-  border-bottom: 2.5px solid var(--border-dark);
   position: sticky;
   top: 0;
   z-index: 100;
@@ -83,6 +82,7 @@ header {
   display: flex;
   padding: 0 28px;
   background: var(--bg);
+  border-bottom: 2.5px solid var(--border-dark);
 }
 
 .tab {
