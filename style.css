@@ -83,7 +83,6 @@ header {
   display: flex;
   padding: 0 28px;
   background: var(--bg);
-  border-bottom: 1.5px solid var(--border-dark);
 }
 
 .tab {
