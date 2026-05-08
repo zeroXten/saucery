@@ -560,5 +560,4 @@ main {
   .grid { grid-template-columns: repeat(4, 1fr); }
   .card-name { font-size: 1.15rem; }
   .page-title { font-size: 2rem; }
-  .header-row { max-width: 1440px; margin: 0 auto; }
 }
