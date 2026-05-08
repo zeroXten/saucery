@@ -84,9 +84,19 @@ header {
   display: flex;
   padding: 0 28px;
   background: var(--bg);
-  border-bottom: 2.5px solid var(--border-dark);
   max-width: 1440px;
   margin: 0 auto;
+  position: relative;
+}
+
+.tabs::after {
+  content: '';
+  position: absolute;
+  bottom: 0;
+  left: 24px;
+  right: 24px;
+  height: 2.5px;
+  background: var(--border-dark);
 }
 
 .tab {
@@ -552,6 +562,7 @@ main {
   .detail-body { grid-template-columns: 1fr; }
   .detail-header h2 { font-size: 1.8rem; }
   .tabs { padding: 0; }
+  .tabs::after { left: 0; right: 0; }
   .tab { flex: 1; text-align: center; padding: 12px 4px; letter-spacing: 0; }
 }
 
