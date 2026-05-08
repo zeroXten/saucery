@@ -924,91 +924,6 @@
       "description": "A traditional Mexican sauce built on charred tomatoes and rehydrated dried chillies \u2014 the charring technique predates the Spanish conquest and gives it a depth that no amount of cooking time can replicate. Smoky and punchy, equally good warm or at room temperature."
     },
     {
-      "name": "Chipotle",
-      "cuisine": "mexican",
-      "description": "Where Salsa Roja is fresh and immediate, this is slow and smoky \u2014 the dried, smoked jalape\u00f1o character of chipotle gives Mexican cooking its real depth. Works as a simmer sauce, a marinade or a bold condiment spooned straight from the pan.",
-      "sw": "free",
-      "adult_heat": true,
-      "adult_heat_note": "Chipotle paste varies a lot in heat between brands \u2014 start with 1 tbsp, taste, then add the second. Some jars are mild enough to use the full amount freely; others will floor you.",
-      "required_items": [
-        "Chipotle paste",
-        "Tinned chopped tomatoes",
-        "Garlic",
-        "Cumin (ground)",
-        "Smoked paprika",
-        "Tomato paste",
-        "Lime"
-      ],
-      "pairs_with": {
-        "proteins": [
-          "Chicken thighs",
-          "Beef",
-          "Pork",
-          "Prawns"
-        ],
-        "carbs": [
-          "Rice",
-          "Tacos",
-          "Baked potatoes"
-        ],
-        "vegetables": [
-          "Roasted peppers",
-          "Sweetcorn",
-          "Black beans"
-        ]
-      },
-      "elevate": [
-        {
-          "item": "Dried oregano",
-          "tip": "A pinch stirred in at the end is distinctly Mexican \u2014 the oregano used there is a different variety, slightly more pungent, and it gives the sauce an authentic back note."
-        }
-      ],
-      "recipe_5": {
-        "ingredients": [
-          {
-            "qty": 2,
-            "unit": "tin",
-            "item": "chopped tomatoes"
-          },
-          {
-            "qty": 2,
-            "unit": "tbsp",
-            "item": "chipotle paste"
-          },
-          {
-            "qty": 4,
-            "unit": "clove",
-            "item": "garlic, crushed"
-          },
-          {
-            "qty": 1,
-            "unit": "tbsp",
-            "item": "tomato paste"
-          },
-          {
-            "qty": 1,
-            "unit": "tsp",
-            "item": "ground cumin"
-          },
-          {
-            "qty": 1,
-            "unit": "tsp",
-            "item": "smoked paprika"
-          },
-          {
-            "qty": 1,
-            "unit": "lime",
-            "item": "juice"
-          },
-          {
-            "qty": null,
-            "item": "salt + black pepper"
-          }
-        ],
-        "method": "Fry garlic briefly. Add tomato paste and cook for a minute until it darkens slightly. Add tinned tomatoes, chipotle, cumin and smoked paprika. Simmer 20\u201325 minutes until thickened and the rawness is gone. Blend smooth or leave as is. Finish with lime juice and season."
-      }
-    },
-    {
       "id": "chimichurri",
       "name": "Chimichurri",
       "cuisine": "argentinian",
@@ -1815,6 +1730,99 @@
         }
       ],
       "description": "Vietnamese cooking is often described as the freshest of the Southeast Asian cuisines \u2014 more herbs, more citrus, less fat. This broth follows that logic: light, fragrant, and built for poaching rather than coating."
+    },
+    {
+      "name": "Rendang Base",
+      "cuisine": "malay",
+      "description": "Malaysia and Indonesia's slow-braised masterpiece \u2014 a sauce that cooks down until it almost fries in its own aromatics. Where Thai curries stay bright and fresh, rendang goes dark and complex: earthy from turmeric, warm from cinnamon, deeply layered from the long slow simmer.",
+      "sw": "synned",
+      "sw_note": "Light coconut milk keeps this lower \u2014 roughly 3 syns per portion. Use half a tin topped up with stock to reduce further.",
+      "adult_heat": false,
+      "required_items": [
+        "Light coconut milk",
+        "Lemongrass paste (tube)",
+        "Garlic",
+        "Fresh ginger",
+        "Turmeric",
+        "Cumin (ground)",
+        "Coriander (ground)",
+        "Cinnamon (ground)"
+      ],
+      "pairs_with": {
+        "proteins": [
+          "Beef",
+          "Chicken thighs",
+          "Lamb"
+        ],
+        "carbs": [
+          "Rice",
+          "Flatbreads"
+        ],
+        "vegetables": [
+          "Potatoes",
+          "Aubergine",
+          "Butternut squash"
+        ]
+      },
+      "elevate": [
+        {
+          "item": "Kaffir lime leaves",
+          "tip": "2\u20133 leaves simmered in add the citrus note that's distinctly Southeast Asian \u2014 hard to replicate any other way."
+        },
+        {
+          "item": "Fennel seeds",
+          "tip": "Half a teaspoon, toasted and added with the dry spices, adds an anise depth found in some regional rendang variations."
+        }
+      ],
+      "recipe_5": {
+        "ingredients": [
+          {
+            "qty": 400,
+            "unit": "ml",
+            "item": "light coconut milk"
+          },
+          {
+            "qty": 2,
+            "unit": "tbsp",
+            "item": "lemongrass paste"
+          },
+          {
+            "qty": 4,
+            "unit": "clove",
+            "item": "garlic, crushed"
+          },
+          {
+            "qty": 1,
+            "unit": "thumb",
+            "item": "fresh ginger, grated"
+          },
+          {
+            "qty": 1,
+            "unit": "tsp",
+            "item": "turmeric"
+          },
+          {
+            "qty": 1,
+            "unit": "tsp",
+            "item": "ground cumin"
+          },
+          {
+            "qty": 1,
+            "unit": "tsp",
+            "item": "ground coriander"
+          },
+          {
+            "qty": 0.5,
+            "unit": "tsp",
+            "item": "ground cinnamon"
+          },
+          {
+            "qty": null,
+            "item": "salt + black pepper"
+          }
+        ],
+        "method": "Fry lemongrass paste, garlic and ginger for 2\u20133 minutes until fragrant and starting to stick. Add dry spices and stir for a minute. Pour in coconut milk. Simmer on a low heat for 20\u201325 minutes, stirring regularly, until the sauce darkens and thickens. For a proper rendang effect, keep going until the coconut milk separates and the paste begins to fry \u2014 another 10\u201315 minutes."
+      }
     },
     {
       "id": "satay",
@@ -2666,67 +2674,6 @@
       "description": "Baharat simply means 'spices' in Arabic, and every family and region across the Middle East has their own version. This one is warm and aromatic \u2014 cumin, coriander, allspice, cinnamon \u2014 and suits slow-cooked autumn and winter dishes, particularly lamb."
     },
     {
-      "name": "Za'atar",
-      "cuisine": "middle_eastern",
-      "description": "Za'atar is simultaneously a herb, a spice blend and a way of eating \u2014 dried wild thyme, sumac and sesame baked into every Levantine kitchen. Here it anchors a dry rub that's aromatic, slightly tangy and effortless on chicken or white fish.",
-      "sw": "free",
-      "adult_heat": false,
-      "required_items": [
-        "Za'atar",
-        "Cumin (ground)",
-        "Coriander (ground)",
-        "Garlic powder",
-        "Smoked paprika"
-      ],
-      "works_with": [
-        "Chicken thighs",
-        "White fish",
-        "Lamb chops",
-        "Halloumi",
-        "Cauliflower"
-      ],
-      "elevate": [
-        {
-          "item": "Preserved lemon",
-          "tip": "Mix a small amount of finely chopped preserved lemon into the rub before applying \u2014 it adds a fermented citrus note that Za'atar was born to sit next to."
-        }
-      ],
-      "recipe_5": {
-        "ingredients": [
-          {
-            "qty": 3,
-            "unit": "tbsp",
-            "item": "za'atar"
-          },
-          {
-            "qty": 1,
-            "unit": "tsp",
-            "item": "ground cumin"
-          },
-          {
-            "qty": 1,
-            "unit": "tsp",
-            "item": "ground coriander"
-          },
-          {
-            "qty": 1,
-            "unit": "tsp",
-            "item": "garlic powder"
-          },
-          {
-            "qty": 1,
-            "unit": "tsp",
-            "item": "smoked paprika"
-          },
-          {
-            "qty": null,
-            "item": "salt + black pepper"
-          }
-        ],
-        "method": "Combine all spices. Press generously into chicken, fish or veg \u2014 it wants to be applied thickly, not dusted. Leave for at least 30 minutes. Works as a dry rub straight, or mix with a splash of water to make a paste that clings better."
-      }
-    },
-    {
       "id": "berbere_rub",
       "name": "Berbere",
       "cuisine": "ethiopian",
@@ -2983,6 +2930,72 @@
       "description": "Not tied to one tradition \u2014 ginger and soy feature across Chinese, Japanese, and Korean cooking, and this rub draws from all three. Simple and versatile, it works on fish, chicken, or tofu in any season."
     },
     {
+      "name": "Korean BBQ",
+      "cuisine": "korean",
+      "description": "The marinade that underpins Korean BBQ without the gochujang heat \u2014 soy, sesame, garlic and ginger in proportions Korean cooks settled on long before fusion made them fashionable. Garlic caramelises beautifully over high heat; the sesame comes through as the meat rests.",
+      "sw": "synned",
+      "sw_note": "Sesame oil is synned \u2014 use half a teaspoon to bring it to around 1 syn per portion.",
+      "adult_heat": false,
+      "required_items": [
+        "Soy sauce",
+        "Sesame oil",
+        "Garlic powder",
+        "Fresh ginger",
+        "Rice wine vinegar"
+      ],
+      "works_with": [
+        "Chicken thighs",
+        "Beef",
+        "Pork",
+        "Tofu",
+        "Salmon"
+      ],
+      "elevate": [
+        {
+          "item": "Gochujang",
+          "tip": "1 tbsp stirred in adds fermented heat and the sweet-spicy depth that makes Korean BBQ distinctly Korean."
+        },
+        {
+          "item": "Mirin",
+          "tip": "1 tbsp for a cleaner sweetness \u2014 more authentic than adding nothing, and it helps the marinade caramelise better."
+        }
+      ],
+      "recipe_5": {
+        "ingredients": [
+          {
+            "qty": 3,
+            "unit": "tbsp",
+            "item": "soy sauce"
+          },
+          {
+            "qty": 1,
+            "unit": "tsp",
+            "item": "sesame oil"
+          },
+          {
+            "qty": 1,
+            "unit": "tsp",
+            "item": "garlic powder"
+          },
+          {
+            "qty": 1,
+            "unit": "thumb",
+            "item": "fresh ginger, grated"
+          },
+          {
+            "qty": 1,
+            "unit": "tbsp",
+            "item": "rice wine vinegar"
+          },
+          {
+            "qty": null,
+            "item": "black pepper"
+          }
+        ],
+        "method": "Combine everything and mix well. Coat meat or tofu thoroughly and leave for at least 30 minutes \u2014 overnight is better. Cook over high heat for good caramelisation; the marinade scorches quickly so keep it moving or use a very hot grill."
+      }
+    },
+    {
       "id": "char_siu_rub",
       "name": "Char Siu",
       "cuisine": "chinese",
@@ -3058,6 +3071,68 @@
         }
       ],
       "description": "Char siu means 'fork roasted' in Cantonese \u2014 named for the way strips of pork were traditionally suspended over fire. The sweet, sticky glaze caramelises into the lacquered crust you see in Chinese BBQ shops, and it's one of the great things to do with pork belly."
+    },
+    {
+      "name": "Miso Glaze",
+      "cuisine": "japanese",
+      "description": "Miso used as a rub rather than a soup base \u2014 the natural sugars caramelise under heat in a way nothing else quite matches. Japanese cooks have been pressing it into fish and aubergine for centuries. It brings a quiet, deep savouriness that doesn't announce itself.",
+      "sw": "synned",
+      "sw_note": "Sesame oil is synned \u2014 a small amount goes a long way, roughly 1 syn per portion.",
+      "adult_heat": false,
+      "required_items": [
+        "White miso paste",
+        "Sesame oil",
+        "Garlic powder",
+        "Fresh ginger",
+        "Rice wine vinegar"
+      ],
+      "works_with": [
+        "Salmon",
+        "White fish",
+        "Chicken thighs",
+        "Aubergine",
+        "Tofu"
+      ],
+      "elevate": [
+        {
+          "item": "Mirin",
+          "tip": "1 tbsp added to the paste makes it sweeter and more yielding \u2014 closer to the dengaku-style glaze used on grilled tofu and aubergine."
+        }
+      ],
+      "recipe_5": {
+        "ingredients": [
+          {
+            "qty": 3,
+            "unit": "tbsp",
+            "item": "white miso paste"
+          },
+          {
+            "qty": 1,
+            "unit": "tsp",
+            "item": "sesame oil"
+          },
+          {
+            "qty": 1,
+            "unit": "tsp",
+            "item": "garlic powder"
+          },
+          {
+            "qty": 1,
+            "unit": "thumb",
+            "item": "fresh ginger, grated"
+          },
+          {
+            "qty": 1,
+            "unit": "tsp",
+            "item": "rice wine vinegar"
+          },
+          {
+            "qty": null,
+            "item": "black pepper"
+          }
+        ],
+        "method": "Mix into a smooth paste. Press generously onto fish, chicken or veg \u2014 it should be a thick coating, not a thin glaze. Leave for at least 1 hour; longer for chicken. Cook under a hot grill or in a very hot pan, watching carefully \u2014 the miso sugars catch fast and the line between caramelised and burnt is narrow."
+      }
     }
   ],
   "dressings": [
@@ -3165,6 +3240,82 @@
         }
       ],
       "description": "The vinaigrette that every French cook makes without measuring. The Dijon is there for emulsification as much as flavour \u2014 it's what makes the dressing hold together \u2014 and it's light and versatile enough for any season."
+    },
+    {
+      "name": "Italian Herb",
+      "cuisine": "italian",
+      "description": "The dressing that doesn't need writing down in any Italian kitchen \u2014 red wine vinegar, garlic, oregano, a little mustard for body. Sharp and aromatic; works on tomatoes, grilled veg, pasta salads, and anything else that needs a clean hit of acidity.",
+      "sw": "free",
+      "adult_heat": false,
+      "required_items": [
+        "Red wine vinegar",
+        "Garlic",
+        "Dried oregano",
+        "Fresh basil (or dried)",
+        "Dijon mustard"
+      ],
+      "pairs_with": {
+        "proteins": [
+          "Chicken breast",
+          "Mozzarella",
+          "White fish"
+        ],
+        "carbs": [
+          "Pasta salad",
+          "Crusty bread",
+          "Ciabatta"
+        ],
+        "vegetables": [
+          "Tomatoes",
+          "Roasted peppers",
+          "Rocket",
+          "Courgettes"
+        ]
+      },
+      "elevate": [
+        {
+          "item": "Anchovy paste",
+          "tip": "Half a teaspoon whisked in adds depth that makes people ask what you did differently \u2014 it disappears completely but the dressing tastes rounder."
+        },
+        {
+          "item": "Capers",
+          "tip": "1 tbsp, roughly chopped, gives a briny sharpness that takes this into puttanesca territory."
+        }
+      ],
+      "recipe_5": {
+        "ingredients": [
+          {
+            "qty": 4,
+            "unit": "tbsp",
+            "item": "red wine vinegar"
+          },
+          {
+            "qty": 2,
+            "unit": "clove",
+            "item": "garlic, crushed"
+          },
+          {
+            "qty": 1,
+            "unit": "tsp",
+            "item": "dried oregano"
+          },
+          {
+            "qty": 1,
+            "unit": "tsp",
+            "item": "Dijon mustard"
+          },
+          {
+            "qty": 1,
+            "unit": "handful",
+            "item": "fresh basil, torn (or 1 tsp dried)"
+          },
+          {
+            "qty": null,
+            "item": "salt + black pepper"
+          }
+        ],
+        "method": "Whisk vinegar and mustard together first \u2014 the mustard emulsifies the dressing and stops it splitting. Add garlic and oregano. Tear in basil just before serving if using fresh. Taste: it should be sharp and aromatic. Scale back the vinegar slightly if it's too aggressive."
+      }
     },
     {
       "id": "caper_lemon",
@@ -3370,85 +3521,6 @@
       "description": "Tahini \u2014 ground sesame paste \u2014 is central to Levantine cooking, appearing in everything from hummus to falafel to baked fish. Loosened with lemon and water it becomes a dressing that works on almost anything, earthy and nutty in any season."
     },
     {
-      "name": "Pomegranate & Cumin",
-      "cuisine": "middle_eastern",
-      "description": "The backbone of Lebanese fattoush and a dozen mezze salads. Pomegranate molasses hits a sweet-tart note that balsamic gestures toward but never quite reaches \u2014 with cumin and coriander underneath, the result is unmistakably Middle Eastern.",
-      "sw": "synned",
-      "sw_note": "Pomegranate molasses contains natural sugars \u2014 approximately 1 syn per tablespoon. Use 2 tbsp rather than 3 to bring it to around 1 syn per portion.",
-      "adult_heat": false,
-      "required_items": [
-        "Pomegranate molasses",
-        "Red wine vinegar",
-        "Lemon",
-        "Garlic",
-        "Cumin (ground)",
-        "Coriander (ground)"
-      ],
-      "pairs_with": {
-        "proteins": [
-          "Lamb",
-          "Chicken thighs",
-          "Halloumi"
-        ],
-        "carbs": [
-          "Flatbreads",
-          "Bulgur wheat",
-          "Couscous"
-        ],
-        "vegetables": [
-          "Roasted aubergine",
-          "Cucumber",
-          "Tomatoes",
-          "Roasted peppers"
-        ]
-      },
-      "elevate": [
-        {
-          "item": "Za'atar",
-          "tip": "Scatter over the finished dish \u2014 it adds a dried herb and sesame note that ties the whole thing together."
-        }
-      ],
-      "recipe_5": {
-        "ingredients": [
-          {
-            "qty": 3,
-            "unit": "tbsp",
-            "item": "pomegranate molasses"
-          },
-          {
-            "qty": 2,
-            "unit": "tbsp",
-            "item": "red wine vinegar"
-          },
-          {
-            "qty": 1,
-            "unit": "lemon",
-            "item": "juice"
-          },
-          {
-            "qty": 1,
-            "unit": "clove",
-            "item": "garlic, crushed"
-          },
-          {
-            "qty": 1,
-            "unit": "tsp",
-            "item": "ground cumin"
-          },
-          {
-            "qty": 1,
-            "unit": "tsp",
-            "item": "ground coriander"
-          },
-          {
-            "qty": null,
-            "item": "salt + black pepper"
-          }
-        ],
-        "method": "Whisk molasses with vinegar and lemon juice \u2014 the molasses is thick, so work it in gradually. Add garlic, cumin and coriander. Taste: it should be sweet-sharp with spice underneath. More vinegar if it's too cloying; more molasses if too harsh."
-      }
-    },
-    {
       "id": "nam_jim",
       "name": "Nam Jim",
       "cuisine": "thai",
@@ -3632,89 +3704,6 @@
         }
       ],
       "description": "A dressing with roots in Japanese cooking \u2014 the miso and ginger combination associated with Kyoto restaurant salads and popularised worldwide by Japanese-American diners. Earthy and savoury, with more depth than any standard vinaigrette."
-    },
-    {
-      "name": "Gochujang",
-      "cuisine": "korean",
-      "description": "South Korea's fermented chilli paste gives this dressing a depth that straight chilli never achieves \u2014 hot, sweet, savoury and faintly funky all at once. The kind of dressing that makes you eat a salad you'd otherwise skip.",
-      "sw": "synned",
-      "sw_note": "Sesame oil is synned. Use \u00bd tsp instead of 1 tsp to reduce to roughly 1 syn per portion.",
-      "adult_heat": true,
-      "adult_heat_note": "Gochujang brings moderate heat \u2014 scale down to 1 tbsp for a milder version, or up to 3 tbsp if you want it properly fiery.",
-      "required_items": [
-        "Gochujang",
-        "Rice wine vinegar",
-        "Soy sauce",
-        "Sesame oil",
-        "Garlic",
-        "Fresh ginger",
-        "Lime"
-      ],
-      "pairs_with": {
-        "proteins": [
-          "Chicken thighs",
-          "Beef",
-          "Tofu",
-          "Prawns"
-        ],
-        "carbs": [
-          "Rice",
-          "Noodles",
-          "Shredded cabbage"
-        ],
-        "vegetables": [
-          "Cucumber",
-          "Carrots",
-          "Spring onions",
-          "Pak choi"
-        ]
-      },
-      "elevate": [
-        {
-          "item": "Mirin",
-          "tip": "1 tbsp balances the heat with a clean sweetness \u2014 more authentic to the Korean pantry than adjusting vinegar."
-        }
-      ],
-      "recipe_5": {
-        "ingredients": [
-          {
-            "qty": 2,
-            "unit": "tbsp",
-            "item": "gochujang"
-          },
-          {
-            "qty": 2,
-            "unit": "tbsp",
-            "item": "rice wine vinegar"
-          },
-          {
-            "qty": 1,
-            "unit": "tbsp",
-            "item": "soy sauce"
-          },
-          {
-            "qty": 1,
-            "unit": "tsp",
-            "item": "sesame oil"
-          },
-          {
-            "qty": 2,
-            "unit": "clove",
-            "item": "garlic, crushed"
-          },
-          {
-            "qty": 1,
-            "unit": "thumb",
-            "item": "fresh ginger, grated"
-          },
-          {
-            "qty": 1,
-            "unit": "lime",
-            "item": "juice"
-          }
-        ],
-        "method": "Whisk gochujang with vinegar and soy until smooth \u2014 it can be stubborn, keep going. Add sesame oil, garlic and ginger. Finish with lime juice. Taste: balance the heat with more vinegar, savouriness with more soy. Thin with water to your preferred consistency."
-      }
     }
   ]
 }

@@ -22,6 +22,7 @@ const CUISINE_COLOURS = {
   // SE Asia — teals and forest greens
   thai:           '#1a7a58',
   vietnamese:     '#1a6845',
+  malay:          '#2d6b52',
   asian:          '#1a5e5e',
   // E Asia — deep red through burgundy to purple
   chinese:        '#8e1e1e',
@@ -73,7 +74,7 @@ function hexToRgba(hex, alpha) {
 
 async function init() {
   try {
-    const res = await fetch('./sauces.json?v=15');
+    const res = await fetch('./sauces.json?v=17');
     data = await res.json();
   } catch (e) {
     document.getElementById('main').innerHTML = '<p style="padding:24px;color:red">Could not load sauces.json</p>';
