@@ -75,32 +75,57 @@ function hexToRgba(hex, alpha) {
 
 async function init() {
   try {
-    const res = await fetch('./sauces.json?v=19');
+    const res = await fetch('./sauces.json?v=20');
     data = await res.json();
   } catch (e) {
     document.getElementById('main').innerHTML = '<p style="padding:24px;color:red">Could not load sauces.json</p>';
     return;
   }
 
+  // Seed the initial history entry so the back button has somewhere to land
+  history.replaceState({ view: 'grid', cat: 'sauces' }, '');
+
+  window.addEventListener('popstate', e => {
+    const s = e.state;
+    if (!s) return;
+    syncTab(s.view === 'shopping' ? 'shopping' : s.cat);
+    if (s.view === 'grid') {
+      currentCat = s.cat;
+      showGrid(s.cat, false);
+    } else if (s.view === 'detail') {
+      currentCat = s.cat;
+      const item = (data[s.cat] || []).find(i => i.name === s.itemName);
+      if (item) showDetail(item, false);
+      else showGrid(s.cat, false);
+    } else if (s.view === 'shopping') {
+      currentCat = 'shopping';
+      showShopping(false);
+    }
+  });
+
   document.getElementById('tabs').addEventListener('click', e => {
     const tab = e.target.closest('.tab');
     if (!tab) return;
-    document.querySelectorAll('.tab').forEach(t => t.classList.remove('active'));
-    tab.classList.add('active');
+    syncTab(tab.dataset.cat);
     currentCat = tab.dataset.cat;
     if (currentCat === 'shopping') showShopping();
     else showGrid(currentCat);
   });
 
+  // In-app back button just steps back through browser history
   document.getElementById('back-btn').addEventListener('click', () => {
-    if (currentCat === 'shopping') showShopping();
-    else showGrid(currentCat);
+    history.back();
   });
 
-  showGrid('sauces');
+  showGrid('sauces', false);
 }
 
-function showGrid(cat) {
+function syncTab(cat) {
+  document.querySelectorAll('.tab').forEach(t => t.classList.toggle('active', t.dataset.cat === cat));
+}
+
+function showGrid(cat, pushState = true) {
+  if (pushState) history.pushState({ view: 'grid', cat }, '');
   setHeader('Kitchen', true);
   const items = data[cat] || [];
   const missing = JSON.parse(localStorage.getItem('pantry_missing') || '[]');
@@ -145,7 +170,8 @@ function showGrid(cat) {
   setMain(wrap);
 }
 
-function showDetail(item) {
+function showDetail(item, pushState = true) {
+  if (pushState) history.pushState({ view: 'detail', cat: currentCat, itemName: item.name }, '');
   setHeader(item.name, false);
 
   const recipe = item.recipe_5 || item.recipe || {};
@@ -298,7 +324,8 @@ function showFallback(text) {
   modal.querySelector('textarea').select();
 }
 
-function showShopping() {
+function showShopping(pushState = true) {
+  if (pushState) history.pushState({ view: 'shopping' }, '');
   setHeader('Kitchen', true);
   const groups = data.shopping_list;
   const missing = JSON.parse(localStorage.getItem('pantry_missing') || '[]');
