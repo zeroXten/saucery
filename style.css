@@ -13,6 +13,7 @@
   --sauce: #b5321e;
   --rub: #c4570a;
   --dressing: #2a7a45;
+  --snack: #b07a08;
   --pantry: #5a6e3a;
 
   --free-bg: #e6f4ea;
@@ -118,6 +119,7 @@ header {
 .tab.active[data-cat="sauces"]   { background: var(--sauce); }
 .tab.active[data-cat="rubs"]     { background: var(--rub); }
 .tab.active[data-cat="dressings"]{ background: var(--dressing); }
+.tab.active[data-cat="snacks"]   { background: var(--snack); }
 .tab.active[data-cat="pantry"]   { background: var(--pantry); }
 .tab.active[data-cat="shopping"] { background: #5b3fa6; }
 

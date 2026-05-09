@@ -2284,6 +2284,15 @@
       "Pomegranate molasses",
       "Fennel seeds",
       "Saffron"
+    ],
+    "Snacks & baking": [
+      "Rolled oats",
+      "Honey",
+      "Greek yogurt",
+      "Chia seeds",
+      "Dates (medjool)",
+      "Mixed nuts",
+      "Desiccated coconut"
     ]
   },
   "rubs": [
@@ -3704,6 +3713,624 @@
         }
       ],
       "description": "A dressing with roots in Japanese cooking \u2014 the miso and ginger combination associated with Kyoto restaurant salads and popularised worldwide by Japanese-American diners. Earthy and savoury, with more depth than any standard vinaigrette."
+    }
+  ],
+  "snacks": [
+    {
+      "name": "Peanut Butter Balls",
+      "cuisine": "american",
+      "description": "The gym bag staple that actually tastes good \u2014 oats, peanut butter and honey held together by chia seeds. American fitness culture codified into a ball. No baking, no fuss, keeps in the fridge all week.",
+      "sw": "synned",
+      "sw_note": "Oats count as a Healthy Extra B; peanut butter and honey are synned. Around 4\u20135 syns per portion depending on size.",
+      "adult_heat": false,
+      "required_items": [
+        "Rolled oats",
+        "Peanut butter (smooth)",
+        "Honey",
+        "Chia seeds"
+      ],
+      "works_with": [
+        "Morning coffee",
+        "Pre-workout",
+        "Afternoon slump"
+      ],
+      "elevate": [
+        {
+          "item": "Desiccated coconut",
+          "tip": "Roll the finished balls in coconut before refrigerating \u2014 adds texture and a slightly tropical note."
+        }
+      ],
+      "recipe_5": {
+        "ingredients": [
+          {
+            "qty": 200,
+            "unit": "g",
+            "item": "rolled oats"
+          },
+          {
+            "qty": 150,
+            "unit": "g",
+            "item": "peanut butter"
+          },
+          {
+            "qty": 3,
+            "unit": "tbsp",
+            "item": "honey"
+          },
+          {
+            "qty": 2,
+            "unit": "tbsp",
+            "item": "chia seeds"
+          },
+          {
+            "qty": null,
+            "item": "pinch of salt"
+          }
+        ],
+        "method": "Mix everything together until it comes together into a sticky dough \u2014 if it's too dry, add a little more honey; too wet, a handful more oats. Roll into balls roughly the size of a walnut (about 20 total). Refrigerate for at least 30 minutes before eating. Keeps for a week in the fridge."
+      }
+    },
+    {
+      "name": "Tahini Date Bites",
+      "cuisine": "middle_eastern",
+      "description": "Medjool dates and tahini have been eaten together across the Levant for centuries \u2014 one sweet, one bitter, each making the other better. No sugar added because none is needed. Dense, rich and satisfying in a way that processed snacks rarely manage.",
+      "sw": "synned",
+      "sw_note": "Dates are synned due to natural sugar content; tahini is also synned. Around 4\u20135 syns per portion.",
+      "adult_heat": false,
+      "required_items": [
+        "Dates (medjool)",
+        "Tahini",
+        "Desiccated coconut",
+        "Cinnamon (ground)"
+      ],
+      "works_with": [
+        "Tea",
+        "Mid-morning",
+        "Post-meal sweet fix"
+      ],
+      "elevate": [
+        {
+          "item": "Sesame oil",
+          "tip": "A few drops worked into the tahini deepens the sesame flavour before you mix everything together."
+        }
+      ],
+      "recipe_5": {
+        "ingredients": [
+          {
+            "qty": 200,
+            "unit": "g",
+            "item": "dates, pitted"
+          },
+          {
+            "qty": 3,
+            "unit": "tbsp",
+            "item": "tahini"
+          },
+          {
+            "qty": 2,
+            "unit": "tbsp",
+            "item": "desiccated coconut"
+          },
+          {
+            "qty": 1,
+            "unit": "tsp",
+            "item": "ground cinnamon"
+          },
+          {
+            "qty": null,
+            "item": "pinch of salt"
+          }
+        ],
+        "method": "Blitz dates in a food processor until they form a sticky paste. Add tahini, cinnamon and salt and blitz again until combined. Roll into balls, then roll each ball in desiccated coconut to coat. Refrigerate for 30 minutes. Keeps for 2 weeks in the fridge."
+      }
+    },
+    {
+      "name": "Chia Coconut Pudding",
+      "cuisine": "thai",
+      "description": "Thai coconut desserts are built on exactly this logic \u2014 rich coconut milk balanced with something sharp and something sweet. Chia seeds do the work overnight. Effortless to make, impressive to serve, and genuinely filling.",
+      "sw": "synned",
+      "sw_note": "Light coconut milk is synned; honey adds further syns. Around 5\u20136 syns per portion. Use unsweetened almond milk instead to reduce significantly.",
+      "adult_heat": false,
+      "required_items": [
+        "Chia seeds",
+        "Light coconut milk",
+        "Honey",
+        "Lime"
+      ],
+      "works_with": [
+        "Breakfast",
+        "Light dessert",
+        "Meal prep"
+      ],
+      "elevate": [
+        {
+          "item": "Fresh ginger",
+          "tip": "A small thumb grated in before setting adds a warm, faintly spicy note that makes it feel more complex."
+        },
+        {
+          "item": "Kaffir lime leaves",
+          "tip": "Steep 2 leaves in the warm coconut milk before adding the chia \u2014 the citrus fragrance is distinctly Thai."
+        }
+      ],
+      "recipe_5": {
+        "ingredients": [
+          {
+            "qty": 400,
+            "unit": "ml",
+            "item": "light coconut milk"
+          },
+          {
+            "qty": 5,
+            "unit": "tbsp",
+            "item": "chia seeds"
+          },
+          {
+            "qty": 2,
+            "unit": "tbsp",
+            "item": "honey"
+          },
+          {
+            "qty": 1,
+            "unit": "lime",
+            "item": "juice"
+          }
+        ],
+        "method": "Whisk coconut milk, honey and lime juice together. Stir in chia seeds and mix well \u2014 they clump if you don't. Leave for 5 minutes, stir again, then refrigerate overnight or for at least 4 hours. The pudding should be thick and spoonable. Top with fruit if you have it."
+      }
+    },
+    {
+      "name": "Miso Almond Clusters",
+      "cuisine": "japanese",
+      "description": "Japanese convenience stores sell roasted nuts glazed with miso and honey \u2014 this is that, made at home. The miso's saltiness stops the honey becoming sickly and the clusters caramelise into something genuinely addictive. Ready in minutes once the nuts cool.",
+      "sw": "synned",
+      "sw_note": "Mixed nuts are synned outside of the Healthy Extra B allowance; honey adds further syns. Around 6 syns per portion.",
+      "adult_heat": false,
+      "required_items": [
+        "Mixed nuts",
+        "White miso paste",
+        "Honey",
+        "Sesame oil"
+      ],
+      "works_with": [
+        "Drinks",
+        "Desk snack",
+        "Pre-dinner nibbles"
+      ],
+      "elevate": [
+        {
+          "item": "Sesame oil",
+          "tip": "A second tiny drizzle over the finished clusters as they cool \u2014 the raw sesame aroma stays bright where the cooked version goes deeper."
+        }
+      ],
+      "recipe_5": {
+        "ingredients": [
+          {
+            "qty": 200,
+            "unit": "g",
+            "item": "mixed nuts"
+          },
+          {
+            "qty": 1,
+            "unit": "tbsp",
+            "item": "white miso paste"
+          },
+          {
+            "qty": 2,
+            "unit": "tbsp",
+            "item": "honey"
+          },
+          {
+            "qty": 1,
+            "unit": "tsp",
+            "item": "sesame oil"
+          }
+        ],
+        "method": "Warm miso, honey and sesame oil in a pan over low heat until they loosen into a glaze \u2014 1 minute. Add nuts and stir to coat thoroughly. Tip onto a lined tray in small clusters and leave to cool completely. They'll harden as they cool. Keeps in a jar for 2 weeks."
+      }
+    },
+    {
+      "name": "Spiced Nuts",
+      "cuisine": "middle_eastern",
+      "description": "Every market in the Middle East sells some version of this \u2014 spiced, roasted nuts that sit somewhere between snack and condiment. The honey keeps them together; the cumin and smoked paprika do the work. Excellent with drinks and better the next day.",
+      "sw": "synned",
+      "sw_note": "Nuts are synned outside the Healthy Extra B allowance. Around 6 syns per portion.",
+      "adult_heat": false,
+      "required_items": [
+        "Mixed nuts",
+        "Honey",
+        "Cumin (ground)",
+        "Smoked paprika",
+        "Garlic powder"
+      ],
+      "works_with": [
+        "Drinks",
+        "Pre-dinner",
+        "Desk snack"
+      ],
+      "elevate": [
+        {
+          "item": "Za'atar",
+          "tip": "A tablespoon stirred in with the spices adds a dried herb and sesame complexity that's distinctly Levantine."
+        },
+        {
+          "item": "Harissa paste",
+          "tip": "Half a teaspoon in the honey glaze for a spiced, warm version \u2014 adds real heat and colour."
+        }
+      ],
+      "recipe_5": {
+        "ingredients": [
+          {
+            "qty": 200,
+            "unit": "g",
+            "item": "mixed nuts"
+          },
+          {
+            "qty": 1,
+            "unit": "tbsp",
+            "item": "honey"
+          },
+          {
+            "qty": 1,
+            "unit": "tsp",
+            "item": "ground cumin"
+          },
+          {
+            "qty": 1,
+            "unit": "tsp",
+            "item": "smoked paprika"
+          },
+          {
+            "qty": 0.5,
+            "unit": "tsp",
+            "item": "garlic powder"
+          },
+          {
+            "qty": null,
+            "item": "salt + black pepper"
+          }
+        ],
+        "method": "Toast nuts in a dry pan over medium heat for 3\u20134 minutes until starting to colour. Add honey and spices and stir for another 2 minutes until coated and caramelised. Tip onto a lined tray, spread out and leave to cool. Season with salt. Store in a jar."
+      }
+    },
+    {
+      "name": "Yogurt Bark",
+      "cuisine": "mediterranean",
+      "description": "Greek yogurt frozen into a slab \u2014 a Mediterranean approach to the problem of wanting something cold and sweet without eating ice cream. The honey and cinnamon do minimal work. Keeps in the freezer and breaks into pieces like rough dark chocolate.",
+      "sw": "synned",
+      "sw_note": "Greek yogurt is free; honey is synned. Around 2\u20133 syns per portion, making this one of the lower-syn snack options.",
+      "adult_heat": false,
+      "required_items": [
+        "Greek yogurt",
+        "Honey",
+        "Mixed nuts",
+        "Cinnamon (ground)"
+      ],
+      "works_with": [
+        "Post-dinner",
+        "Hot afternoon",
+        "Sweet fix"
+      ],
+      "elevate": [
+        {
+          "item": "Desiccated coconut",
+          "tip": "Scattered over the top before freezing \u2014 adds texture to the finished bark."
+        },
+        {
+          "item": "Pomegranate molasses",
+          "tip": "A thin drizzle over the honey layer before freezing adds a sweet-tart depth and a deep red colour."
+        }
+      ],
+      "recipe_5": {
+        "ingredients": [
+          {
+            "qty": 400,
+            "unit": "g",
+            "item": "Greek yogurt"
+          },
+          {
+            "qty": 3,
+            "unit": "tbsp",
+            "item": "honey"
+          },
+          {
+            "qty": 75,
+            "unit": "g",
+            "item": "mixed nuts, roughly chopped"
+          },
+          {
+            "qty": 1,
+            "unit": "tsp",
+            "item": "ground cinnamon"
+          }
+        ],
+        "method": "Line a tray or baking sheet with parchment. Spread yogurt in a thin, even layer. Drizzle honey over, scatter nuts and dust with cinnamon. Freeze for at least 3\u20134 hours until solid. Break into rough pieces directly from the freezer. Store in a bag in the freezer."
+      }
+    },
+    {
+      "name": "Coconut Ginger Bites",
+      "cuisine": "indian",
+      "description": "Loosely inspired by Indian coconut ladoo \u2014 the kind made for festivals and celebrations. No ghee, no sugar, just coconut, honey and fresh ginger with chia to bind. Fresh ginger gives them a warmth that dried doesn't, and makes the whole batch smell like a spice market.",
+      "sw": "synned",
+      "sw_note": "Desiccated coconut and honey are both synned. Around 4 syns per portion.",
+      "adult_heat": false,
+      "required_items": [
+        "Desiccated coconut",
+        "Honey",
+        "Fresh ginger",
+        "Chia seeds",
+        "Cinnamon (ground)"
+      ],
+      "works_with": [
+        "Tea",
+        "Post-dinner sweet",
+        "Lunchbox"
+      ],
+      "elevate": [
+        {
+          "item": "Cardamom",
+          "tip": "Half a teaspoon of ground cardamom stirred in is traditional in ladoo and makes these taste more authentically Indian."
+        }
+      ],
+      "recipe_5": {
+        "ingredients": [
+          {
+            "qty": 150,
+            "unit": "g",
+            "item": "desiccated coconut"
+          },
+          {
+            "qty": 3,
+            "unit": "tbsp",
+            "item": "honey"
+          },
+          {
+            "qty": 1,
+            "unit": "thumb",
+            "item": "fresh ginger, finely grated"
+          },
+          {
+            "qty": 2,
+            "unit": "tbsp",
+            "item": "chia seeds"
+          },
+          {
+            "qty": 0.5,
+            "unit": "tsp",
+            "item": "ground cinnamon"
+          }
+        ],
+        "method": "Mix all ingredients together until it clumps when pressed \u2014 if too dry, add a little more honey. Leave to sit for 10 minutes (the chia absorbs moisture and helps it bind). Roll into balls. Refrigerate for 30 minutes. Keeps for a week in the fridge."
+      }
+    },
+    {
+      "name": "Oat Honey Bars",
+      "cuisine": "american",
+      "description": "The American answer to the cereal bar, made without the packaging and the ingredient list you need a degree to parse. Oats, peanut butter, honey \u2014 pressed into a tray and refrigerated. Batch-friendly and genuinely filling for the calorie count.",
+      "sw": "synned",
+      "sw_note": "Oats are a Healthy Extra B; peanut butter and honey are synned. Around 5\u20136 syns per portion.",
+      "adult_heat": false,
+      "required_items": [
+        "Rolled oats",
+        "Honey",
+        "Peanut butter (smooth)",
+        "Chia seeds",
+        "Cinnamon (ground)"
+      ],
+      "works_with": [
+        "Breakfast on the go",
+        "Pre-workout",
+        "Lunchbox"
+      ],
+      "elevate": [
+        {
+          "item": "Desiccated coconut",
+          "tip": "A handful pressed into the top of the tray before refrigerating adds texture and a toasted coconut note when you cut them."
+        }
+      ],
+      "recipe_5": {
+        "ingredients": [
+          {
+            "qty": 200,
+            "unit": "g",
+            "item": "rolled oats"
+          },
+          {
+            "qty": 4,
+            "unit": "tbsp",
+            "item": "honey"
+          },
+          {
+            "qty": 3,
+            "unit": "tbsp",
+            "item": "peanut butter"
+          },
+          {
+            "qty": 2,
+            "unit": "tbsp",
+            "item": "chia seeds"
+          },
+          {
+            "qty": 1,
+            "unit": "tsp",
+            "item": "ground cinnamon"
+          }
+        ],
+        "method": "Warm peanut butter and honey together in a pan over low heat until combined and runny. Remove from heat and stir in oats, chia seeds and cinnamon until fully coated. Press firmly into a lined tray \u2014 really press it, or it won't hold together. Refrigerate for at least 2 hours. Cut into bars and keep refrigerated."
+      }
+    },
+    {
+      "name": "Majoun",
+      "cuisine": "north_african",
+      "description": "A medieval Moroccan confection found in manuscripts like the 13th-century Andalusian cookbook Al-Andalus. Dates, nuts and warm spices ground together into dense, aromatic balls \u2014 originally made as a travelling provision and restorative food. The original energy bar, unchanged for 800 years.",
+      "sw": "synned",
+      "sw_note": "Dates, nuts and honey are all synned. Around 5\u20136 syns per portion of four balls.",
+      "adult_heat": false,
+      "required_items": [
+        "Dates (medjool)",
+        "Mixed nuts",
+        "Honey",
+        "Cinnamon (ground)",
+        "Ginger (ground)",
+        "Desiccated coconut"
+      ],
+      "works_with": [
+        "Mint tea",
+        "After dinner",
+        "Travel snack"
+      ],
+      "elevate": [
+        {
+          "item": "Rosewater",
+          "tip": "A teaspoon stirred in before rolling adds a floral, perfumed note that is very true to medieval Moroccan cooking."
+        },
+        {
+          "item": "Black pepper",
+          "tip": "A pinch of finely ground black pepper was common in historical recipes \u2014 it cuts through the sweetness unexpectedly well."
+        }
+      ],
+      "recipe_5": {
+        "ingredients": [
+          {
+            "qty": 200,
+            "unit": "g",
+            "item": "dates, pitted"
+          },
+          {
+            "qty": 150,
+            "unit": "g",
+            "item": "mixed nuts, roughly chopped"
+          },
+          {
+            "qty": 2,
+            "unit": "tbsp",
+            "item": "honey"
+          },
+          {
+            "qty": 1,
+            "unit": "tsp",
+            "item": "ground cinnamon"
+          },
+          {
+            "qty": 0.5,
+            "unit": "tsp",
+            "item": "ground ginger"
+          },
+          {
+            "qty": 3,
+            "unit": "tbsp",
+            "item": "desiccated coconut"
+          },
+          {
+            "qty": null,
+            "item": "pinch of salt"
+          }
+        ],
+        "method": "Blitz the dates in a food processor until they form a thick paste. Add the nuts, honey, cinnamon, ginger and salt and pulse until the nuts are broken down but still have some texture \u2014 you want it rough, not smooth. Roll into balls roughly the size of a walnut (about 20 total), then roll each one in desiccated coconut. Refrigerate for 30 minutes before eating. Keeps for 2 weeks in the fridge."
+      }
+    },
+    {
+      "name": "Tahini Halva Balls",
+      "cuisine": "middle_eastern",
+      "description": "Halva in its oldest form \u2014 before it became the crumbly block found in shops \u2014 was simply tahini worked with honey until it stiffened into something you could shape by hand. Versions of this appear in Persian and Levantine texts going back over a thousand years. Two ingredients, ancient technique, surprisingly complex result.",
+      "sw": "synned",
+      "sw_note": "Tahini and honey are both synned. Around 4\u20135 syns per portion.",
+      "adult_heat": false,
+      "required_items": [
+        "Tahini",
+        "Honey"
+      ],
+      "works_with": [
+        "Coffee",
+        "Tea",
+        "Dessert"
+      ],
+      "elevate": [
+        {
+          "item": "Sesame seeds",
+          "tip": "Roll the finished balls in sesame seeds for extra crunch and a more pronounced sesame flavour."
+        },
+        {
+          "item": "Cardamom (ground)",
+          "tip": "A pinch stirred into the mix adds a faintly floral warmth that works beautifully with the sesame."
+        }
+      ],
+      "recipe_5": {
+        "ingredients": [
+          {
+            "qty": 200,
+            "unit": "g",
+            "item": "tahini"
+          },
+          {
+            "qty": 4,
+            "unit": "tbsp",
+            "item": "honey"
+          },
+          {
+            "qty": null,
+            "item": "pinch of salt"
+          }
+        ],
+        "method": "Stir the tahini, honey and salt together in a bowl. It will seize and thicken as you work it \u2014 this is what you want. If it is too soft to hold its shape, refrigerate for 15 minutes then try again. Roll into small balls (about 20 total). Refrigerate on a tray for at least 30 minutes until firm. Keeps for 2 weeks in the fridge \u2014 they firm up further over time."
+      }
+    },
+    {
+      "name": "Nut Laddoo",
+      "cuisine": "indian",
+      "description": "Laddoo appears in Ayurvedic texts as both food and medicine \u2014 the Sushruta Samhita mentions modaka, sweet balls of ground nuts, honey and spices, given for strength and recovery. This no-bake version stays close to those ancient roots: crushed nuts, honey, coconut and cardamom, nothing else. One of the oldest snack forms on earth.",
+      "sw": "synned",
+      "sw_note": "Nuts, honey and coconut are all synned. Around 5\u20136 syns per portion.",
+      "adult_heat": false,
+      "required_items": [
+        "Mixed nuts",
+        "Honey",
+        "Desiccated coconut",
+        "Cardamom (ground)"
+      ],
+      "works_with": [
+        "Chai",
+        "After dinner",
+        "Festive occasions"
+      ],
+      "elevate": [
+        {
+          "item": "Rosewater",
+          "tip": "A teaspoon added with the honey gives a Mughal-era fragrance that elevates the whole thing."
+        },
+        {
+          "item": "Saffron",
+          "tip": "A pinch dissolved in a teaspoon of warm water and stirred in turns them a beautiful gold and adds a gentle floral depth."
+        }
+      ],
+      "recipe_5": {
+        "ingredients": [
+          {
+            "qty": 250,
+            "unit": "g",
+            "item": "mixed nuts"
+          },
+          {
+            "qty": 3,
+            "unit": "tbsp",
+            "item": "honey"
+          },
+          {
+            "qty": 4,
+            "unit": "tbsp",
+            "item": "desiccated coconut"
+          },
+          {
+            "qty": 1,
+            "unit": "tsp",
+            "item": "ground cardamom"
+          },
+          {
+            "qty": null,
+            "item": "pinch of salt"
+          }
+        ],
+        "method": "Blitz the nuts in a food processor until finely ground \u2014 stop before they turn to butter, you want a coarse sandy texture. Add the honey, 3 tablespoons of the coconut, cardamom and salt and pulse until it comes together into a dough. Roll into balls roughly the size of a walnut (about 20 total), then roll in the remaining coconut. Refrigerate for 30 minutes. Keeps for 2 weeks in the fridge."
+      }
     }
   ]
 }

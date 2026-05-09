@@ -9,6 +9,7 @@ const CUISINE_COLOURS = {
   spanish:        '#8e3e1a',
   mediterranean:  '#2e628a',
   // Americas — greens and amber
+  american:       '#1e4a8a',
   mexican:        '#2a7a40',
   argentinian:    '#2e6040',
   caribbean:      '#8a5218',
@@ -74,7 +75,7 @@ function hexToRgba(hex, alpha) {
 
 async function init() {
   try {
-    const res = await fetch('./sauces.json?v=17');
+    const res = await fetch('./sauces.json?v=19');
     data = await res.json();
   } catch (e) {
     document.getElementById('main').innerHTML = '<p style="padding:24px;color:red">Could not load sauces.json</p>';
