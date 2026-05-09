@@ -572,6 +572,10 @@ main {
   .grid { grid-template-columns: repeat(3, 1fr); }
 }
 
+@media (min-width: 600px) {
+  .back-btn { padding: 6px 14px; font-size: 0.85rem; min-height: 36px; min-width: 0; }
+}
+
 @media (min-width: 1440px) {
   .grid { grid-template-columns: repeat(4, 1fr); }
   .card-name { font-size: 1.15rem; }
