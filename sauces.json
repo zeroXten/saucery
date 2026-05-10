@@ -1049,27 +1049,37 @@
           {
             "qty": 1,
             "unit": "thumb",
-            "item": "ginger, grated"
+            "item": "fresh ginger, grated"
           },
           {
-            "qty": 1,
+            "qty": 1.5,
             "unit": "tsp",
             "item": "cumin"
           },
           {
-            "qty": 1,
+            "qty": 1.5,
             "unit": "tsp",
             "item": "ground coriander"
           },
           {
-            "qty": 0.5,
+            "qty": 1,
             "unit": "tsp",
             "item": "cinnamon"
           },
           {
             "qty": 1,
             "unit": "tsp",
+            "item": "turmeric"
+          },
+          {
+            "qty": 1.5,
+            "unit": "tsp",
             "item": "paprika"
+          },
+          {
+            "qty": 0.5,
+            "unit": "tsp",
+            "item": "ground ginger"
           },
           {
             "qty": 2,
@@ -1084,14 +1094,14 @@
           {
             "qty": 1,
             "unit": "handful",
-            "item": "fresh coriander or flat-leaf parsley"
+            "item": "fresh coriander"
           },
           {
             "qty": null,
             "item": "salt + black pepper"
           }
         ],
-        "method": "Soften aromatics, toast spices 1 min. Add tomatoes and paste. 180\u00b0C oven 25-30 mins. The cinnamon is what makes this \u2014 don't skip it. Stir in herbs at end."
+        "method": "Add the dry spices to the chicken or vegetables and toss to coat \u2014 let them cook in the meat's own moisture for 2 minutes before anything wet goes in. Add onion and garlic, soften for a few minutes, then stir in the tomato paste and cook for another minute. Add chopped tomatoes and simmer or braise at 180\u00b0C for 25\u201330 mins until the sauce deepens and the oil starts to separate slightly at the edges. Stir in fresh coriander at the end."
       },
       "required_items": [
         "Tinned chopped tomatoes",
@@ -1101,6 +1111,7 @@
         "Cumin (ground)",
         "Coriander (ground)",
         "Cinnamon (ground)",
+        "Turmeric",
         "Paprika (sweet)",
         "Tomato paste",
         "Lemon",
@@ -1344,7 +1355,7 @@
             "item": "cumin"
           },
           {
-            "qty": 0.5,
+            "qty": 1,
             "unit": "tsp",
             "item": "cinnamon"
           },
@@ -1452,22 +1463,22 @@
             "item": "ginger, grated"
           },
           {
-            "qty": 1,
+            "qty": 1.5,
             "unit": "tsp",
             "item": "cumin"
           },
           {
-            "qty": 1,
+            "qty": 1.5,
             "unit": "tsp",
             "item": "ground coriander"
           },
           {
-            "qty": 0.5,
+            "qty": 1,
             "unit": "tsp",
             "item": "turmeric"
           },
           {
-            "qty": 1,
+            "qty": 1.5,
             "unit": "tsp",
             "item": "garam masala"
           },
@@ -1812,7 +1823,7 @@
             "item": "ground coriander"
           },
           {
-            "qty": 0.5,
+            "qty": 1,
             "unit": "tsp",
             "item": "ground cinnamon"
           },
@@ -1966,7 +1977,7 @@
             "item": "ginger, grated"
           },
           {
-            "qty": 0.5,
+            "qty": 1.5,
             "unit": "tsp",
             "item": "five spice"
           },
@@ -2470,7 +2481,7 @@
             "item": "cumin"
           },
           {
-            "qty": 0.5,
+            "qty": 1,
             "unit": "tsp",
             "item": "garlic powder"
           },
@@ -2531,27 +2542,27 @@
       "recipe_5": {
         "ingredients": [
           {
-            "qty": 1,
+            "qty": 1.5,
             "unit": "tsp",
             "item": "allspice"
           },
           {
-            "qty": 1,
+            "qty": 2,
             "unit": "tsp",
             "item": "dried thyme"
           },
           {
-            "qty": 0.5,
+            "qty": 1,
             "unit": "tsp",
             "item": "cinnamon"
           },
           {
-            "qty": 0.5,
+            "qty": 1,
             "unit": "tsp",
             "item": "smoked paprika"
           },
           {
-            "qty": 0.5,
+            "qty": 1,
             "unit": "tsp",
             "item": "garlic powder"
           },
@@ -2626,27 +2637,27 @@
       "recipe_5": {
         "ingredients": [
           {
-            "qty": 1,
+            "qty": 1.5,
             "unit": "tsp",
             "item": "cumin"
           },
           {
-            "qty": 1,
+            "qty": 1.5,
             "unit": "tsp",
             "item": "ground coriander"
           },
           {
-            "qty": 0.5,
+            "qty": 1,
             "unit": "tsp",
             "item": "cinnamon"
           },
           {
-            "qty": 1,
+            "qty": 1.5,
             "unit": "tsp",
             "item": "paprika"
           },
           {
-            "qty": 0.5,
+            "qty": 1,
             "unit": "tsp",
             "item": "garlic powder"
           },
@@ -2711,37 +2722,37 @@
       "recipe_5": {
         "ingredients": [
           {
-            "qty": 1,
+            "qty": 1.5,
             "unit": "tsp",
             "item": "cumin"
           },
           {
-            "qty": 1,
+            "qty": 1.5,
             "unit": "tsp",
             "item": "ground coriander"
           },
           {
-            "qty": 0.5,
+            "qty": 1,
             "unit": "tsp",
             "item": "cinnamon"
           },
           {
-            "qty": 0.5,
+            "qty": 1,
             "unit": "tsp",
             "item": "allspice"
           },
           {
-            "qty": 1,
+            "qty": 1.5,
             "unit": "tsp",
             "item": "sweet paprika"
           },
           {
-            "qty": 0.25,
+            "qty": 1,
             "unit": "tsp",
             "item": "turmeric"
           },
           {
-            "qty": 0.5,
+            "qty": 1,
             "unit": "tsp",
             "item": "garlic powder"
           },
@@ -2811,22 +2822,22 @@
       "recipe_5": {
         "ingredients": [
           {
-            "qty": 1,
+            "qty": 1.5,
             "unit": "tsp",
             "item": "garam masala"
           },
           {
-            "qty": 0.5,
+            "qty": 1,
             "unit": "tsp",
             "item": "turmeric"
           },
           {
-            "qty": 1,
+            "qty": 1.5,
             "unit": "tsp",
             "item": "cumin"
           },
           {
-            "qty": 0.5,
+            "qty": 1,
             "unit": "tsp",
             "item": "ground coriander"
           },
@@ -3031,7 +3042,7 @@
       "recipe_5": {
         "ingredients": [
           {
-            "qty": 0.5,
+            "qty": 1.5,
             "unit": "tsp",
             "item": "five spice"
           },
@@ -3051,7 +3062,7 @@
             "item": "ginger, grated"
           },
           {
-            "qty": 0.5,
+            "qty": 1,
             "unit": "tsp",
             "item": "smoked paprika"
           },
