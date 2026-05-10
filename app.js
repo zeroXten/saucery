@@ -73,9 +73,37 @@ function hexToRgba(hex, alpha) {
   return `rgba(${r},${g},${b},${alpha})`;
 }
 
+function slugify(name) {
+  return name.toLowerCase()
+    .normalize('NFD').replace(/[̀-ͯ]/g, '')  // strip accents
+    .replace(/[^a-z0-9]+/g, '-')
+    .replace(/^-|-$/g, '');
+}
+
+function routeFromHash() {
+  const hash = location.hash.slice(1);
+  if (!hash) { showGrid('sauces', false); return; }
+  const [cat, slug] = hash.split('/');
+  currentCat = cat;
+  syncTab(cat);
+  if (cat === 'shopping') {
+    showShopping(false);
+  } else if (slug) {
+    // Ensure the grid is below this entry in the history stack
+    // so the back button lands there rather than leaving the site.
+    history.replaceState({ view: 'grid', cat }, '', `#${cat}`);
+    history.pushState({ view: 'detail', cat, itemName: slug }, '', `#${cat}/${slug}`);
+    const item = (data[cat] || []).find(i => slugify(i.name) === slug);
+    if (item) showDetail(item, false);
+    else showGrid(cat, false);
+  } else {
+    showGrid(cat, false);
+  }
+}
+
 async function init() {
   try {
-    const res = await fetch('./sauces.json?v=20');
+    const res = await fetch('./sauces.json?v=21');
     data = await res.json();
   } catch (e) {
     document.getElementById('main').innerHTML = '<p style="padding:24px;color:red">Could not load sauces.json</p>';
@@ -83,7 +111,7 @@ async function init() {
   }
 
   // Seed the initial history entry so the back button has somewhere to land
-  history.replaceState({ view: 'grid', cat: 'sauces' }, '');
+  history.replaceState({ view: 'grid', cat: 'sauces' }, '', location.hash || '#sauces');
 
   window.addEventListener('popstate', e => {
     const s = e.state;
@@ -94,7 +122,7 @@ async function init() {
       showGrid(s.cat, false);
     } else if (s.view === 'detail') {
       currentCat = s.cat;
-      const item = (data[s.cat] || []).find(i => i.name === s.itemName);
+      const item = (data[s.cat] || []).find(i => i.name === s.itemName || slugify(i.name) === s.itemName);
       if (item) showDetail(item, false);
       else showGrid(s.cat, false);
     } else if (s.view === 'shopping') {
@@ -117,7 +145,7 @@ async function init() {
     history.back();
   });
 
-  showGrid('sauces', false);
+  routeFromHash();
 }
 
 function syncTab(cat) {
@@ -125,7 +153,7 @@ function syncTab(cat) {
 }
 
 function showGrid(cat, pushState = true) {
-  if (pushState) history.pushState({ view: 'grid', cat }, '');
+  if (pushState) history.pushState({ view: 'grid', cat }, '', `#${cat}`);
   setHeader('Kitchen', true);
   const items = data[cat] || [];
   const missing = JSON.parse(localStorage.getItem('pantry_missing') || '[]');
@@ -171,7 +199,7 @@ function showGrid(cat, pushState = true) {
 }
 
 function showDetail(item, pushState = true) {
-  if (pushState) history.pushState({ view: 'detail', cat: currentCat, itemName: item.name }, '');
+  if (pushState) history.pushState({ view: 'detail', cat: currentCat, itemName: item.name }, '', `#${currentCat}/${slugify(item.name)}`);
   setHeader(item.name, false);
 
   const recipe = item.recipe_5 || item.recipe || {};
@@ -325,7 +353,7 @@ function showFallback(text) {
 }
 
 function showShopping(pushState = true) {
-  if (pushState) history.pushState({ view: 'shopping' }, '');
+  if (pushState) history.pushState({ view: 'shopping' }, '', '#shopping');
   setHeader('Kitchen', true);
   const groups = data.shopping_list;
   const missing = JSON.parse(localStorage.getItem('pantry_missing') || '[]');
