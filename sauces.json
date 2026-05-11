@@ -2226,7 +2226,7 @@
           "tip": "A teaspoon adds subtle sweetness and gloss. The combination of miso, soy and mirin is the foundation of Korean and Japanese sauces."
         }
       ],
-      "description": "Korean cooking is built on fermented, bold flavours \u2014 doenjang and soy sauce are foundational. This sauce follows that tradition: deeply savoury with enough sweetness to caramelise under heat, and built for the colder months."
+      "description": "Korean cooking is built on fermented, bold flavours \u2014 miso and soy sauce are foundational. This sauce follows that tradition: deeply savoury with enough sweetness to caramelise under heat, and built for the colder months."
     }
   ],
   "shopping_list": {
@@ -2495,7 +2495,7 @@
             "item": "salt + black pepper"
           }
         ],
-        "method": "Mix and coat. Air fryer or griddle pan. Good on chicken thighs sliced and served in wraps or over rice with lime and coriander."
+        "method": "Mix and coat. Air fryer or griddle pan. Good on chicken thighs sliced and served in wraps or over rice."
       },
       "required_items": [
         "Smoked paprika",
@@ -2652,6 +2652,11 @@
             "item": "cinnamon"
           },
           {
+            "qty": 1,
+            "unit": "tsp",
+            "item": "allspice"
+          },
+          {
             "qty": 1.5,
             "unit": "tsp",
             "item": "paprika"
@@ -2679,7 +2684,8 @@
         "Cinnamon (ground)",
         "Paprika (sweet)",
         "Garlic powder",
-        "Lemon"
+        "Lemon",
+        "Allspice"
       ],
       "elevate": [
         {

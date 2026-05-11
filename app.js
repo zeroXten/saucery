@@ -103,7 +103,7 @@ function routeFromHash() {
 
 async function init() {
   try {
-    const res = await fetch('./sauces.json?v=23');
+    const res = await fetch('./sauces.json?v=25');
     data = await res.json();
   } catch (e) {
     document.getElementById('main').innerHTML = '<p style="padding:24px;color:red">Could not load sauces.json</p>';
